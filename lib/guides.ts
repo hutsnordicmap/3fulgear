@@ -33,8 +33,8 @@ export const articles: Article[] = [
     title: "Lanshan 1 vai Lanshan 2",
     description:
       "Yhden ja kahden hengen Lanshan-sauvatelttojen paino, tila ja saumat. Vertailu 3F UL GEAR -valmistajan ilmoittamista luvuista.",
-    image: "https://3fulgear.com/wp-content/uploads/2023/05/ultents.jpg",
-    imageAlt: "Lanshan-sauvateltta maastossa",
+    image: "https://3fulgear.com/wp-content/uploads/2021/10/LANSHAN-1-4-SEASON.jpg",
+    imageAlt: "Lanshan 1 -teltta",
     lead: "Molemmat ovat kaksiseinämäisiä sauvatelttoja. Ero on henkilömäärässä ja siinä, miten valmistaja erittelee painon.",
     sections: [
       {
