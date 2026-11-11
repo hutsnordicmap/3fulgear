@@ -24,9 +24,9 @@ export default async function SearchPage({
           name="q"
           defaultValue={q}
           placeholder="Esimerkiksi Lanshan tai rinkka"
-          className="w-full rounded-full border border-line bg-white px-4 py-3"
+          className="w-full border border-[#e7e7e7] bg-white px-4 py-3"
         />
-        <button type="submit" className="rounded-full bg-ink px-5 font-semibold text-paper">
+        <button type="submit" className="store-btn">
           Hae
         </button>
       </form>

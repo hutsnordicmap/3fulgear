@@ -17,7 +17,7 @@ export default async function ProductsPage() {
   });
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12">
+    <div className="mx-auto max-w-[1100px] px-4 py-12">
       <h1 className="text-4xl font-semibold">Koko valikoima</h1>
       <p className="mt-3 max-w-2xl text-ink/70">
         {ordered.length} tuotetta valmistajan tämänhetkisestä kaupasta. Hinnat ovat

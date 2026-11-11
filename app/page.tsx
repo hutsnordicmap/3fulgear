@@ -1,163 +1,272 @@
 import Link from "next/link";
-import { ProductGrid } from "@/components/product-card";
 import { getCatalog } from "@/lib/catalog";
-import { affiliateUrl, categories, DISCOUNT_CODE } from "@/lib/site";
+import { affiliateUrl, DISCOUNT_CODE } from "@/lib/site";
+import type { Product } from "@/lib/types";
 
-const featured = ["lanshan-1", "lanshan2-classic", "lanshan-1-pro", "lanshan-2-pro"];
+const popular = [
+  { slug: "lanshan-1", line: "780 g, 1 henkilö, kaksiseinämäinen" },
+  { slug: "lanshan2-classic", line: "1120 g, 2 henkilöä, kaksiseinämäinen" },
+  { slug: "lanshan-1-pro", line: "690 g, 1 henkilö, yksiseinämäinen" },
+  { slug: "lanshan-2-pro", line: "960 g, 2 henkilöä, yksiseinämäinen" },
+];
+
+const categories = [
+  {
+    href: "/kategoria/ultrakevyet-teltat",
+    label: "Ultrakevyet teltat",
+    image: "https://3fulgear.com/wp-content/uploads/2023/05/ultents.jpg",
+  },
+  {
+    href: "/kategoria/rinkat",
+    label: "Ultrakevyet rinkat",
+    image: "https://3fulgear.com/wp-content/uploads/2023/05/ulpacks.jpg",
+  },
+  {
+    href: "/kategoria/itsekantavat-teltat",
+    label: "Itsekantavat teltat",
+    image: "https://3fulgear.com/wp-content/uploads/2023/05/freestanding.jpg",
+  },
+  {
+    href: "/kategoria/kamiinat",
+    label: "Autoretki ja kamiina",
+    image: "https://3fulgear.com/wp-content/uploads/2024/04/car-camping-tent-stove-1-1.jpg",
+  },
+];
+
+const stories = [
+  {
+    title: "Retkikertomus: Gyirong",
+    image: "https://3fulgear.com/wp-content/uploads/2025/11/IMG_0075.jpg",
+    href: affiliateUrl("https://3fulgear.com/2025/11/07/gyirong-adventure/"),
+  },
+  {
+    title: "Retkikertomus: Zhagana",
+    image: "https://3fulgear.com/wp-content/uploads/2025/08/R0110692.jpg",
+    href: affiliateUrl("https://3fulgear.com/2025/08/03/adventure-report-zhagana-hiking/"),
+  },
+  {
+    title: "Valkoisen järven lenkki Altailla",
+    image: "https://3fulgear.com/wp-content/uploads/2025/03/DSC08347-1.jpg",
+    href: affiliateUrl(
+      "https://3fulgear.com/2025/03/11/the-nomans-wilderness-the-loop-of-white-lake-in-the-altai-mountains/",
+    ),
+  },
+  {
+    title: "Onko Tianshan 45 edullisin ultrakevyt rinkka?",
+    image: "https://3fulgear.com/wp-content/uploads/2025/02/Tianshan-2.jpg",
+    href: affiliateUrl(
+      "https://3fulgear.com/2025/02/25/is-3fulgears-new-tianshan-45-the-best-budget-ultralight-pack/",
+    ),
+  },
+  {
+    title: "Retkikertomus: Everestin itäseinä",
+    image: "https://3fulgear.com/wp-content/uploads/2025/02/DSC06440-1.jpg",
+    href: affiliateUrl(
+      "https://3fulgear.com/2025/02/14/adventure-report-everest-east-face-and-kama-valley/",
+    ),
+  },
+  {
+    title: "Tianshan-rinkan kokoaminen",
+    image: "https://3fulgear.com/wp-content/uploads/2024/12/Tianshan-3fulgear.jpg",
+    href: affiliateUrl("https://3fulgear.com/2024/12/12/how-to-assemble-tianshan-backpack/"),
+  },
+];
+
+function findProduct(catalog: Product[], slug: string) {
+  return catalog.find((product) => product.slug === slug);
+}
 
 export default async function HomePage() {
   const catalog = await getCatalog();
-  const tents = featured
-    .map((slug) => catalog.find((product) => product.slug === slug))
-    .filter((product) => product != null);
-  const tianshan = catalog.find((product) => product.slug === "tianshan-ultra");
-  const stove = catalog.find((product) => product.slug === "burningfeather-ul-alcohol-stove");
-  const cloud = catalog.find((product) => product.slug === "floating-cloud-2");
+  const tents = popular
+    .map((item) => {
+      const product = findProduct(catalog, item.slug);
+      return product ? { ...item, product } : null;
+    })
+    .filter((item) => item != null);
 
   return (
-    <div>
-      <section className="bg-ink text-paper">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
+    <div className="bg-white">
+      <section
+        className="flex min-h-[420px] items-end bg-cover bg-center md:min-h-[520px]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.28)), url(https://3fulgear.com/wp-content/uploads/2023/05/est-1.jpg)",
+        }}
+      >
+        <div className="mx-auto w-full max-w-[1100px] px-4 py-16 text-white">
+          <h1 className="max-w-3xl text-3xl leading-tight font-semibold md:text-5xl">
+            3F UL GEAR on valmistanut korkealaatuisia ultrakevyitä telttoja vuodesta 2009.
+          </h1>
+        </div>
+      </section>
+
+      <section className="grid grid-cols-2 lg:grid-cols-4">
+        {categories.map((category) => (
+          <Link key={category.href} href={category.href} className="group relative block h-36 overflow-hidden sm:h-44">
+            <img
+              src={category.image}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover object-bottom"
+            />
+            <span className="absolute inset-x-0 bottom-0 flex h-12 items-center justify-center bg-[#161616] px-2 text-center text-[11px] leading-4 font-semibold tracking-[0.12em] text-white uppercase">
+              {category.label}
+            </span>
+          </Link>
+        ))}
+      </section>
+
+      <section className="mx-auto max-w-[1100px] px-4 py-16 text-center">
+        <p className="text-[11px] font-semibold tracking-[0.2em] text-[#777] uppercase">Suosituimmat</p>
+        <h2 className="mt-2 text-3xl font-semibold">Ultrakevyet teltat</h2>
+        <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {tents.map((item) => (
+            <Link key={item.slug} href={`/tuote/${item.slug}`} className="group block">
+              <img
+                src={item.product.images[0]}
+                alt={item.product.nameFi}
+                className="mx-auto aspect-square w-full max-w-[220px] object-contain"
+              />
+              <p className="mt-4 text-sm font-semibold tracking-wide uppercase group-hover:text-[#e36159]">
+                {item.product.nameFi}
+              </p>
+              <p className="mt-1 text-xs text-[#777]">{item.line}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-t border-[#eee]">
+        <div className="mx-auto grid max-w-[1100px] items-center gap-10 px-4 py-16 md:grid-cols-2">
           <div>
-            <p className="text-sm tracking-[0.2em] text-paper/60 uppercase">
-              Suomenkielinen opas
+            <h2 className="text-3xl font-semibold">Tianshan Ultra</h2>
+            <p className="mt-4 text-sm leading-7 text-[#777]">
+              Tianshan Ultra on rinkka, jonka 3F UL GEAR suunnitteli vuoden 2024
+              Tianshan-vaellusta varten. Enimmäiskuorma on noin 19 kg, ja rinkka
+              pysyy valmistajan mukaan mukavana noin 15 kg kuormalla. Kangas on
+              Ultra200x. Backpacker-sivusto on kuvannut Tianshan-mallia
+              luotettavaksi rinkaksi hyvään hintaan.
             </p>
-            <h1 className="mt-4 max-w-xl text-4xl leading-tight font-semibold md:text-6xl">
-              Ultrakevyet teltat ja rinkat 3F UL GEAR -valmistajalta
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-8 text-paper/80">
-              3F UL GEAR on valmistanut edullisia ultrakevyitä retkeilyvarusteita
-              vuodesta 2009. Yritys perustettiin vuonna 2008. Tällä sivustolla
-              valikoima on suomeksi. Ostos tehdään virallisessa kaupassa, ja koodi{" "}
-              {DISCOUNT_CODE} antaa 10 % alennuksen.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                href="/kategoria/ultrakevyet-teltat"
-                className="rounded-full bg-clay px-5 py-3 font-semibold text-white"
-              >
-                Selaa telttoja
-              </Link>
-              <Link
-                href="/tuotteet"
-                className="rounded-full border border-white/25 px-5 py-3 font-semibold"
-              >
-                Koko valikoima
-              </Link>
-            </div>
+            <Link href="/tuote/tianshan-ultra" className="store-btn mt-6">
+              Katso rinkka
+            </Link>
           </div>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="https://3fulgear.com/wp-content/uploads/2025/04/tianshan-ultra-backpack-6.jpg"
+              alt="Tianshan Ultra -rinkka"
+              className="w-full object-contain"
+            />
+            <img
+              src="https://3fulgear.com/wp-content/uploads/2025/04/tianshan-ultra-backpack-1-1.png"
+              alt="Tianshan Ultra edestä ja takaa"
+              className="w-full object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="flex min-h-[480px] items-center bg-cover bg-center text-white"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, rgba(0,0,0,0.45), rgba(0,0,0,0.1)), url(https://3fulgear.com/wp-content/uploads/2024/04/beele2.0-3fulgear-camping.jpg)",
+        }}
+      >
+        <div className="mx-auto w-full max-w-[1100px] px-4 py-16">
+          <p className="text-4xl font-semibold tracking-wide md:text-6xl">BEETLE 16 2.0</p>
+          <p className="mt-3 text-sm font-semibold tracking-[0.16em] uppercase">
+            Autoretki- ja tukikohtateltta
+          </p>
+          <ul className="mt-6 space-y-2 text-sm">
+            <li>Useita kattoikkunoita ja kulkuaukkoja</li>
+            <li>Kaarirakenne, jonka 3F UL GEAR on suunnitellut</li>
+          </ul>
+          <Link href="/tuote/beetle16" className="store-btn-light mt-8">
+            Lue lisää
+          </Link>
+        </div>
+      </section>
+
+      <section className="mx-auto grid max-w-[1100px] items-center gap-10 px-4 py-16 md:grid-cols-2">
+        <div>
+          <h2 className="text-3xl font-semibold">Ul-keitinjärjestelmä</h2>
+          <p className="mt-4 text-sm leading-7 text-[#777]">
+            Sprii on helposti saatava polttoaine, ja 3F UL GEAR -valmistajan
+            spriikeitin on hyvin kevyt järjestelmä. Keitin vie rinkasta noin
+            200–300 g kaasukeitintä vähemmän, ja polttoainetta saa täydennettyä
+            taajamissa. Siksi spriikeitin on suosittu pitkillä vaelluksilla.
+            BurningFeather-keittimissä on valmistajan mukaan hyvä teho ja
+            polttoainetehokkuus.
+          </p>
+          <Link href="/tuote/burningfeather-ul-alcohol-stove" className="store-btn mt-6">
+            Lue lisää
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 gap-4 bg-[#f7f7f7] p-6">
           <img
-            src="https://3fulgear.com/wp-content/uploads/2023/05/ultents.jpg"
-            alt="3F UL GEAR -ultrakevyttelttoja maastossa"
-            className="aspect-[4/3] w-full rounded-3xl object-cover"
+            src="https://3fulgear.com/wp-content/uploads/2023/10/BF-S03-alcohol-stove-burn-2-1.jpg"
+            alt="BurningFeather-spritikeitin"
+            className="w-full object-contain"
+          />
+          <img
+            src="https://3fulgear.com/wp-content/uploads/2023/10/windscreen-for-flat-pot-or-pan.jpg"
+            alt="Tuulisuoja ja kattila"
+            className="w-full object-contain"
           />
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-14">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <div>
-            <p className="text-sm text-moss">Valmistajan etusivun kärki</p>
-            <h2 className="mt-1 text-3xl font-semibold">Suosituimmat teltat</h2>
-          </div>
-          <Link href="/kategoria/ultrakevyet-teltat" className="text-sm underline">
-            Kaikki teltat
+      <section
+        className="flex min-h-[520px] items-center bg-cover bg-center text-white"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, rgba(0,0,0,0.35), rgba(0,0,0,0.05)), url(https://3fulgear.com/wp-content/uploads/2024/10/Taiji1-3FULGEAR.jpg)",
+        }}
+      >
+        <div className="mx-auto w-full max-w-[1100px] px-4 py-16">
+          <p className="text-5xl font-semibold tracking-wide md:text-7xl">TAIJI 1</p>
+          <p className="mt-3 text-sm font-semibold tracking-[0.16em] uppercase">
+            Kevyt itsekantava teltta
+          </p>
+          <ul className="mt-6 space-y-2 text-sm">
+            <li>Täysin itsekantava teltta ilman maastorajoitusta.</li>
+            <li>Kevyin valmistajan ilmoittama polkupaino on 1561 g.</li>
+          </ul>
+          <Link href="/tuote/taiji-1" className="store-btn-light mt-8">
+            Lue lisää
           </Link>
         </div>
-        <ProductGrid products={tents} />
       </section>
 
-      <section className="mx-auto grid max-w-6xl gap-4 px-4 pb-14 sm:grid-cols-2 lg:grid-cols-4">
-        {categories.slice(0, 4).map((category) => (
-          <Link
-            key={category.id}
-            href={`/kategoria/${category.path}`}
-            className="group relative overflow-hidden rounded-3xl"
-          >
-            <img
-              src={category.image}
-              alt=""
-              className="aspect-[4/5] w-full object-cover transition duration-500 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/10" />
-            <p className="absolute right-4 bottom-4 left-4 text-xl font-semibold text-white">
-              {category.title}
-            </p>
+      <section className="mx-auto max-w-[1100px] px-4 py-16">
+        <div className="mb-8 flex items-end justify-between">
+          <h2 className="text-2xl font-semibold">Artikkelit</h2>
+          <Link href="/oppaat" className="text-xs font-semibold tracking-[0.14em] uppercase hover:text-[#e36159]">
+            Kaikki
           </Link>
-        ))}
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {stories.map((story) => (
+            <a key={story.title} href={story.href} target="_blank" rel="sponsored noopener noreferrer" className="group block">
+              <img src={story.image} alt="" className="aspect-[16/10] w-full object-cover" />
+              <p className="mt-3 text-sm leading-6 font-semibold group-hover:text-[#e36159]">{story.title}</p>
+            </a>
+          ))}
+        </div>
       </section>
 
-      {tianshan ? (
-        <section className="bg-white">
-          <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-16 md:grid-cols-2">
-            <img
-              src={tianshan.images[0]}
-              alt={tianshan.nameFi}
-              className="aspect-[5/4] w-full rounded-3xl object-cover"
-            />
-            <div>
-              <p className="text-sm text-moss">Rinkka</p>
-              <h2 className="mt-2 text-3xl font-semibold">{tianshan.nameFi}</h2>
-              <p className="mt-4 leading-7 text-ink/75">{tianshan.summaryFi}</p>
-              <Link
-                href={`/tuote/${tianshan.slug}`}
-                className="mt-6 inline-block rounded-full bg-ink px-5 py-3 font-semibold text-paper"
-              >
-                Katso rinkka
-              </Link>
-            </div>
-          </div>
-        </section>
-      ) : null}
-
-      <section className="mx-auto grid max-w-6xl gap-5 px-4 py-16 md:grid-cols-2">
-        {[stove, cloud].filter((item) => item != null).map((product) => (
-          <Link
-            key={product.slug}
-            href={`/tuote/${product.slug}`}
-            className="overflow-hidden rounded-3xl border border-line bg-white"
-          >
-            <img
-              src={product.images[0]}
-              alt=""
-              className="aspect-[16/9] w-full object-cover"
-            />
-            <div className="p-5">
-              <h2 className="text-2xl font-semibold">{product.nameFi}</h2>
-              <p className="mt-2 line-clamp-3 text-sm leading-6 text-ink/70">
-                {product.summaryFi}
-              </p>
-            </div>
-          </Link>
-        ))}
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 pb-16">
-        <div className="rounded-3xl bg-sand px-6 py-8 md:px-10">
-          <h2 className="text-2xl font-semibold">Miten osto toimii</h2>
-          <ol className="mt-4 grid gap-4 text-sm leading-6 md:grid-cols-3">
-            <li>
-              <span className="font-semibold">1. Valitse täällä.</span> Sivut
-              kertovat tuotteen suomeksi ja näyttävät valmistajan kuvat sekä
-              eurohinnan.
-            </li>
-            <li>
-              <span className="font-semibold">2. Siirry viralliseen kauppaan.</span>{" "}
-              Maksu, väri ja toimitus vahvistetaan osoitteessa 3fulgear.com.
-            </li>
-            <li>
-              <span className="font-semibold">3. Käytä koodia {DISCOUNT_CODE}.</span>{" "}
-              Koodi antaa 10 % alennuksen valmistajan kassalla.
-            </li>
-          </ol>
-          <a
-            href={affiliateUrl("https://3fulgear.com/")}
-            target="_blank"
-            rel="sponsored noopener noreferrer"
-            className="mt-6 inline-block text-sm font-semibold underline"
-          >
-            Avaa virallinen kauppa
-          </a>
+      <section className="border-t border-[#eee] bg-[#fafafa]">
+        <div className="mx-auto grid max-w-[1100px] gap-6 px-4 py-10 text-sm leading-6 text-[#777] md:grid-cols-3">
+          <p>
+            <span className="font-semibold text-[#222]">1. Valitse täällä.</span> Sivusto esittelee valmistajan valikoiman suomeksi.
+          </p>
+          <p>
+            <span className="font-semibold text-[#222]">2. Osta virallisesta kaupasta.</span> Maksu ja toimitus vahvistetaan osoitteessa 3fulgear.com.
+          </p>
+          <p>
+            <span className="font-semibold text-[#222]">3. Koodi {DISCOUNT_CODE}.</span> Koodi antaa 10 % alennuksen valmistajan kassalla.
+          </p>
         </div>
       </section>
     </div>

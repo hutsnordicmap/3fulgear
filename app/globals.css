@@ -2,18 +2,20 @@
 
 @theme inline {
   --font-sans: var(--font-source);
-  --color-ink: #1c1916;
-  --color-paper: #f6f3ec;
-  --color-sand: #e7e1d4;
-  --color-line: #ddd4c6;
-  --color-moss: #1e3d34;
-  --color-clay: #b24a2c;
+  --color-ink: #222529;
+  --color-paper: #ffffff;
+  --color-sand: #f4f4f4;
+  --color-line: #e7e7e7;
+  --color-moss: #222529;
+  --color-clay: #e36159;
+  --color-muted: #777777;
 }
 
 body {
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-source), "Source Sans 3", sans-serif;
+  background: #fff;
+  color: #222529;
+  font-family: var(--font-source), "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 summary::-webkit-details-marker {
@@ -22,4 +24,35 @@ summary::-webkit-details-marker {
 
 .prose-fi p + p {
   margin-top: 1rem;
+}
+
+.store-btn {
+  display: inline-block;
+  background: #222529;
+  color: #fff;
+  padding: 12px 22px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.store-btn:hover {
+  background: #e36159;
+}
+
+.store-btn-light {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 12px 22px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.store-btn-light:hover {
+  background: #fff;
+  color: #222529;
 }

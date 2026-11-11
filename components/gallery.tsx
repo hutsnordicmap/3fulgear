@@ -8,7 +8,7 @@ export function Gallery({ images, alt }: { images: string[]; alt: string }) {
 
   if (!current) {
     return (
-      <div className="flex aspect-square items-center justify-center rounded-3xl bg-sand text-ink/50">
+      <div className="flex aspect-square items-center justify-center bg-[#f4f4f4] text-[#777]">
         {alt}
       </div>
     );
@@ -16,7 +16,7 @@ export function Gallery({ images, alt }: { images: string[]; alt: string }) {
 
   return (
     <div>
-      <div className="overflow-hidden rounded-3xl bg-sand">
+      <div className="overflow-hidden bg-[#f4f4f4]">
         <img
           src={current}
           alt={alt}

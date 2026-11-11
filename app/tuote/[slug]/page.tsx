@@ -70,7 +70,7 @@ export default async function ProductPage({
   };
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
+    <div className="mx-auto max-w-[1100px] px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <p className="text-sm text-ink/60">
         <Link href="/tuotteet" className="hover:underline">
@@ -101,7 +101,7 @@ export default async function ProductPage({
             href={buyUrl}
             target="_blank"
             rel="sponsored noopener noreferrer"
-            className="mt-6 inline-flex rounded-full bg-clay px-6 py-3 font-semibold text-white"
+            className="store-btn mt-6"
           >
             Osta virallisesta kaupasta
           </a>
@@ -129,7 +129,7 @@ export default async function ProductPage({
       {product.variations.length > 0 ? (
         <section className="mt-14">
           <h2 className="text-2xl font-semibold">Vaihtoehdot virallisessa kaupassa</h2>
-          <div className="mt-4 overflow-x-auto rounded-3xl border border-line bg-white">
+          <div className="mt-4 overflow-x-auto border border-[#e7e7e7] bg-white">
             <table className="w-full min-w-[36rem] text-left text-sm">
               <thead className="border-b border-line text-ink/50">
                 <tr>

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { PromoBar } from "@/components/promo-bar";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const sourceSans = Source_Sans_3({
+const openSans = Open_Sans({
   subsets: ["latin", "latin-ext"],
   variable: "--font-source",
 });
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fi" className={`${sourceSans.variable} h-full`}>
+    <html lang="fi" className={`${openSans.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <div className="sticky top-0 z-40">
           <PromoBar />

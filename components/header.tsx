@@ -1,82 +1,74 @@
 import Link from "next/link";
-import { categories, LOGO_URL } from "@/lib/site";
+import { LOGO_URL } from "@/lib/site";
+
+const links = [
+  { href: "/", label: "Etusivu" },
+  { href: "/tuotteet", label: "Kauppa" },
+  { href: "/kategoria/ultrakevyet-teltat", label: "Ultrakevyet teltat" },
+  { href: "/kategoria/itsekantavat-teltat", label: "Itsekantavat" },
+  { href: "/kategoria/rinkat", label: "Rinkat" },
+  { href: "/kategoria/sadevaatteet", label: "Sadevaatteet" },
+  { href: "/kategoria/tarvikkeet", label: "Tarvikkeet" },
+  { href: "/kategoria/kamiinat", label: "Kamiinat" },
+  { href: "/oppaat", label: "Artikkelit" },
+];
 
 export function Header() {
   return (
-    <header className="border-b border-white/10 bg-ink text-paper">
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
+    <header className="border-b border-[#eee] bg-white text-[#222529]">
+      <div className="mx-auto max-w-[1400px] px-4">
+        <div className="flex items-center justify-between gap-4 py-3">
         <Link href="/" className="shrink-0">
-          <img
-            src={LOGO_URL}
-            alt="3F UL GEAR"
-            className="h-8 w-auto brightness-0 invert"
-          />
+          <img src={LOGO_URL} alt="3F UL GEAR" className="h-9 w-auto" />
         </Link>
-        <nav className="hidden flex-1 items-center gap-4 text-sm lg:flex">
-          {categories.map((category) => (
-            <Link
-              key={category.id}
-              href={`/kategoria/${category.path}`}
-              className="whitespace-nowrap text-paper/80 hover:text-white"
-            >
-              {category.menu}
-            </Link>
-          ))}
-          <Link href="/oppaat" className="text-paper/80 hover:text-white">
-            Oppaat
-          </Link>
-          <Link href="/yritys" className="text-paper/80 hover:text-white">
-            Yritys
-          </Link>
-        </nav>
-        <form action="/haku" className="ml-auto hidden min-w-40 sm:block">
+        <form action="/haku" className="ml-auto hidden md:block">
           <label className="sr-only" htmlFor="q">
             Hae tuotteita
           </label>
           <input
             id="q"
             name="q"
-            placeholder="Hae tuotetta"
-            className="w-full rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-paper outline-none placeholder:text-paper/50 focus:border-white/40"
+            placeholder="Haku"
+            className="w-36 border border-[#e7e7e7] px-3 py-2 text-xs outline-none focus:border-[#222]"
           />
         </form>
-        <details className="relative ml-auto sm:ml-0 lg:hidden">
-          <summary className="cursor-pointer list-none rounded-full border border-white/20 px-3 py-2 text-sm">
+        <details className="relative xl:hidden">
+          <summary className="cursor-pointer list-none border border-[#e7e7e7] px-3 py-2 text-[11px] font-semibold tracking-[0.14em] uppercase">
             Valikko
           </summary>
-          <div className="absolute right-0 z-50 mt-2 w-64 rounded-2xl border border-line bg-paper p-3 text-ink shadow-xl">
-            <form action="/haku" className="mb-3 sm:hidden">
+          <div className="absolute right-0 z-50 mt-2 w-64 border border-[#e7e7e7] bg-white p-3 shadow-lg">
+            <form action="/haku" className="mb-3 md:hidden">
               <input
                 name="q"
-                placeholder="Hae tuotetta"
-                className="w-full rounded-full border border-line px-4 py-2 text-sm"
+                placeholder="Haku"
+                className="w-full border border-[#e7e7e7] px-3 py-2 text-sm"
               />
             </form>
-            <div className="flex flex-col gap-1 text-sm">
-              {categories.map((category) => (
+            <div className="flex flex-col">
+              {links.map((link) => (
                 <Link
-                  key={category.id}
-                  href={`/kategoria/${category.path}`}
-                  className="rounded-lg px-2 py-2 hover:bg-sand"
+                  key={link.href}
+                  href={link.href}
+                  className="px-2 py-2 text-[12px] font-semibold tracking-[0.12em] uppercase hover:text-[#e36159]"
                 >
-                  {category.title}
+                  {link.label}
                 </Link>
               ))}
-              <Link href="/oppaat" className="rounded-lg px-2 py-2 hover:bg-sand">
-                Oppaat
-              </Link>
-              <Link href="/yritys" className="rounded-lg px-2 py-2 hover:bg-sand">
-                Yritys
-              </Link>
-              <Link href="/toimitus" className="rounded-lg px-2 py-2 hover:bg-sand">
-                Toimitus
-              </Link>
-              <Link href="/takuu" className="rounded-lg px-2 py-2 hover:bg-sand">
-                Takuu
-              </Link>
             </div>
           </div>
         </details>
+        </div>
+        <nav className="hidden items-center justify-center gap-5 border-t border-[#eee] py-3 xl:flex">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-[11px] font-semibold tracking-[0.14em] uppercase hover:text-[#e36159]"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
       </div>
     </header>
   );
