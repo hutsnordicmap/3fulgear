@@ -1,0 +1,2816 @@
+[
+  {
+    "id": 81638,
+    "slug": "freedom-20l-daypack",
+    "name": "Freedom 20L Daypack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/freedom-20l-daypack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack-sideview.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack-side.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack-front.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack-frame.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/freedom-3fulgear-daypack-acc.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/10/back.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Black",
+        "price": 61.48,
+        "regular": 61.48,
+        "inStock": true
+      },
+      {
+        "label": "Yellow",
+        "price": 61.48,
+        "regular": 61.48,
+        "inStock": true
+      },
+      {
+        "label": "Khaki",
+        "price": 61.48,
+        "regular": 61.48,
+        "inStock": true
+      },
+      {
+        "label": "Grey",
+        "price": 61.48,
+        "regular": 61.48,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      61.48
+    ]
+  },
+  {
+    "id": 80834,
+    "slug": "alcohol-stove",
+    "name": "Alcohol Stove",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/alcohol-stove/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/10/BF-S01-alcohol-stove-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/BF-S02-alcohol-stove.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/BF-S02-alcohol-stove-burn-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/BF-S03-alcohol-stove-burn-2-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "BFS02",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "BFS03",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      26.73
+    ]
+  },
+  {
+    "id": 80802,
+    "slug": "lightweight-dry-sack",
+    "name": "Lightweight Dry Sack",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/lightweight-dry-sack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/09/3fulgear-dry-sack.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/09/3fulgear-dry-sack-blue.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/09/3fulgear-dry-sack-orange.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/09/3fulgear-dry-sack-grey.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "12L",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      },
+      {
+        "label": "24L",
+        "price": 9.8,
+        "regular": 9.8,
+        "inStock": true
+      },
+      {
+        "label": "36L",
+        "price": 10.69,
+        "regular": 10.69,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.91,
+      10.69
+    ]
+  },
+  {
+    "id": 79320,
+    "slug": "aqualite-water-filter",
+    "name": "Aqualite Water Filter",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/aqualite-water-filter/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-4-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-5.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/07/aqualite-3.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      10.69
+    ]
+  },
+  {
+    "id": 77175,
+    "slug": "tutor-ultra",
+    "name": "Tutor Ultra 35 Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/tutor-ultra/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/05/tutor-ultra-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/05/tutor-ultra-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/05/tutor-ultra-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/05/tutor-ultra-4.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "M",
+        "price": 164.83,
+        "regular": 164.83,
+        "inStock": true
+      },
+      {
+        "label": "L",
+        "price": 164.83,
+        "regular": 164.83,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      164.83
+    ]
+  },
+  {
+    "id": 74608,
+    "slug": "bumfresh",
+    "name": "BumFresh – personal hygiene cleaning",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/bumfresh/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/03/BumFresh.JPG",
+      "https://3fulgear.com/wp-content/uploads/2026/03/BumFresh-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/03/BumFresh-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      3.12
+    ]
+  },
+  {
+    "id": 74402,
+    "slug": "fastsil-silicone-sealant",
+    "name": "FastSil silicone sealant",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/fastsil-silicone-sealant/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/03/fast-sil-pro.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      13.36
+    ]
+  },
+  {
+    "id": 73272,
+    "slug": "ultralight-rain-jacket-zip",
+    "name": "Ultralight Rain Jacket Zip",
+    "category": "rain-gear",
+    "permalink": "https://3fulgear.com/product/rain-gear/ultralight-rain-jacket-zip/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainjacket-grey-zip.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "M / 15D NYLON",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "M / 20D GRID UHMWPE NYLON",
+        "price": 35.64,
+        "regular": 35.64,
+        "inStock": true
+      },
+      {
+        "label": "L / 15D NYLON",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "L / 20D GRID UHMWPE NYLON",
+        "price": 35.64,
+        "regular": 35.64,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      26.73,
+      35.64
+    ]
+  },
+  {
+    "id": 73212,
+    "slug": "ultralight-rain-pants",
+    "name": "Ultralight Rain Pants",
+    "category": "rain-gear",
+    "permalink": "https://3fulgear.com/product/rain-gear/ultralight-rain-pants/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainpants-black.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainpants-khaki.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "S / BLACK",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      },
+      {
+        "label": "S / KHAKI",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      },
+      {
+        "label": "M / BLACK",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      },
+      {
+        "label": "M / KHAKI",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      },
+      {
+        "label": "L / BLACK",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      },
+      {
+        "label": "L / KHAKI",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      20.49
+    ]
+  },
+  {
+    "id": 73194,
+    "slug": "ultralight-rain-jacket",
+    "name": "Ultralight Rain Jacket",
+    "category": "rain-gear",
+    "permalink": "https://3fulgear.com/product/rain-gear/ultralight-rain-jacket/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainjacket-grey.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainjacket-range-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2026/01/UL-rainjacket-range.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "15D NYLON / M / GREY",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "15D NYLON / M / ORANGE",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "15D NYLON / L / GREY",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "15D NYLON / L / ORANGE",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      22.27
+    ]
+  },
+  {
+    "id": 72036,
+    "slug": "tutor",
+    "name": "Tutor 35 Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/tutor/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/12/tutor.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "KHAKI / M",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "KHAKI / L",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "YELLOW / M",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "YELLOW / L",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / M",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / L",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "GREY / M",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "GREY / L",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      88.2
+    ]
+  },
+  {
+    "id": 71994,
+    "slug": "yue-45-ultra",
+    "name": "Yue 55 Ultra Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/yue-45-ultra/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/04/Yue45-SG-2026.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "S",
+        "price": 230.76,
+        "regular": 230.76,
+        "inStock": true
+      },
+      {
+        "label": "L",
+        "price": 230.76,
+        "regular": 230.76,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      230.76
+    ]
+  },
+  {
+    "id": 70887,
+    "slug": "hiking-umbrella",
+    "name": "Hiking Umbrella",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/hiking-umbrella/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-golden-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-silver-1-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-golden-1-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-5-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-4-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-3-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/11/Hiking-Umbrella-2-3FULGEAR.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Silver",
+        "price": 34.75,
+        "regular": 34.75,
+        "inStock": true
+      },
+      {
+        "label": "Gold",
+        "price": 34.75,
+        "regular": 34.75,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      34.75
+    ]
+  },
+  {
+    "id": 68171,
+    "slug": "koala-daypack",
+    "name": "Koala Daypack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/koala-daypack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/09/Koala-Daypack.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/09/Koala-Daypack-back.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "KHAKI",
+        "price": 57.91,
+        "regular": 57.91,
+        "inStock": true
+      },
+      {
+        "label": "YELLOW",
+        "price": 57.91,
+        "regular": 57.91,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      57.91
+    ]
+  },
+  {
+    "id": 67359,
+    "slug": "lanshan-footprint-ground-sheet",
+    "name": "Lanshan Footprint/Ground sheet",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/lanshan-footprint-ground-sheet/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/地布-scaled.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Other tents",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "Lanshan 1\\\\/1Pro Footprint",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "Lanshan 2\\\\/2Pro Footprint",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      22.27
+    ]
+  },
+  {
+    "id": 66508,
+    "slug": "lanshan-tent-sack",
+    "name": "Tent Sack",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/lanshan-tent-sack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/08/3fulgear-lanshan-tent-sacks.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/3fulgear-lanshan-tent-sack.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Large / Purple",
+        "price": 7.13,
+        "regular": 7.13,
+        "inStock": true
+      },
+      {
+        "label": "Large / Khaki",
+        "price": 7.13,
+        "regular": 7.13,
+        "inStock": true
+      },
+      {
+        "label": "Large / Grey",
+        "price": 7.13,
+        "regular": 7.13,
+        "inStock": true
+      },
+      {
+        "label": "Small / Green",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "Small / Grey",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "Small / Khaki",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      5.35,
+      7.13
+    ]
+  },
+  {
+    "id": 64806,
+    "slug": "carbon-tent-pole",
+    "name": "Carbon Fiber Tent Pole",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/carbon-tent-pole/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-7.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-6.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-5.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-4.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/tent-pole-Lanshan-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      22.27
+    ]
+  },
+  {
+    "id": 64652,
+    "slug": "luminous-sticker",
+    "name": "Luminous Sticker",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/luminous-sticker/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/06/3FULGEAR-sticker.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/3FULGEAR-sticker-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.09
+    ]
+  },
+  {
+    "id": 64286,
+    "slug": "conical-alcohol-burner-cooking-kit",
+    "name": "Conical Alcohol Stove Cooking Kit",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/conical-alcohol-burner-cooking-kit/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit-5.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit-4.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/06/Conical-Alcohol-Burner-Cooking-Kit-3.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "BFS01 Alcohol Stove Cooking Kit",
+        "price": 80.19,
+        "regular": 80.19,
+        "inStock": true
+      },
+      {
+        "label": "BFS02 Alcohol Stove Cooking Kit",
+        "price": 80.19,
+        "regular": 80.19,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      80.19
+    ]
+  },
+  {
+    "id": 64242,
+    "slug": "customised-products",
+    "name": "Customised products",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/customised-products/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/06/custom-specialised-items.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "floating cloud2 fly*2",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "lanshan 1 fly grey",
+        "price": 71.28,
+        "regular": 71.28,
+        "inStock": true
+      },
+      {
+        "label": "Upgrade Shipping",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      },
+      {
+        "label": "200m cord",
+        "price": 50.78,
+        "regular": 50.78,
+        "inStock": false
+      },
+      {
+        "label": "hip belt size s",
+        "price": 31.18,
+        "regular": 31.18,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.91,
+      169.28
+    ]
+  },
+  {
+    "id": 63832,
+    "slug": "vestibule-hooks",
+    "name": "Vestibule Hooks",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/vestibule-hooks/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/05/titanium-hook.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/05/vestiblue-hook-.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/05/aluminum-hook.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Titanium",
+        "price": 4.45,
+        "regular": 4.45,
+        "inStock": true
+      },
+      {
+        "label": "Aluminium",
+        "price": 1.78,
+        "regular": 1.78,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      1.78,
+      4.45
+    ]
+  },
+  {
+    "id": 63486,
+    "slug": "dual-pole-clips",
+    "name": "Dual Pole Clips",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/dual-pole-clips/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/05/dual-pole-clips.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/double-pole-kit-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "1 Clip",
+        "price": 2.67,
+        "regular": 2.67,
+        "inStock": true
+      },
+      {
+        "label": "4 Clips",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      2.67,
+      8.91
+    ]
+  },
+  {
+    "id": 62527,
+    "slug": "tianshan-ultra",
+    "name": "Tianshan Ultra Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/tianshan-ultra/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/04/tianshan-ultra-backpack-6.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/04/tianshan-ultra-backpack-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "S",
+        "price": 177.3,
+        "regular": 177.3,
+        "inStock": true
+      },
+      {
+        "label": "L",
+        "price": 177.3,
+        "regular": 177.3,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      177.3
+    ]
+  },
+  {
+    "id": 61737,
+    "slug": "ultralight-gaiters",
+    "name": "Ultralight Gaiters",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/ultralight-gaiters/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/03/gaiters-3fulgear-4.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/gaiters-3fulgear-khaki-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/gaiters-3fulgear-khaki-3.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Black",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      },
+      {
+        "label": "Khaki",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.82
+    ]
+  },
+  {
+    "id": 61574,
+    "slug": "minimalist-rain-pants",
+    "name": "Minimalist Rain Pants",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/minimalist-rain-pants/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/03/rain-pant.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/rain-pant-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/rain-pant-black.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "M / Khaki",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      },
+      {
+        "label": "M / Black",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      },
+      {
+        "label": "L / Khaki",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      },
+      {
+        "label": "L / Black",
+        "price": 8.82,
+        "regular": 8.82,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.82
+    ]
+  },
+  {
+    "id": 61146,
+    "slug": "taihang-max",
+    "name": "Taihang 2 Max",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/taihang-max/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/03/taihang-max-khaki-3FULGEAR-backpacking-tent-ultralight.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/taihang-max-3FULGEAR-backpacking-tent.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/taihang-max-3FULGEAR-3-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Dual-Pole Clips & Extra Pole",
+        "price": 30.29,
+        "regular": 30.29,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      30.29
+    ]
+  },
+  {
+    "id": 60942,
+    "slug": "beetle-2-0-poles-aftersale",
+    "name": "Beetle 2.0 poles aftersale",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/beetle-2-0-poles-aftersale/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/02/3FULGEAR-BEETLE-POLE.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "A",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "B",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "C",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "D",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "E",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "F",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "G",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      },
+      {
+        "label": "H",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      5.35
+    ]
+  },
+  {
+    "id": 59472,
+    "slug": "taiji3",
+    "name": "Taiji 3",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/taiji3/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/taiji3-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/taiji3-khaki-3season.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/taiji3-khaki-4season.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": []
+  },
+  {
+    "id": 59449,
+    "slug": "itw-cord-buckle",
+    "name": "ITW Cord Buckle",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/itw-cord-buckle/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/buckle-4.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.45
+    ]
+  },
+  {
+    "id": 59448,
+    "slug": "duraflex-0110np",
+    "name": "Duraflex 0110NP",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/duraflex-0110np/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/buckle-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.45
+    ]
+  },
+  {
+    "id": 59447,
+    "slug": "duraflex-04-1np",
+    "name": "Duraflex 04-1NP",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/duraflex-04-1np/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/buckle-3.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.89
+    ]
+  },
+  {
+    "id": 59445,
+    "slug": "3fulgear-buckle-01-2np",
+    "name": "3FULGEAR Buckle 01-2NP",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/3fulgear-buckle-01-2np/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/buckle-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.45
+    ]
+  },
+  {
+    "id": 59411,
+    "slug": "footbox-bivy",
+    "name": "Footbox Bivy",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/footbox-bivy/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-tyvek-3fulgear-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-tyvek-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-tyvek-3fulgear-4.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-tyvek-3fulgear-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/footbox-bivy-tyvek-3fulgear-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "UHMWPE Grid Nylon-60g",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.91
+    ]
+  },
+  {
+    "id": 59243,
+    "slug": "tianshan-pack",
+    "name": "Tianshan Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/tianshan-pack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/Tianshan-Pack-3FULGEAR.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "L / BLACK",
+        "price": 146.12,
+        "regular": 146.12,
+        "inStock": true
+      },
+      {
+        "label": "L / KHAKI",
+        "price": 146.12,
+        "regular": 146.12,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      146.12
+    ]
+  },
+  {
+    "id": 59185,
+    "slug": "pack-cover",
+    "name": "Pack Cover",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/pack-cover/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-rain-cover-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-1-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-2-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-3-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-size-1-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/pack-cover-size-2-3fulgear.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "M",
+        "price": 9.8,
+        "regular": 9.8,
+        "inStock": true
+      },
+      {
+        "label": "L",
+        "price": 11.58,
+        "regular": 11.58,
+        "inStock": true
+      },
+      {
+        "label": "XL",
+        "price": 13.36,
+        "regular": 13.36,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      9.8,
+      13.36
+    ]
+  },
+  {
+    "id": 59115,
+    "slug": "tent-pole-repair-sleeve",
+    "name": "Tent Pole Repair Sleeve",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/tent-pole-repair-sleeve/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/Repair-tube-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/11/Repair-tube-3FULGEAR-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      1.78
+    ]
+  },
+  {
+    "id": 59103,
+    "slug": "hollow-stakes",
+    "name": "Hollow Stakes",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/hollow-stakes/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/11/hollow-stakes.jpeg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "6pcs / 15cm",
+        "price": 9.8,
+        "regular": 9.8,
+        "inStock": true
+      },
+      {
+        "label": "6pcs / 20cm",
+        "price": 13.36,
+        "regular": 13.36,
+        "inStock": true
+      },
+      {
+        "label": "10pcs / 15cm",
+        "price": 14.26,
+        "regular": 14.26,
+        "inStock": true
+      },
+      {
+        "label": "10pcs / 20cm",
+        "price": 16.93,
+        "regular": 16.93,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      9.8,
+      16.93
+    ]
+  },
+  {
+    "id": 58894,
+    "slug": "west-wind-stove",
+    "name": "West Wind Stove",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/west-wind-stove/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/10/west-wind-stove-1-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/10/west-wind-stove-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/10/west-wind-stove-4-3fulgear.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "SMALL STOVE",
+        "price": 240.56,
+        "regular": 240.56,
+        "inStock": true
+      },
+      {
+        "label": "LARGE STOVE",
+        "price": 294.01,
+        "regular": 294.01,
+        "inStock": true
+      },
+      {
+        "label": "PELLETS BURNER KIT",
+        "price": 129.19,
+        "regular": 129.19,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      129.19,
+      294.01
+    ]
+  },
+  {
+    "id": 58838,
+    "slug": "taihang2",
+    "name": "Taihang 2",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/taihang2/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/10/Taihang2-tent-khaki-3fulgear.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Dual-Pole Clips & Extra Pole",
+        "price": 24.95,
+        "regular": 24.95,
+        "inStock": true
+      },
+      {
+        "label": "Orange 3-season",
+        "price": 147.9,
+        "regular": 147.9,
+        "inStock": true
+      },
+      {
+        "label": "Khaki 3-season",
+        "price": 147.9,
+        "regular": 147.9,
+        "inStock": true
+      },
+      {
+        "label": "Orange 4-season",
+        "price": 153.24,
+        "regular": 153.24,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      24.95,
+      153.24
+    ]
+  },
+  {
+    "id": 58476,
+    "slug": "insulated-bag",
+    "name": "Insulated bag",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/insulated-bag/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/09/Insulated-bag-3FULGEAR.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/09/Insulated-bag-3FULGEAR-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/09/Insulated-bag-3FULGEAR-1-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      5.35
+    ]
+  },
+  {
+    "id": 58315,
+    "slug": "taiji-1",
+    "name": "Taiji 1",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/taiji-1/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/08/taiji1-3fulgear-3.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Khaki / 3-season mesh Inner",
+        "price": 147.9,
+        "regular": 147.9,
+        "inStock": true
+      },
+      {
+        "label": "Khaki / Full season Inner",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      147.9,
+      159.48
+    ]
+  },
+  {
+    "id": 55381,
+    "slug": "tent-pole-for-aftersales",
+    "name": "TENT POLE for Aftersales",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/tent-pole-for-aftersales/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/03/飘云2帐杆.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Qingkong3 poles",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "Floating Cloud2 poles",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "Floating Cloud1 poles",
+        "price": 18.71,
+        "regular": 18.71,
+        "inStock": true
+      },
+      {
+        "label": "Taji2 poles",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      18.71,
+      22.27
+    ]
+  },
+  {
+    "id": 54868,
+    "slug": "spare-part-for-after-sale-service",
+    "name": "Spare part for after sale service",
+    "category": "repair-parts",
+    "permalink": "https://3fulgear.com/product/repair-parts/spare-part-for-after-sale-service/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/spare-parts.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "10USD",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      },
+      {
+        "label": "1USD",
+        "price": 0.89,
+        "regular": 0.89,
+        "inStock": true
+      },
+      {
+        "label": "5USD",
+        "price": 4.45,
+        "regular": 4.45,
+        "inStock": true
+      },
+      {
+        "label": "8USD",
+        "price": 7.13,
+        "regular": 7.13,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      0.89,
+      8.91
+    ]
+  },
+  {
+    "id": 54747,
+    "slug": "x-aluminium-stakes",
+    "name": "Aluminium Y Stakes",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/x-aluminium-stakes/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/01/Y-stake-3fulgear-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.89
+    ]
+  },
+  {
+    "id": 54491,
+    "slug": "water-bottle-sleeve",
+    "name": "Water Bottle Sleeve- for Backpack Shoulder Straps",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/water-bottle-sleeve/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/12/Water-Bottle-Sleeve-black-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/12/Water-Bottle-Sleeve-grey-3fulgear.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Khaki",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      },
+      {
+        "label": "Black",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      },
+      {
+        "label": "Grey",
+        "price": 8.91,
+        "regular": 8.91,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.91
+    ]
+  },
+  {
+    "id": 53638,
+    "slug": "shell-2",
+    "name": "Shell2",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/shell-2/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/10/shell-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/shell-2-khaki.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/shell-2-orange.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/shell2-details.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Dual-Pole Clips & Extra Pole",
+        "price": 17.82,
+        "regular": 17.82,
+        "inStock": true
+      },
+      {
+        "label": "3-season Grey",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "3-season Orange",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      17.82,
+      150.57
+    ]
+  },
+  {
+    "id": 53498,
+    "slug": "burningfeather-ul-alcohol-stove",
+    "name": "BurningFeather™ UL Cooking System",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/burningfeather-ul-alcohol-stove/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/10/windscreen-for-flat-pot-or-pan.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/BF-S03-alcohol-stove-burn.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/windscreen-for-flat-pot-or-pan2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/10/windscreen-for-high-pot.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "BF-S02 / T4 frame / Twin Wind Screen",
+        "price": 78.4,
+        "regular": 78.4,
+        "inStock": true
+      },
+      {
+        "label": "BF-S01 / T3 frame / Single Wind Screen",
+        "price": 69.49,
+        "regular": 69.49,
+        "inStock": true
+      },
+      {
+        "label": "BF-S01 / T4 frame / Single Wind Screen",
+        "price": 69.49,
+        "regular": 69.49,
+        "inStock": true
+      },
+      {
+        "label": "BF-S02 / T4 frame / Single Wind Screen",
+        "price": 69.49,
+        "regular": 69.49,
+        "inStock": true
+      },
+      {
+        "label": "BF-S01 / T3 frame / Twin Wind Screen",
+        "price": 78.4,
+        "regular": 78.4,
+        "inStock": true
+      },
+      {
+        "label": "BF-S01 / T4 frame / Twin Wind Screen",
+        "price": 78.4,
+        "regular": 78.4,
+        "inStock": true
+      },
+      {
+        "label": "BF-S02 / T3 frame / Twin Wind Screen",
+        "price": 78.4,
+        "regular": 78.4,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      69.49,
+      78.4
+    ]
+  },
+  {
+    "id": 53195,
+    "slug": "c1-trekking-pole",
+    "name": "C1 Trekking Pole",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/c1-trekking-pole/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/09/C1-trekking-pole-3fugear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/09/C1-trekking-pole-tip.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/09/C1-trekking-pole-handle.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/09/C1-trekking-pole-lock.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "SINGLE",
+        "price": 35.64,
+        "regular": 35.64,
+        "inStock": true
+      },
+      {
+        "label": "PAIR",
+        "price": 57.91,
+        "regular": 57.91,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      35.64,
+      57.91
+    ]
+  },
+  {
+    "id": 53176,
+    "slug": "beetle16",
+    "name": "Beetle16 2.0",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/beetle16/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2023/09/beetle16-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/09/beetle16-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2023/09/beetle16-black.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "KHAKI / MAIN TENT KIT",
+        "price": 481.11,
+        "regular": 481.11,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / MAIN TENT KIT",
+        "price": 481.11,
+        "regular": 481.11,
+        "inStock": true
+      },
+      {
+        "label": "KHAKI / EXTEND PART",
+        "price": 98.0,
+        "regular": 98.0,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / EXTEND PART",
+        "price": 98.0,
+        "regular": 98.0,
+        "inStock": true
+      },
+      {
+        "label": "KHAKI / TPU TRANSPARENT DOOR",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / TPU TRANSPARENT DOOR",
+        "price": 22.27,
+        "regular": 22.27,
+        "inStock": true
+      },
+      {
+        "label": " / INNER TENT FOR EXTEND PART",
+        "price": 66.82,
+        "regular": 66.82,
+        "inStock": true
+      },
+      {
+        "label": "KHAKI / TARP",
+        "price": 70.38,
+        "regular": 70.38,
+        "inStock": true
+      },
+      {
+        "label": "BLACK / TARP",
+        "price": 70.38,
+        "regular": 70.38,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      22.27,
+      481.11
+    ]
+  },
+  {
+    "id": 50019,
+    "slug": "clips-for-taiji",
+    "name": "Clips For Taiji",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/clips-for-taiji/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2022/06/Taiji-Hanging-tabs.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      0.89
+    ]
+  },
+  {
+    "id": 48579,
+    "slug": "bathtub-footprint",
+    "name": "Bathtub Footprint",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/bathtub-footprint/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2022/10/bathtub-footprint-.jpg",
+      "https://3fulgear.com/wp-content/uploads/2022/10/bathtub-footprint-lanshan-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "For Lanshan 1",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "For Lanshan 2",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      26.73
+    ]
+  },
+  {
+    "id": 46884,
+    "slug": "tent-components",
+    "name": "Separate Tent Fly or Inner",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/tent-components/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2022/06/innertent-and-fly-3fulgear.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "4 Season(inner tent) / Shell2",
+        "price": 67.71,
+        "regular": 67.71,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / Shell2",
+        "price": 64.15,
+        "regular": 64.15,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / Taihang2",
+        "price": 67.71,
+        "regular": 67.71,
+        "inStock": false
+      },
+      {
+        "label": "4 Season(inner tent) / Qingkong3",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "4 Season(inner tent) / Taiji1",
+        "price": 64.15,
+        "regular": 64.15,
+        "inStock": false
+      },
+      {
+        "label": "3 Season(inner tent) / Qingkong3",
+        "price": 84.64,
+        "regular": 84.64,
+        "inStock": true
+      },
+      {
+        "label": "4 Season(inner tent) / FloatingCloud2",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / FloatingCloud2",
+        "price": 88.2,
+        "regular": 88.2,
+        "inStock": true
+      },
+      {
+        "label": "4 Season(inner tent) / FloatingCloud1",
+        "price": 79.29,
+        "regular": 79.29,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / FloatingCloud1",
+        "price": 79.29,
+        "regular": 79.29,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / Lanshan1",
+        "price": 61.48,
+        "regular": 61.48,
+        "inStock": true
+      },
+      {
+        "label": "4 Season(inner tent) / Lanshan1",
+        "price": 70.38,
+        "regular": 70.38,
+        "inStock": true
+      },
+      {
+        "label": "3 Season(inner tent) / Lanshan2",
+        "price": 70.38,
+        "regular": 70.38,
+        "inStock": true
+      },
+      {
+        "label": "4 Season(inner tent) / Lanshan2",
+        "price": 77.51,
+        "regular": 77.51,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      61.48,
+      88.2
+    ]
+  },
+  {
+    "id": 45004,
+    "slug": "wood-stove-folding-chimney",
+    "name": "Wood stove folding chimney",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/wood-stove-folding-chimney/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2022/02/chimney.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "2.5M",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "3M",
+        "price": 29.4,
+        "regular": 29.4,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      26.73,
+      29.4
+    ]
+  },
+  {
+    "id": 43694,
+    "slug": "tarp-pole-stake-set",
+    "name": "Tarp Pole",
+    "category": "tarps",
+    "permalink": "https://3fulgear.com/product/tarps/tarp-pole-stake-set/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-pole.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-pole-tip.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-pole-head.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "2m(6.5ft) / 16mm(0.63 in)",
+        "price": 25.84,
+        "regular": 25.84,
+        "inStock": true
+      },
+      {
+        "label": "2m(6.5ft) / 19mm(0.75 in)",
+        "price": 28.51,
+        "regular": 28.51,
+        "inStock": true
+      },
+      {
+        "label": "2.4m(7.9ft) / 16mm(0.63 in)",
+        "price": 28.51,
+        "regular": 28.51,
+        "inStock": true
+      },
+      {
+        "label": "2.4m(7.9ft) / 19mm(0.75 in)",
+        "price": 31.18,
+        "regular": 31.18,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      25.84,
+      31.18
+    ]
+  },
+  {
+    "id": 43659,
+    "slug": "lightweight-tarp",
+    "name": "Lightweight Tarp",
+    "category": "tarps",
+    "permalink": "https://3fulgear.com/product/tarps/lightweight-tarp/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "15D Nylon / S / Grey white",
+        "price": 60.58,
+        "regular": 60.58,
+        "inStock": false
+      },
+      {
+        "label": "15D Nylon / S / Green",
+        "price": 60.58,
+        "regular": 60.58,
+        "inStock": false
+      },
+      {
+        "label": "15D Nylon / M / Grey white",
+        "price": 74.84,
+        "regular": 74.84,
+        "inStock": false
+      },
+      {
+        "label": "15D Nylon / M / Green",
+        "price": 74.84,
+        "regular": 74.84,
+        "inStock": false
+      }
+    ],
+    "eurSummary": [
+      60.58,
+      74.84
+    ]
+  },
+  {
+    "id": 43418,
+    "slug": "uhmwpe-cord",
+    "name": "Reflective UHMWPE Cord",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/uhmwpe-cord/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/UHMWPE-guyline-.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Yellow",
+        "price": 8.55,
+        "regular": 8.55,
+        "inStock": true
+      },
+      {
+        "label": "Grey",
+        "price": 8.55,
+        "regular": 8.55,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      8.55
+    ]
+  },
+  {
+    "id": 43353,
+    "slug": "floating-cloud-2",
+    "name": "Floating cloud 2",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/floating-cloud-2/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/cloud2grey.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/cloud2interior1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/cloud2interior.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Grey white / 3-season mesh tent",
+        "price": 186.21,
+        "regular": 186.21,
+        "inStock": true
+      },
+      {
+        "label": "Grey white / 4-season",
+        "price": 197.79,
+        "regular": 197.79,
+        "inStock": true
+      },
+      {
+        "label": "Orange / 3-season mesh tent",
+        "price": 186.21,
+        "regular": 186.21,
+        "inStock": true
+      },
+      {
+        "label": "Orange / 4-season",
+        "price": 197.79,
+        "regular": 197.79,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      186.21,
+      197.79
+    ]
+  },
+  {
+    "id": 43308,
+    "slug": "floating-cloud-1",
+    "name": "Floating Cloud 1",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/floating-cloud-1/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/cloudgrey.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/cloudopen.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/4season.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/3season.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Grey white / 3-season mesh tent",
+        "price": 168.39,
+        "regular": 168.39,
+        "inStock": true
+      },
+      {
+        "label": "Khaki\\\\/Brown / 3-season mesh tent",
+        "price": 168.39,
+        "regular": 168.39,
+        "inStock": true
+      },
+      {
+        "label": "Orange / 3-season mesh tent",
+        "price": 168.39,
+        "regular": 168.39,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      168.39
+    ]
+  },
+  {
+    "id": 42878,
+    "slug": "ultralight-tarp-poncho",
+    "name": "Rain Poncho",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/ultralight-tarp-poncho/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/03/poncho-zipper.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/03/poncho-3fulgear-ultralight.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-poncho9.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-poncho8-scaled.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-poncho3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tarp-poncho2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "RAIN PONCHO / L / YELLOW",
+        "price": 32.07,
+        "regular": 32.07,
+        "inStock": true
+      },
+      {
+        "label": "RAIN PONCHO ZIP / M / ORANGE",
+        "price": 33.86,
+        "regular": 33.86,
+        "inStock": true
+      },
+      {
+        "label": "RAIN PONCHO ZIP / L / ORANGE",
+        "price": 33.86,
+        "regular": 33.86,
+        "inStock": true
+      },
+      {
+        "label": "RAIN PONCHO ZIP / M / BLUE",
+        "price": 33.86,
+        "regular": 33.86,
+        "inStock": false
+      },
+      {
+        "label": "RAIN PONCHO ZIP / L / BLUE",
+        "price": 33.86,
+        "regular": 33.86,
+        "inStock": false
+      },
+      {
+        "label": "MUTI-USE PONCHO / one size / ORANGE",
+        "price": 26.73,
+        "regular": 26.73,
+        "inStock": true
+      },
+      {
+        "label": "RAIN PONCHO / L / ORANGE",
+        "price": 32.07,
+        "regular": 32.07,
+        "inStock": true
+      },
+      {
+        "label": "RAIN PONCHO / M / ORANGE",
+        "price": 32.07,
+        "regular": 32.07,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      26.73,
+      33.86
+    ]
+  },
+  {
+    "id": 42865,
+    "slug": "waterproof-bag",
+    "name": "Exhaustable Compression Dry Sack",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/waterproof-bag/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/main.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "12L",
+        "price": 13.36,
+        "regular": 13.36,
+        "inStock": true
+      },
+      {
+        "label": "24L",
+        "price": 14.26,
+        "regular": 14.26,
+        "inStock": true
+      },
+      {
+        "label": "36L",
+        "price": 16.04,
+        "regular": 16.04,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      13.36,
+      16.04
+    ]
+  },
+  {
+    "id": 42852,
+    "slug": "seam-sealing",
+    "name": "Seam Sealing Service – For Lanshan Pro",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/seam-sealing/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/seamseal1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": [
+      31.18
+    ]
+  },
+  {
+    "id": 41843,
+    "slug": "ultralight-carbon-stakes",
+    "name": "Ultralight Carbon Stakes",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/ultralight-carbon-stakes/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/carbon-stakes-600x600-1.png",
+      "https://3fulgear.com/wp-content/uploads/2021/10/stakes-600x600-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "15cm*6pcs",
+        "price": 16.93,
+        "regular": 16.93,
+        "inStock": true
+      },
+      {
+        "label": "20cm*6pcs",
+        "price": 21.38,
+        "regular": 21.38,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      16.93,
+      21.38
+    ]
+  },
+  {
+    "id": 41836,
+    "slug": "41836",
+    "name": "Rain Kilt",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/41836/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/rain-kilt-Khaki-dyneema.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/skirt2-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "UHMEPE version -Yellow",
+        "price": 18.71,
+        "regular": 18.71,
+        "inStock": true
+      },
+      {
+        "label": "UHMEPE version -Khaki",
+        "price": 18.71,
+        "regular": 18.71,
+        "inStock": true
+      },
+      {
+        "label": "UHMEPE version -Grey",
+        "price": 18.71,
+        "regular": 18.71,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      18.71
+    ]
+  },
+  {
+    "id": 41824,
+    "slug": "tyvek-bivy",
+    "name": "Tyvek Bivy",
+    "category": "accessories",
+    "permalink": "https://3fulgear.com/product/accessories/tyvek-bivy/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/tyvek-bivy-sack-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/bivy-sack-3fulgear-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/bivy-sack-3fulgear-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/DSC07808.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/bivy-sack-3fulgear-compressed.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/bivy-sack-3fulgear.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/1-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "A(Quilt)",
+        "price": 14.26,
+        "regular": 14.26,
+        "inStock": true
+      },
+      {
+        "label": "B(Mummy)",
+        "price": 20.49,
+        "regular": 20.49,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      14.26,
+      20.49
+    ]
+  },
+  {
+    "id": 41795,
+    "slug": "tribe-4-hot-tent",
+    "name": "Tribe 4 Hot Tent 2022 ver.",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/tribe-4-hot-tent/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/kharki.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tribe3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tribe-4-2022-size.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/tribe-4-2022-pic1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": []
+  },
+  {
+    "id": 41756,
+    "slug": "qingkong-3",
+    "name": "Qingkong 3",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/qingkong-3/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/grey-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/qingkong-4.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/qingkong-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/qingkong-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Khaki / Full season",
+        "price": 223.63,
+        "regular": 223.63,
+        "inStock": true
+      },
+      {
+        "label": "Grey white / Full season",
+        "price": 223.63,
+        "regular": 223.63,
+        "inStock": false
+      },
+      {
+        "label": "Orange / Full season",
+        "price": 223.63,
+        "regular": 223.63,
+        "inStock": true
+      },
+      {
+        "label": "Khaki / 3-season Mesh Inner",
+        "price": 204.92,
+        "regular": 204.92,
+        "inStock": true
+      },
+      {
+        "label": "Grey white / 3-season Mesh Inner",
+        "price": 204.92,
+        "regular": 204.92,
+        "inStock": true
+      },
+      {
+        "label": "Orange / 3-season Mesh Inner",
+        "price": 204.92,
+        "regular": 204.92,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      204.92,
+      223.63
+    ]
+  },
+  {
+    "id": 41729,
+    "slug": "taiji-2",
+    "name": "Taiji 2",
+    "category": "freestanding-tent",
+    "permalink": "https://3fulgear.com/product/freestanding-tent/taiji-2/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2025/06/Taiji2-dark-grey-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/taiji-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/taiji-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/taiji-1.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Orange / 3-season mesh Inner",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      169.28
+    ]
+  },
+  {
+    "id": 41664,
+    "slug": "tribe-wood-stove-titanium-ver",
+    "name": "Tribe Wood Stove (Titanium Ver.)",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/tribe-wood-stove-titanium-ver/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/1-e1618646025180.jpg"
+    ],
+    "inStock": true,
+    "onSale": true,
+    "variations": [],
+    "eurSummary": [
+      233.43,
+      196.01
+    ]
+  },
+  {
+    "id": 41659,
+    "slug": "tribe-wood-stove-1-0",
+    "name": "Tribe Wood Stove 1.0",
+    "category": "stoves",
+    "permalink": "https://3fulgear.com/product/stoves/tribe-wood-stove-1-0/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/白底.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/外景800-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": true,
+    "variations": [
+      {
+        "label": "STOVE KIT",
+        "price": 168.39,
+        "regular": 189.77,
+        "inStock": true
+      },
+      {
+        "label": "GLASS(Spare parts)",
+        "price": 5.35,
+        "regular": 5.35,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      5.35,
+      168.39
+    ]
+  },
+  {
+    "id": 40665,
+    "slug": "lanshan-1-pro",
+    "name": "Lanshan 1 Pro",
+    "category": "ultralight-tent",
+    "permalink": "https://3fulgear.com/product/ultralight-tent/lanshan-1-pro/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan1-pro-award.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan-1-pro-details-5.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan-1-pro-details-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan-1-pro-details-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan-1-pro-details-2.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "20D SilPoly / Forest Green - 4 season",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      },
+      {
+        "label": "20D SilPoly / Forest Green - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilPoly / Khaki - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilPoly / Grey - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilPoly / Khaki - 4 season",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      },
+      {
+        "label": "20D SilPoly / Grey - 4 season",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      },
+      {
+        "label": "20D SilNylon / Forest Green - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilNylon / Grey - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilNylon / Khaki - 3 season",
+        "price": 150.57,
+        "regular": 150.57,
+        "inStock": true
+      },
+      {
+        "label": "20D SilNylon / Grey - 4 season",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      },
+      {
+        "label": "20D SilNylon / Khaki - 4 season",
+        "price": 159.48,
+        "regular": 159.48,
+        "inStock": true
+      },
+      {
+        "label": " / Footprint(20D Nylon)",
+        "price": 24.06,
+        "regular": 24.06,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      24.06,
+      159.48
+    ]
+  },
+  {
+    "id": 40589,
+    "slug": "qidian",
+    "name": "QiDian 40+16 UL Pack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/qidian/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/qidian-.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Khaki",
+        "price": 53.28,
+        "regular": 53.28,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      53.28
+    ]
+  },
+  {
+    "id": 40575,
+    "slug": "yue-4510-ul-backpack",
+    "name": "Yue 55 Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/yue-4510-ul-backpack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2024/04/Yue45-khaki-2026.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [],
+    "eurSummary": []
+  },
+  {
+    "id": 40563,
+    "slug": "qidian-pro-backpack",
+    "name": "Qidian Pro Backpack",
+    "category": "packs",
+    "permalink": "https://3fulgear.com/product/packs/qidian-pro-backpack/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/DSC08617.png",
+      "https://3fulgear.com/wp-content/uploads/2021/10/DSC08616.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/DSC08439.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/DSC08394.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/qidian-top.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Yellow",
+        "price": 81.97,
+        "regular": 81.97,
+        "inStock": true
+      },
+      {
+        "label": "Khaki",
+        "price": 81.97,
+        "regular": 81.97,
+        "inStock": true
+      },
+      {
+        "label": "Grey White",
+        "price": 81.97,
+        "regular": 81.97,
+        "inStock": true
+      },
+      {
+        "label": "Black",
+        "price": 81.97,
+        "regular": 81.97,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      81.97
+    ]
+  },
+  {
+    "id": 40532,
+    "slug": "lanshan-2-pro",
+    "name": "Lanshan 2 Pro",
+    "category": "ultralight-tent",
+    "permalink": "https://3fulgear.com/product/ultralight-tent/lanshan-2-pro/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/01/lanshan-2-pro.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/lanshan-2pro-gray-3-season.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/lanshan-2-pro-Silpoly-details-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/lanshan-2-pro-Silpoly.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/lanshan-2-pro-Silpoly-details-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2025/08/lanshan-2-pro-Silpoly-details-4.jpg"
+    ],
+    "inStock": true,
+    "onSale": true,
+    "variations": [
+      {
+        "label": "SilPoly / ForestGreen / 3 season- Mesh",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilPoly / Khaki / 4 season- Solid Nylon",
+        "price": 175.52,
+        "regular": 175.52,
+        "inStock": true
+      },
+      {
+        "label": "SilPoly / Khaki / 3 season- Mesh",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilPoly / Metal Grey / 3 season- Mesh",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilNylon / ForestGreen / 3 season- Mesh",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilNylon / Metal Grey / 3 season- Mesh",
+        "price": 154.04,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilNylon / Khaki / 3 season- Mesh",
+        "price": 169.28,
+        "regular": 169.28,
+        "inStock": true
+      },
+      {
+        "label": "SilNylon / Grey / 4 season- Solid Nylon",
+        "price": 169.28,
+        "regular": 175.52,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      154.04,
+      175.52
+    ]
+  },
+  {
+    "id": 40519,
+    "slug": "lanshan2-classic",
+    "name": "Lanshan 2",
+    "category": "ultralight-tent",
+    "permalink": "https://3fulgear.com/product/ultralight-tent/lanshan2-classic/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-award.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/lanshan-2-dark-grey-4-season.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-Khaki-2026-inner-space-1.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-Khaki-2026-details.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-Khaki-2026-details-2.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-Khaki-2026-details-3.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/inner-4-season.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/inner-3-season.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Forest Green(2026 ver) - 3 season",
+        "price": 138.99,
+        "regular": 138.99,
+        "inStock": true
+      },
+      {
+        "label": "Grey(2026 ver) - 3 season",
+        "price": 138.99,
+        "regular": 138.99,
+        "inStock": true
+      },
+      {
+        "label": "Khaki - 3 season(2026 ver)",
+        "price": 138.99,
+        "regular": 138.99,
+        "inStock": true
+      },
+      {
+        "label": "Forest Green(2026 ver) - 4 season",
+        "price": 155.02,
+        "regular": 155.02,
+        "inStock": true
+      },
+      {
+        "label": "Grey(2026 ver) - 4 season",
+        "price": 155.02,
+        "regular": 155.02,
+        "inStock": true
+      },
+      {
+        "label": "Khaki - 4 season(2026 ver)",
+        "price": 155.02,
+        "regular": 155.02,
+        "inStock": true
+      },
+      {
+        "label": "Footprint for Lanshan 2\\\\/2pro",
+        "price": 24.06,
+        "regular": 24.06,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      24.06,
+      155.02
+    ]
+  },
+  {
+    "id": 40431,
+    "slug": "lanshan-1",
+    "name": "Lanshan 1",
+    "category": "ultralight-tent",
+    "permalink": "https://3fulgear.com/product/ultralight-tent/lanshan-1/",
+    "images": [
+      "https://3fulgear.com/wp-content/uploads/2026/02/3FULGEAR-LANSHAN2-2026-award-green.jpg",
+      "https://3fulgear.com/wp-content/uploads/2021/10/LANSHAN-1-4-SEASON.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-details04.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-details03.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-details02.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-details01.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-details.jpg",
+      "https://3fulgear.com/wp-content/uploads/2024/06/3fulgear-Lanshan-1-2026-inner05.jpg"
+    ],
+    "inStock": true,
+    "onSale": false,
+    "variations": [
+      {
+        "label": "Footprint",
+        "price": 24.06,
+        "regular": 24.06,
+        "inStock": true
+      },
+      {
+        "label": "Forest Green - 3 season (2026 ver)",
+        "price": 122.06,
+        "regular": 122.06,
+        "inStock": true
+      },
+      {
+        "label": "Dark Grey - 3 season(2026 ver)",
+        "price": 122.06,
+        "regular": 122.06,
+        "inStock": true
+      },
+      {
+        "label": "Khaki - 3 season (2026 ver)",
+        "price": 122.06,
+        "regular": 122.06,
+        "inStock": true
+      },
+      {
+        "label": "Forest Green - 4 season (2026 ver)",
+        "price": 140.77,
+        "regular": 140.77,
+        "inStock": true
+      },
+      {
+        "label": "Dark Grey - 4 season(2026 ver)",
+        "price": 140.77,
+        "regular": 140.77,
+        "inStock": true
+      },
+      {
+        "label": "Khaki - 4 season (2026 ver)",
+        "price": 140.77,
+        "regular": 140.77,
+        "inStock": true
+      }
+    ],
+    "eurSummary": [
+      24.06,
+      140.77
+    ]
+  }
+]
