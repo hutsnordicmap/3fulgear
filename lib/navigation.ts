@@ -1,3 +1,4 @@
+import { articles } from "@/lib/guides";
 import { categories } from "@/lib/site";
 import type { Product } from "@/lib/types";
 
@@ -126,6 +127,12 @@ export function buildNav(products: Product[]): NavItem[] {
           href: "/oppaat",
           image: "https://3fulgear.com/wp-content/uploads/2025/11/IMG_0075.jpg",
         },
+        ...articles.map((article) => ({
+          id: article.slug,
+          label: article.title,
+          href: `/oppaat/${article.slug}`,
+          image: article.image,
+        })),
         {
           id: "guides-pitch",
           label: "Lanshan 2:n pystytys",

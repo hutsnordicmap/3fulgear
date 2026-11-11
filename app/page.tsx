@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog } from "@/lib/catalog";
+import { articles } from "@/lib/guides";
 import { pageMeta } from "@/lib/seo";
-import { affiliateUrl, DISCOUNT_CODE } from "@/lib/site";
+import { DISCOUNT_CODE } from "@/lib/site";
 import type { Product } from "@/lib/types";
 
 export const metadata: Metadata = pageMeta(
@@ -43,41 +44,15 @@ const categories = [
 ];
 
 const stories = [
+  ...articles.map((article) => ({
+    title: article.title,
+    image: article.image,
+    href: `/oppaat/${article.slug}`,
+  })),
   {
-    title: "Retkikertomus: Gyirong",
-    image: "https://3fulgear.com/wp-content/uploads/2025/11/IMG_0075.jpg",
-    href: affiliateUrl("https://3fulgear.com/2025/11/07/gyirong-adventure/"),
-  },
-  {
-    title: "Retkikertomus: Zhagana",
-    image: "https://3fulgear.com/wp-content/uploads/2025/08/R0110692.jpg",
-    href: affiliateUrl("https://3fulgear.com/2025/08/03/adventure-report-zhagana-hiking/"),
-  },
-  {
-    title: "Valkoisen järven lenkki Altailla",
-    image: "https://3fulgear.com/wp-content/uploads/2025/03/DSC08347-1.jpg",
-    href: affiliateUrl(
-      "https://3fulgear.com/2025/03/11/the-nomans-wilderness-the-loop-of-white-lake-in-the-altai-mountains/",
-    ),
-  },
-  {
-    title: "Onko Tianshan 45 edullisin ultrakevyt rinkka?",
-    image: "https://3fulgear.com/wp-content/uploads/2025/02/Tianshan-2.jpg",
-    href: affiliateUrl(
-      "https://3fulgear.com/2025/02/25/is-3fulgears-new-tianshan-45-the-best-budget-ultralight-pack/",
-    ),
-  },
-  {
-    title: "Retkikertomus: Everestin itäseinä",
-    image: "https://3fulgear.com/wp-content/uploads/2025/02/DSC06440-1.jpg",
-    href: affiliateUrl(
-      "https://3fulgear.com/2025/02/14/adventure-report-everest-east-face-and-kama-valley/",
-    ),
-  },
-  {
-    title: "Tianshan-rinkan kokoaminen",
-    image: "https://3fulgear.com/wp-content/uploads/2024/12/Tianshan-3fulgear.jpg",
-    href: affiliateUrl("https://3fulgear.com/2024/12/12/how-to-assemble-tianshan-backpack/"),
+    title: "Lanshan 2:n pystytys",
+    image: "https://3fulgear.com/wp-content/uploads/2023/05/lanshan2-1.jpg",
+    href: "/oppaat/lanshan-pystytys",
   },
 ];
 
@@ -257,10 +232,10 @@ export default async function HomePage() {
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {stories.map((story) => (
-            <a key={story.title} href={story.href} target="_blank" rel="sponsored noopener noreferrer" className="group block">
+            <Link key={story.href} href={story.href} className="group block">
               <img src={story.image} alt="" className="aspect-[16/10] w-full object-cover" />
               <p className="mt-3 text-sm leading-6 font-semibold group-hover:text-[#e36159]">{story.title}</p>
-            </a>
+            </Link>
           ))}
         </div>
       </section>

@@ -1,10 +1,21 @@
 import type { MetadataRoute } from "next";
 import { getCatalog } from "@/lib/catalog";
+import { articles } from "@/lib/guides";
 import { categories, SITE_URL } from "@/lib/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const catalog = await getCatalog();
-  const staticRoutes = ["", "/tuotteet", "/yritys", "/toimitus", "/takuu", "/oppaat", "/oppaat/lanshan-pystytys", "/tietosuoja"].map(
+  const staticRoutes = [
+    "",
+    "/tuotteet",
+    "/yritys",
+    "/toimitus",
+    "/takuu",
+    "/oppaat",
+    "/oppaat/lanshan-pystytys",
+    ...articles.map((article) => `/oppaat/${article.slug}`),
+    "/tietosuoja",
+  ].map(
     (path) => ({
       url: `${SITE_URL}${path || "/"}`,
       changeFrequency: "weekly" as const,

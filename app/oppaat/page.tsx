@@ -1,14 +1,9 @@
 import Link from "next/link";
+import { articles } from "@/lib/guides";
 import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
-const articles = [
-  {
-    title: "Lanshan 2:n pystytys",
-    href: "/oppaat/lanshan-pystytys",
-    text: "Valmistajan suosittelema pystytysjärjestys suomeksi, ja linkki alkuperäiseen ohjeeseen.",
-    external: false,
-  },
+const manufacturerNotes = [
   {
     title: "Saumojen tiivistys",
     href: affiliateUrl("https://3fulgear.com/2021/10/13/how-to-seal-your-tent/"),
@@ -59,10 +54,23 @@ const articles = [
   },
 ];
 
+const ownGuides = [
+  {
+    title: "Lanshan 2:n pystytys",
+    href: "/oppaat/lanshan-pystytys",
+    text: "Valmistajan suosittelema pystytysjärjestys suomeksi.",
+  },
+  ...articles.map((article) => ({
+    title: article.title,
+    href: `/oppaat/${article.slug}`,
+    text: article.lead,
+  })),
+];
+
 export const metadata = pageMeta(
   "/oppaat",
   "Oppaat",
-  "Suomenkieliset tiivistelmät 3F UL GEAR -valmistajan pystytysohjeista ja retkikertomuksista.",
+  "Suomenkieliset vertailut ja pystytysohjeet 3F UL GEAR -telttoihin ja rinkkoihin.",
 );
 
 export default function GuidesPage() {
@@ -70,28 +78,32 @@ export default function GuidesPage() {
     <div className="mx-auto max-w-3xl px-4 py-12">
       <h1 className="text-4xl font-semibold">Oppaat</h1>
       <p className="mt-4 leading-7 text-ink/75">
-        Pitkät retkikertomukset ja yksityiskohtaiset ohjeet julkaistaan
-        valmistajan sivuilla englanniksi. Tähän on koottu suomenkielinen
-        tiivistelmä ja linkki alkuperäiseen, jotta kuvia ja pitkiä artikkeleita
-        ei kopioida uudelleen.
+        Vertailut ja pystytysohjeet on kirjoitettu tälle sivustolle suomeksi.
+        Luvut ovat valmistajan tuotesivuilta. Pitkät retkikertomukset jäävät
+        englanniksi valmistajan sivuille.
       </p>
       <ul className="mt-8 divide-y divide-line border-y border-line">
-        {articles.map((article) => (
+        {ownGuides.map((article) => (
+          <li key={article.href} className="py-5">
+            <Link href={article.href} className="text-xl font-semibold hover:text-[#e36159]">
+              {article.title}
+            </Link>
+            <p className="mt-2 text-sm leading-6 text-ink/70">{article.text}</p>
+          </li>
+        ))}
+      </ul>
+      <h2 className="mt-14 text-2xl font-semibold">Valmistajan englanninkieliset jutut</h2>
+      <ul className="mt-6 divide-y divide-line border-y border-line">
+        {manufacturerNotes.map((article) => (
           <li key={article.title} className="py-5">
-            {article.external ? (
-              <a
-                href={article.href}
-                target="_blank"
-                rel="sponsored noopener noreferrer"
-                className="text-xl font-semibold hover:text-moss"
-              >
-                {article.title}
-              </a>
-            ) : (
-              <Link href={article.href} className="text-xl font-semibold hover:text-moss">
-                {article.title}
-              </Link>
-            )}
+            <a
+              href={article.href}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="text-xl font-semibold hover:text-[#e36159]"
+            >
+              {article.title}
+            </a>
             <p className="mt-2 text-sm leading-6 text-ink/70">{article.text}</p>
           </li>
         ))}

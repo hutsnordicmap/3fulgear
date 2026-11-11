@@ -1,4 +1,5 @@
 import { getCatalog } from "@/lib/catalog";
+import { articles } from "@/lib/guides";
 import { priceView } from "@/lib/pricing";
 import { categories, DISCOUNT_CODE, discounted, formatEur, SITE_URL } from "@/lib/site";
 
@@ -28,6 +29,9 @@ export async function GET() {
     `- [Takuu](${SITE_URL}/takuu): warranty and spare parts in Finnish.`,
     `- [Oppaat](${SITE_URL}/oppaat): Finnish summaries of pitching and care guides.`,
     `- [Lanshan 2:n pystytys](${SITE_URL}/oppaat/lanshan-pystytys): pitching order for Lanshan 2 and Lanshan 2 Pro.`,
+    ...articles.map(
+      (article) => `- [${article.title}](${SITE_URL}/oppaat/${article.slug}): ${article.description}`,
+    ),
     "",
     "## Categories",
     ...categories.map(
