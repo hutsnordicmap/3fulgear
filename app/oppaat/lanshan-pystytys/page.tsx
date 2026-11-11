@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Lanshan 2:n pystytys",
-  description:
-    "3F UL GEAR -valmistajan suosittelema Lanshan 2- ja Lanshan 2 Pro -teltan pystytys suomeksi.",
-};
+export const metadata = pageMeta(
+  "/oppaat/lanshan-pystytys",
+  "Lanshan 2:n pystytys",
+  "3F UL GEAR -valmistajan suosittelema Lanshan 2- ja Lanshan 2 Pro -teltan pystytys suomeksi.",
+);
 
 const steps = [
   "Levitä teltta maahan ja kiilaa ulkoteltan yksi kulma heti, jotta tuuli ei vie sitä.",

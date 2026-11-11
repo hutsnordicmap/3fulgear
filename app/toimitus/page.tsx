@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Toimitus",
-  description:
-    "3F UL GEAR toimittaa tilaukset omasta kaupastaan. Tällä sivulla on valmistajan ilmoittamat toimitusajat suomeksi.",
-};
+export const metadata: Metadata = pageMeta(
+  "/toimitus",
+  "Toimitus",
+  "3F UL GEAR toimittaa tilaukset omasta kaupastaan. Tällä sivulla on valmistajan ilmoittamat toimitusajat suomeksi.",
+);
 
 export default function ShippingPage() {
   return (

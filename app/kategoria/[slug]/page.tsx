@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductGrid } from "@/components/product-card";
 import { productsInCategory } from "@/lib/catalog";
+import { pageMeta, withCode } from "@/lib/seo";
 import { categories, categoryByPath } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -16,7 +17,12 @@ export async function generateMetadata({
   const { slug } = await params;
   const category = categoryByPath(slug);
   if (!category) return { title: "Tuoteryhmä" };
-  return { title: category.title, description: category.intro };
+  return pageMeta(
+    `/kategoria/${category.path}`,
+    category.title,
+    withCode(category.intro),
+    category.image,
+  );
 }
 
 export default async function CategoryPage({

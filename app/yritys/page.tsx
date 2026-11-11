@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Yritys",
-  description:
-    "3F UL GEAR on vuonna 2008 perustettu ultrakevyiden retkeilyvarusteiden valmistaja. 3fulgear.fi esittelee valikoiman suomeksi.",
-};
+export const metadata: Metadata = pageMeta(
+  "/yritys",
+  "Yritys",
+  "3F UL GEAR on vuonna 2008 perustettu ultrakevyiden retkeilyvarusteiden valmistaja. 3fulgear.fi esittelee valikoiman suomeksi.",
+);
 
 export default function AboutPage() {
   return (

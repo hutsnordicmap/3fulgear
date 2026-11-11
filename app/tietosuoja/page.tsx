@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Tietosuoja",
-  description: "Mitä 3fulgear.fi tallentaa kävijästä.",
-};
+export const metadata = pageMeta(
+  "/tietosuoja",
+  "Tietosuoja",
+  "Mitä 3fulgear.fi tallentaa kävijästä.",
+);
 
 export default function PrivacyPage() {
   return (

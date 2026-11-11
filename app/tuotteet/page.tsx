@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { ProductGrid } from "@/components/product-card";
 import { getCatalog } from "@/lib/catalog";
+import { pageMeta, withCode } from "@/lib/seo";
 import { categories } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Koko valikoima",
-  description: "3F UL GEAR -teltat, rinkat, sadevaatteet, kamiinat ja tarvikkeet suomeksi.",
-};
+export const metadata: Metadata = pageMeta(
+  "/tuotteet",
+  "Koko valikoima",
+  withCode("3F UL GEAR -teltat, rinkat, sadevaatteet, kamiinat ja tarvikkeet suomeksi."),
+);
 
 export default async function ProductsPage() {
   const catalog = await getCatalog();

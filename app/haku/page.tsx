@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import { ProductGrid } from "@/components/product-card";
 import { getCatalog, searchProducts } from "@/lib/catalog";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Haku",
+export const metadata = {
+  ...pageMeta("/haku", "Haku", "Haku 3F UL GEAR -tuotteista suomeksi."),
   robots: { index: false, follow: true },
 };
 

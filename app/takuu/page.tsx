@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Takuu",
-  description:
-    "3F UL GEAR hoitaa korjaukset ja varaosat. Tiivistelmä valmistajan takuusivusta suomeksi.",
-};
+export const metadata: Metadata = pageMeta(
+  "/takuu",
+  "Takuu",
+  "3F UL GEAR hoitaa korjaukset ja varaosat. Tiivistelmä valmistajan takuusivusta suomeksi.",
+);
 
 export default function WarrantyPage() {
   return (

@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog } from "@/lib/catalog";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl, DISCOUNT_CODE } from "@/lib/site";
 import type { Product } from "@/lib/types";
+
+export const metadata: Metadata = pageMeta(
+  "/",
+  { absolute: "Ultrakevyet teltat ja rinkat | 3F UL GEAR Suomi" },
+  "Suomenkielinen opas 3F UL GEAR -sauvatelttoihin, itsekantaviin telttoihin ja ultrakevyisiin rinkkoihin. Koodi HUTSNORDIC10 antaa 10 % alennuksen.",
+  "https://3fulgear.com/wp-content/uploads/2023/05/est-1.jpg",
+);
 
 const popular = [
   { slug: "lanshan-1", line: "780 g, 1 henkilö, kaksiseinämäinen" },

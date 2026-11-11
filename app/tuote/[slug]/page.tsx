@@ -6,6 +6,7 @@ import { PriceBlock } from "@/components/price";
 import { ProductGrid } from "@/components/product-card";
 import { getCatalog, getProduct } from "@/lib/catalog";
 import { formatRange, priceView, translateLabel } from "@/lib/pricing";
+import { breadcrumbLd, pageMeta, withCode } from "@/lib/seo";
 import { affiliateUrl, categoryById, discounted, DISCOUNT_CODE, formatEur, SITE_URL } from "@/lib/site";
 
 export async function generateStaticParams() {
@@ -21,13 +22,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = await getProduct(slug);
   if (!product) return { title: "Tuote" };
-  return {
-    title: product.nameFi,
-    description: product.summaryFi.slice(0, 180),
-    openGraph: {
-      images: product.images.slice(0, 1),
-    },
-  };
+  const category = categoryById(product.category);
+  const title = category ? `${product.nameFi} – ${category.title.toLocaleLowerCase("fi")}` : product.nameFi;
+  return pageMeta(
+    `/tuote/${product.slug}`,
+    title,
+    withCode(product.summaryFi),
+    product.images[0],
+  );
 }
 
 export default async function ProductPage({
@@ -46,27 +48,62 @@ export default async function ProductPage({
     .slice(0, 3);
   const buyUrl = affiliateUrl(product.permalink);
   const view = priceView(product);
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.nameFi,
-    brand: { "@type": "Brand", name: "3F UL GEAR" },
-    image: product.images,
-    description: product.summaryFi,
-    url: `${SITE_URL}/tuote/${product.slug}`,
-    offers:
-      view.min == null
-        ? undefined
+  const codePrice =
+    view.min == null
+      ? undefined
+      : `Hinta valmistajan kaupassa. Koodi ${DISCOUNT_CODE} antaa 10 % alennuksen kassalla${
+          view.max != null && view.max - view.min > 0.01
+            ? `, jolloin haarukka on ${formatEur(discounted(view.min))}–${formatEur(discounted(view.max))}`
+            : `, jolloin hinta on ${formatEur(discounted(view.min))}`
+        }.`;
+  const availability = product.inStock
+    ? "https://schema.org/InStock"
+    : "https://schema.org/OutOfStock";
+  const offer =
+    view.min == null
+      ? undefined
+      : view.max != null && view.max - view.min > 0.01
+        ? {
+            "@type": "AggregateOffer",
+            priceCurrency: "EUR",
+            lowPrice: view.min.toFixed(2),
+            highPrice: view.max.toFixed(2),
+            availability,
+            url: buyUrl,
+            seller: { "@type": "Organization", name: "3F UL GEAR" },
+            description: codePrice,
+          }
         : {
             "@type": "Offer",
             priceCurrency: "EUR",
             price: view.min.toFixed(2),
-            availability: product.inStock
-              ? "https://schema.org/InStock"
-              : "https://schema.org/OutOfStock",
+            availability,
             url: buyUrl,
+            itemCondition: "https://schema.org/NewCondition",
             seller: { "@type": "Organization", name: "3F UL GEAR" },
-          },
+            description: codePrice,
+          };
+  const crumbs = [
+    { name: "Valikoima", path: "/tuotteet" },
+    ...(category ? [{ name: category.title, path: `/kategoria/${category.path}` }] : []),
+    { name: product.nameFi, path: `/tuote/${product.slug}` },
+  ];
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        name: product.nameFi,
+        sku: product.slug,
+        inLanguage: "fi-FI",
+        brand: { "@type": "Brand", name: "3F UL GEAR" },
+        image: product.images,
+        description: product.summaryFi,
+        url: `${SITE_URL}/tuote/${product.slug}`,
+        offers: offer,
+      },
+      breadcrumbLd(crumbs),
+    ],
   };
 
   return (

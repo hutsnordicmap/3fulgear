@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/seo";
 import { affiliateUrl } from "@/lib/site";
 
 const articles = [
@@ -59,11 +59,11 @@ const articles = [
   },
 ];
 
-export const metadata: Metadata = {
-  title: "Oppaat",
-  description:
-    "Suomenkieliset tiivistelmät 3F UL GEAR -valmistajan pystytysohjeista ja retkikertomuksista.",
-};
+export const metadata = pageMeta(
+  "/oppaat",
+  "Oppaat",
+  "Suomenkieliset tiivistelmät 3F UL GEAR -valmistajan pystytysohjeista ja retkikertomuksista.",
+);
 
 export default function GuidesPage() {
   return (
