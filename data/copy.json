@@ -1,0 +1,760 @@
+{
+  "lanshan-1": {
+    "name": "Lanshan 1",
+    "summary": "Lanshan 1 on 3F UL GEAR -valmistajan yhden hengen kaksiseinämäinen sauvateltta. Vuoden 2026 versiossa on yksi ovi, yksi absidi ja sivulla kolmion muotoinen tila varusteille. Pystytys tehdään yhdellä vaellussauvalla, jonka pituus on valmistajan mukaan 120–125 cm. Saumat on teipattu. Tuotesivun mukaan teltan runko painaa noin 775 g ja polkukuntoon pakattuna noin 920 g. Valmistajan etusivu esittelee mallin noin 780 gramman teltana, joten pakkauksen tarkka paino kannattaa tarkistaa valitun sisäteltan mukaan.",
+    "bullets": [
+      "1 henkilö, kaksiseinämäinen sauvateltta",
+      "Ulkoteltta 15D nailon, PU-pinnoite",
+      "Lattia 20D PU-nailon, vesipilari 6000 mm, ammekorkeus 11 cm",
+      "3 vuodenajan verkkosisäteltta tai 4 vuodenajan umpikankainen sisäteltta",
+      "Värit: metsänvihreä, tummanharmaa ja khaki",
+      "Aluskangas on erillinen vaihtoehto, ei teltan perushinta"
+    ]
+  },
+  "lanshan2-classic": {
+    "name": "Lanshan 2",
+    "summary": "Lanshan 2 on kahden hengen kaksiseinämäinen sauvateltta ja valmistajan volyymimalli. Vuoden 2026 versiossa vetoketju on vaihdettu vedenpitävään vetoketjuun, ja sisäteltan lattian saumat on teipattu. Valmistajan mittojen mukaan ulkoteltta painaa noin 546 g, teltan runko noin 1020 g ja polkupaino kiiloineen noin 1152 g. Pelkkä ulkoteltta toimii valmistajan mukaan myös kevyenä suojana, noin 545 g.",
+    "bullets": [
+      "2 henkilöä, kaksiseinämäinen",
+      "Ulkoteltta noin 546 g, runko noin 1020 g",
+      "Polkupaino noin 1152 g kiiloineen",
+      "3 tai 4 vuodenajan sisäteltta",
+      "Vedenpitävä vetoketju vuoden 2026 mallissa",
+      "Vaellussauvat eivät sisälly hintaan"
+    ]
+  },
+  "lanshan-1-pro": {
+    "name": "Lanshan 1 Pro",
+    "summary": "Lanshan 1 Pro on yhden hengen yksiseinämäinen sauvateltta. Valmistaja kertoo rungon painoksi noin 690 g ja koko polkupainoksi noin 820–840 g vuodenaikavariantin mukaan. Kangas on silnylon tai silpoly. Yksiseinämäisen silnylon-teltan saumoja ei teipata tehtaalla, joten ne pitää silikonitiivistää ennen käyttöä. Tiivistysaine ei sisälly toimitukseen lentorahtisääntöjen vuoksi. Tiivistyksen voi tehdä itse tai tilata valmistajan palveluna.",
+    "bullets": [
+      "1 henkilö, yksiseinämäinen",
+      "Runko noin 681–688 g, polkupaino noin 819–826 g",
+      "Silnylon- tai silpoly-kangas, 3 tai 4 vuodenajan malli",
+      "Saumat pitää tiivistää ennen ensimmäistä käyttöä",
+      "Sauvat, aluskangas ja silikoniliima eivät sisälly",
+      "Aluskangas on erillinen edullisempi vaihtoehto kaupassa"
+    ]
+  },
+  "lanshan-2-pro": {
+    "name": "Lanshan 2 Pro",
+    "summary": "Lanshan 2 Pro on kahden hengen yksiseinämäinen sauvateltta. Valmistajan mukaan silnylon-runko painaa noin 900 g ja silpoly-runko noin 877 g. Minipolupaino on noin 1034 g. Ovet, myös verkko-ovet, aukeavat kokonaan. Kuten muissa Pro-malleissa, silnylon-saumat tiivistetään itse, eikä teltan mukana tule sauvoja, aluskangasta tai silikoniliimaa. Osa väri- ja kangasyhdistelmistä on alennuksessa valmistajan kaupassa.",
+    "bullets": [
+      "2 henkilöä, yksiseinämäinen",
+      "Runko noin 877–900 g kankaasta riippuen",
+      "Minipolupaino noin 1034 g",
+      "Silnylon tai silpoly, 3 tai 4 vuodenaikaa",
+      "Saumojen silikonitiivistys tehdään ennen käyttöä",
+      "Etusivun esittelypaino on noin 960 g"
+    ]
+  },
+  "taiji-1": {
+    "name": "Taiji 1",
+    "summary": "Taiji 1 on yhden hengen itsekantava kupoliteltta kolmella risteävällä kaarella. Valmistaja kuvaa sen ympärivuotiseen käyttöön: lumi- ja tuulikuormaa varten, ja sisäteltan voi vaihtaa umpikankaiseen. Sisä- ja ulkoteltta voi pystyttää yhdessä. Rakenne seisoo ilman kiiloja, mutta narut parantavat pitoa tuulessa. Ulkoteltan vesipilari on 5000 mm, saumat on teipattu ja kangas on 15D silnylon/PU.",
+    "bullets": [
+      "1 henkilö, itsekantava kaksoisseinä",
+      "Kolme risteävää kaarta",
+      "15D silnylon/PU-ulkoteltta, teipatut saumat",
+      "3 vuodenajan verkko tai 4 vuodenajan umpisisäteltta",
+      "Kiiloja ei tarvita pystytykseen, narupaikkoja on"
+    ]
+  },
+  "taiji-2": {
+    "name": "Taiji 2",
+    "summary": "Taiji 2 on kahden hengen itsekantava kupoliteltta samalla kolmen kaaren rakenteella kuin Taiji 1. Siinä on kaksi ovea. Valmistajan mittojen mukaan ulkoteltta painaa noin 740 g ja minimipolupaino kaarineen, kiiloineen ja naruineen noin 1950 g. Vakiokiinnityksiä on kahdeksan, joten kahdeksan narua voidaan jakaa neljälle kiilalle. Lisäkiinnikkeitä myydään erikseen.",
+    "bullets": [
+      "2 henkilöä, kaksi ovea",
+      "Ulkoteltta noin 740 g",
+      "Minimipolupaino noin 1950 g",
+      "Teipatut saumat, vesipilari 5000 mm",
+      "Aluskangas sisältyy valmistajan kuvauksen mukaan pakettiin"
+    ]
+  },
+  "taiji3": {
+    "name": "Taiji 3",
+    "summary": "Taiji 3 on kolmen hengen itsekantava kupoliteltta vaativaan säähän. Rakenteessa on kolme risteävää kaarta, kaksi kulkuaukkoa ja vaihdettava sisäteltta. Ulkoteltta on 15D silnylon/PU, saumat on teipattu ja vesipilari on 5000 mm. Valmistajan kauppa ei tällä hetkellä näytä euromääräistä perushintaa, joten hinta vahvistetaan tuotesivulla.",
+    "bullets": [
+      "3 henkilöä, itsekantava kaksoisseinä",
+      "Kaksi kulkuaukkoa",
+      "12 kiilapaikkaa ja 8 narupaikkaa",
+      "Hinta tarkistetaan virallisesta kaupasta"
+    ]
+  },
+  "floating-cloud-1": {
+    "name": "Floating Cloud 1",
+    "summary": "Floating Cloud 1 on yhden hengen itsekantava vaellusteltta yhdellä ovella ja yhdellä absidilla. Takana on säilytystila. Valmistaja kertoo ilmanvaihdosta absidin ala-aukolla ja yhdellä yläventtiilillä. Ulkoteltan vesipilari on 5000 mm, saumat on teipattu, ja aluskangas sisältyy pakettiin. Sisäteltan voi vaihtaa ympärivuotiseen.",
+    "bullets": [
+      "1 henkilö, itsekantava kupoli",
+      "Yksi ovi, yksi absidi ja takatasku",
+      "Heijastavat narut ja kulmahihnat",
+      "15D silnylon/PU, teipatut saumat"
+    ]
+  },
+  "floating-cloud-2": {
+    "name": "Floating Cloud 2",
+    "summary": "Floating Cloud 2 on kahden hengen itsekantava teltta kahdella ovella ja kahdella absidilla. Absidien vetoketjuissa on myrskyläpät. Valmistajan painot: ulkoteltta noin 620 g, kaaret noin 530 g ja polkupaino noin 1780 g. Aluskangas sisältyy ja painaa noin 232 g. Ilmanvaihtoon on ala-aukot ja kaksi sivuvetoketjua.",
+    "bullets": [
+      "2 henkilöä, kaksi ovea ja kaksi absidia",
+      "Polkupaino noin 1780 g",
+      "Kaaret noin 530 g",
+      "Aluskangas mukana, noin 232 g",
+      "3 tai 4 vuodenajan sisäteltta"
+    ]
+  },
+  "qingkong-3": {
+    "name": "Qingkong 3",
+    "summary": "Qingkong 3 on kolmen hengen itsekantava teltta, joka valmistajan mukaan seisoo kahdella maakiilalla. Siinä on kaksi kulkuaukkoa. Ulkoteltta painaa noin 676 g ja koko teltta ilman korjaussarjaa ja kiiloja noin 1920 g. Pohjamitat ovat noin 210 × 170 cm ja sisäkorkeus noin 125 cm. Sisäteltan voi vaihtaa umpikankaiseen.",
+    "bullets": [
+      "3 henkilöä",
+      "Ulkoteltta noin 676 g, kokonaispaino noin 1920 g",
+      "Mitat noin 210 × 170 × 125 cm",
+      "Teipatut saumat, vesipilari 5000 mm"
+    ]
+  },
+  "shell-2": {
+    "name": "Shell 2",
+    "summary": "Shell 2 on hybriditeltta, jossa yhdistyvät sauvateltta ja tunneliteltta. Siinä on kaksi ovea ja kaksi absidia. Keskellä on yksi kaareva kaari, ja pystytykseen tarvitaan myös vaellussauvat. Valmistaja kertoo ulkoteltan painoksi noin 765 g. Aluskangas sisältyy. Kaupan edullisin vaihtoehto on lisäkaarisarja, ei itse teltta.",
+    "bullets": [
+      "2 ovea ja 2 absidia",
+      "Tarvitsee vaellussauvat",
+      "Ulkoteltta noin 765 g",
+      "15D silnylon/PU, teipatut saumat",
+      "Aluskangas sisältyy teltan pakettiin"
+    ]
+  },
+  "taihang2": {
+    "name": "Taihang 2",
+    "summary": "Taihang 2 on kompakti tunneliteltta. Valmistajan mukaan teltta painaa kiiloineen noin 1790 g ja runko noin 1680 g. Tuulisuuntaan pystytettynä se on valmistajan kuvauksen mukaan hyvin tuulenpitävä. Aluskangas sisältyy. Sisäteltan voi vaihtaa ympärivuotiseen. Ulkoteltta on 15D silnylon/PU ja saumat on teipattu.",
+    "bullets": [
+      "Polkupaino noin 1790 g",
+      "Runko noin 1680 g, sisäteltta noin 488 g",
+      "Aluskangas mukana, noin 170 g",
+      "12 kiilapaikkaa ja 4 narupaikkaa",
+      "Lisäkaarisarja on erillinen, edullisempi vaihtoehto"
+    ]
+  },
+  "taihang-max": {
+    "name": "Taihang 2 Max",
+    "summary": "Taihang 2 Max on kolmen kaaren tunneliteltta isommalla absidilla. Valmistaja ilmoittaa polkupainoksi noin 2120 g ja teltan painoksi noin 1990 g. Aluskangas sisältyy. Vesipilari on 5000 mm ja saumat on teipattu. Virallisen kaupan tällä hetkellä näkyvä hintarivi on lisäkaarisarja, joten teltan täysi hinta vahvistetaan tuotesivulla.",
+    "bullets": [
+      "Tilavampi absidi kuin Taihang 2:ssa",
+      "Polkupaino noin 2120 g",
+      "15D silnylon/PU-ulkoteltta",
+      "Lattia 20D, vesipilari 6000 mm",
+      "16 kiilapaikkaa ja 12 narupaikkaa"
+    ]
+  },
+  "tianshan-pack": {
+    "name": "Tianshan-rinkka",
+    "summary": "Tianshan on noin 45 litran rinkka, jonka valmistaja suunnitteli vuoden 2024 Tianshan-vaellusta varten. Se painaa noin 990 g ison lantiovyön kanssa. Mukavuuskuorma on noin 15 kg ja enimmäiskuorma noin 18 kg. Selässä on alumiiniripustus ja muotoiltu, tuulettuva selkäpaneeli. Rinkka toimitetaan litteänä ja kootaan itse, jotta postitus pysyy kevyenä.",
+    "bullets": [
+      "Tilavuus 45 l",
+      "Paino noin 990 g isolla lantiovyöllä",
+      "Mukavuuskuorma 15 kg, enimmäiskuorma 18 kg",
+      "Alumiinirunko ja säädettävä selän pituus",
+      "Kangas UHMWPE-sekoitenailon tai Ultra200x"
+    ]
+  },
+  "tianshan-ultra": {
+    "name": "Tianshan Ultra",
+    "summary": "Tianshan Ultra on saman rinkkan Ultra200x-versio. Kangas on UHMWPE-kuitua ja PE-kalvoa, ja valmistaja teippaa noin 90 % saumoista. Ultra200x ei käytä DWR-käsittelyä eikä siten PFAS-yhdisteitä. Paino isolla lantiovyöllä on noin 980 g. Mukavuuskuorma on noin 15 kg ja enimmäiskuorma noin 18 kg. Pitkään sateeseen valmistaja suosittelee silti sisäpussia makuupussille. Upotus veteen voi päästää kosteutta teipatuistakin saumoista.",
+    "bullets": [
+      "Ultra200x, ei PFAS-käsittelyä",
+      "Paino noin 980 g",
+      "45 l, mukavuuskuorma 15 kg",
+      "Lantiovyön koot S ja L",
+      "Noin 90 % saumoista teipattu"
+    ]
+  },
+  "yue-45-ultra": {
+    "name": "Yue 55 Ultra",
+    "summary": "Yue 55 Ultra on Yue 55 -rinkka Challenge Sailclothin Ultra200x-kankaasta. Valmistajan mukaan rinkka painaa noin 1130 g ja sitä on mukava kantaa yli 20 kg kuormalla. Selässä on säädettävä alumiininen RAS-ripustus. Tilavuus on 55 litran luokkaa. Koot ovat S ja L.",
+    "bullets": [
+      "Ultra200x, noin 50 % UHMWPE",
+      "Paino noin 1130 g",
+      "Mukavuuskuorma yli 20 kg",
+      "Säädettävä alumiiniselkä",
+      "Koot S ja L"
+    ]
+  },
+  "yue-4510-ul-backpack": {
+    "name": "Yue 55",
+    "summary": "Yue 55 on alumiinirunkoinen rinkka, jonka valmistaja kuvaa tasapainoksi mukavuuden, kantokyvyn ja painon välillä. Ilmoitettu paino on noin 1100 g ja mukavuuskuorma yli 20 kg. Kangas on polymeerikuitua ja selkäpituus säädettävissä. Virallinen kauppa ei juuri nyt näytä euromääräistä hintaa, joten se vahvistetaan tuotesivulla. Ultra200x-versio on erillinen tuote.",
+    "bullets": [
+      "Noin 1100 g",
+      "Mukavuuskuorma yli 20 kg",
+      "Säädettävä alumiiniripustus",
+      "Hinta tarkistetaan virallisesta kaupasta"
+    ]
+  },
+  "tutor": {
+    "name": "Tutor 35",
+    "summary": "Tutor on pelkistetty 35 litran rinkka, jonka 3F UL GEAR julkaisi ensin vuonna 2017, veti pois 2019 ja toi uudelleen vuonna 2025. Uudessa mallissa on rullasulku, hiilikuitukaaret ja uudistetut olkaimet sekä lantiovyö. Peruskangas on verkkonaulon, jossa on 7 % UHMWPE:tä. Koko M painaa noin 650 g. Enimmäiskuorma on noin 12 kg.",
+    "bullets": [
+      "35 l, paino noin 650 g koossa M",
+      "Hiilikuitukaaret ja irrotettava selkäpaneeli",
+      "Enimmäiskuorma noin 12 kg",
+      "Värit khaki, keltainen, musta ja harmaa",
+      "Koot M ja L"
+    ]
+  },
+  "tutor-ultra": {
+    "name": "Tutor Ultra 35",
+    "summary": "Tutor Ultra 35 on saman vuoden 2025 Tutor-rinkan versio Ultra100x-kankaasta. Rakenne on muuten vastaava: rullasulku, hiilikuiturunko, 35 litraa ja noin 650 g koossa M. Enimmäiskuorma on noin 12 kg. Rinkka on tarkoitettu kevyeen ja nopeaan vaellukseen.",
+    "bullets": [
+      "Ultra100x-kangas",
+      "35 l ja noin 650 g (M)",
+      "Hiilikuituripustus",
+      "Enimmäiskuorma noin 12 kg"
+    ]
+  },
+  "qidian-pro-backpack": {
+    "name": "Qidian Pro",
+    "summary": "Qidian Pro on kehikoton rinkka, jonka selkäpaneelina käytetään makuualustaa. Alusta ei sisälly hintaan. Valmistajan mukaan paino on noin 880 g, sisätilavuus 56 l ja kuorma enintään noin 14 kg. Kangas on UHMWPE-sekoitenailonia. Sulku on rullattava, ja rinkassa on sivutaskut sekä lantiovyön taskut.",
+    "bullets": [
+      "Noin 880 g ja 56 l",
+      "Kuorma enintään noin 14 kg",
+      "Kehikoton, makuualusta toimii selkäpaneelina",
+      "Sopii valmistajan mukaan pituudelle 170–190 cm",
+      "Makuualusta ei sisälly"
+    ]
+  },
+  "qidian": {
+    "name": "QiDian 40+16",
+    "summary": "QiDian 40+16 on kehikoton ja kevyt rinkka. Valmistaja ilmoittaa painoksi noin 850 g, enimmäiskuormaksi noin 12 kg ja tilavuudeksi 40 l plus 16 l, enintään noin 55 l. Runko on nailonia.",
+    "bullets": [
+      "Paino noin 850 g",
+      "40 + 16 l, enintään noin 55 l",
+      "Enimmäiskuorma noin 12 kg",
+      "Kehikoton"
+    ]
+  },
+  "freedom-20l-daypack": {
+    "name": "Freedom 20 l päiväreppu",
+    "summary": "Freedom on vyötön päiväreppu, jonka pääpussi on vedenpitävä kuivapussi. Vakiotilavuus on 20 l, ja pussin voi vaihtaa isompaan. Ilman lantiovyötä valmistaja suosittelee pitämään tilavuuden alle 25 litrassa ja kuorman alle 5 kilossa. Koko reppu painaa noin 460 g, pelkkä kehys noin 400 g. Kehys yksin on noin 10 litraa. Selän pituus on noin 45 cm.",
+    "bullets": [
+      "20 l, noin 460 g",
+      "Vedenpitävä pääpussi, rullattava kuivapussi",
+      "Kuormasuositus alle 5 kg",
+      "Olkaimissa neljä pientä taskua",
+      "Värit musta, keltainen, khaki ja harmaa"
+    ]
+  },
+  "koala-daypack": {
+    "name": "Koala-päiväreppu",
+    "summary": "Koala on päiväretkille tehty reppu, joka painaa noin 524 g ja vetää noin 20 litraa. Kangas on 70D UHMWPE-verkkonaulonia. Selässä on aaltoileva vaahtopaneeli ja irrotettava lantiovyö. Olkaimissa on neljä verkkotaskua.",
+    "bullets": [
+      "20 l ja noin 524 g",
+      "70D UHMWPE-verkkonaulon",
+      "Irrotettava lantiovyö",
+      "Neljä taskua olkahihnoissa"
+    ]
+  },
+  "ultralight-rain-jacket": {
+    "name": "Ultrakevyt sadetakki",
+    "summary": "Tämä on 3F UL GEAR -valmistajan ultrakevyt sadetakki ilman edessä kulkevaa vetoketjua. Koko L painaa noin 178 g. Hengittävyydeksi ilmoitetaan 14 000 g/m²/24 h kiinalaisen GB/T-standardin mukaan, mikä valmistajan arvion mukaan vastaa noin 8 000–10 000 g/m²/24 h ASTM E96 -testissä. Kainaloissa on tuuletusvetoketjut. Leikkaus on väljä. Kangas on C6-vedenpitävä ja sisältää PFAS-yhdisteitä. Valmistaja suosittelee pariksi sadetakkia tai sadehametta.",
+    "bullets": [
+      "Noin 178 g koossa L",
+      "Kainaloiden tuuletusvetoketjut",
+      "Väljä leikkaus kerrosten päälle",
+      "C6-käsittely, sisältää PFAS-yhdisteitä",
+      "Saumat teipattu"
+    ]
+  },
+  "ultralight-rain-jacket-zip": {
+    "name": "Ultrakevyt sadetakki, vetoketju",
+    "summary": "Sama sadetakki etuvetoketjulla, jotta takin saa pois nopeammin. Se on hieman painavampi: koko L noin 200 g. Hengittävyys, kainalotuuletus, väljä leikkaus ja C6-käsittely vastaavat vetoketjutonta mallia. Kangas sisältää PFAS-yhdisteitä.",
+    "bullets": [
+      "Etuvetoketju",
+      "Noin 200 g koossa L",
+      "Kainaloiden tuuletusvetoketjut",
+      "Sisältää PFAS-yhdisteitä"
+    ]
+  },
+  "ultralight-rain-pants": {
+    "name": "Ultrakevyet sadehousut",
+    "summary": "Sadehousut on tehty 20D polyesteristä, jossa on 7 % UHMWPE:tä. Koko M painaa noin 176 g ilman pussia, S noin 168 g ja L noin 182 g. Leikkaus on väljä, jotta housut voi vetää kenkien yli. Hengittävyysluku on sama 14 000 g/m²/24 h kuin sadetakissa. C6-käsittely sisältää PFAS-yhdisteitä.",
+    "bullets": [
+      "Noin 168–182 g koon mukaan",
+      "Päälle ilman kenkien riisumista",
+      "20D polyesteri ja UHMWPE",
+      "Sisältää PFAS-yhdisteitä"
+    ]
+  },
+  "minimalist-rain-pants": {
+    "name": "Minimaaliset sadehousut",
+    "summary": "Minimaaliset sadehousut peittävät jalat mutta jättävät haarovälin auki, joten ne on tarkoitettu pitkän sadetakin tai sadeviitan seuraksi. Paino on noin 90 g. Pinnoite on silikonia ja PU:ta, eikä tässä tuotteessa ole fluori- tai PFOA-yhdisteitä. Jos pituus on yli 170 cm, valmistaja pyytää valitsemaan koon L, muuten M. Housut voi pukea kenkiä riisumatta.",
+    "bullets": [
+      "Noin 90 g",
+      "Ei PFAS- eikä PFOA-yhdisteitä",
+      "Pariksi sadetakille, sadeviitalle tai sadehameelle",
+      "Koot M ja L, raja-arvo 170 cm"
+    ]
+  },
+  "41836": {
+    "name": "Sadehame",
+    "summary": "Sadehame suojaa lantiota ja reisiä ilman että kenkiä tarvitsee riisua. Valmistaja ilmoittaa painoksi noin 115 g ja mitoiksi noin 72 × 177 cm. Vyötärö säätyy noin 70–100 cm. Kangas on 20D UHMWPE-sekoitenailonia, vesipilari 3000 mm. Vuoden 2023 lopulla kangas vaihdettiin kestävämpään. Värit ovat khaki ja vihreä.",
+    "bullets": [
+      "Noin 115 g",
+      "Vyötärö 70–100 cm",
+      "Vesipilari 3000 mm",
+      "Päälle noin viidessä sekunnissa valmistajan mukaan"
+    ]
+  },
+  "ultralight-tarp-poncho": {
+    "name": "Sadeviitta",
+    "summary": "Valikoimassa on sadeviitta, vetoketjullinen sadeviitta ja laavukankaaksi muuntuva viitta. Kangas on silnylon PU-pinnoitteella, vesipilari 5000 mm, ja saumat on teipattu. Huppu, vyö ja kulmakiinnikkeet pitävät viitan paikallaan tuulessa. Hihat on muotoiltu niin, että rinkka mahtuu viitan alle.",
+    "bullets": [
+      "Sadeviitta, vetoketjuviitta tai laavuviitta",
+      "Silnylon, vesipilari 5000 mm",
+      "Teipatut saumat",
+      "Kulmakiinnikkeet tuulta vastaan"
+    ]
+  },
+  "burningfeather-ul-alcohol-stove": {
+    "name": "BurningFeather-spritikeitin",
+    "summary": "BurningFeather on 3F UL GEAR -valmistajan spritikeitinsarja. BF-S01 ja BF-S03 on tarkoitettu veden keittämiseen, BF-S02 ja BF-S04 hauduttamiseen. BF-S01 painaa noin 12 g, polttaa täyden 30 ml annoksen noin 11 minuutissa ja keittää valmistajan testissä 500 ml vettä noin 6 minuutissa. Tuulisuoja tehdään tilauksesta pannun mittojen mukaan, ja toimitus vie noin 1–2 viikkoa. Spritikeitin on kielletty osalla reiteistä ja kansallispuistoissa, joten paikalliset säännöt pitää tarkistaa.",
+    "bullets": [
+      "Useita tehoja: keitto tai haudutus",
+      "Tuulisuoja mittojen mukaan",
+      "Valmistusaika noin 1–2 viikkoa",
+      "Tarkista spritikiellot ennen retkeä"
+    ]
+  },
+  "alcohol-stove": {
+    "name": "Spritikeitin",
+    "summary": "Erillinen spritikeitin ilman kattilasettiä. BF-S03 on suurempitehoinen veden keittämiseen ja painaa noin 12 g. BF-S02 on miedompi ruoanlaittoon ja painaa noin 16 g. Molempien säiliö on noin 30 ml.",
+    "bullets": [
+      "BF-S03 noin 12 g, BF-S02 noin 16 g",
+      "Halkaisija ja korkeus mallista riippuen noin 42–54 mm",
+      "Polttoaine on denaturoitu sprii"
+    ]
+  },
+  "conical-alcohol-burner-cooking-kit": {
+    "name": "Kartiotuulensuojan keitinsarja",
+    "summary": "Sarjassa on alumiininen spritikeitin, 750 ml titaanipata ja kaksiosainen kartiomainen titaanituulisuoja. Valmistaja kertoo koko järjestelmän painavan vähemmän kuin yhden kaasupatruunan ja pakkautuvan pienempään tilaan. Keitin BF-S01 painaa noin 8 g, BF-S02 noin 16 g, pata noin 128 g ja tuulisuoja noin 49 g. Kartiotuulisuoja on valmistajan mukaan tehokkaampi tuulessa kuin tasainen suoja. Spriin käyttöä on rajoitettu osassa maastoa.",
+    "bullets": [
+      "Keitin, 750 ml titaanipata ja tuulisuoja",
+      "Pata noin 128 g, tuulisuoja noin 49 g",
+      "Tarkoitettu noin 2–3 päivän retkille",
+      "Tarkista spritikiellot"
+    ]
+  },
+  "beetle16": {
+    "name": "Beetle 16 2.0",
+    "summary": "Beetle 16 2.0 on suuri tunneliteltta autoleiriin ja kuumateltaksi. Vuoden 2024 päivityksessä kangas on 70D nailonia ja kattoon on lisätty kattoikkunoita. Sisälle mahtuu valmistajan mukaan jopa kuusi ihmistä oleilemaan. Telttaa voi käyttää Tribe-puukamiinan kanssa. TPU-ovi muuttaa sen näköalahuoneeksi. Vesipilari on 3000 mm ja saumat on teipattu. Kaupan peruspakkaus on teltta, ja jatkososa, sisäosa sekä pressu ovat erillisiä vaihtoehtoja.",
+    "bullets": [
+      "Tukikohta- ja kuumateltta, enintään noin 6 henkeä",
+      "70D nailon, useita kattoikkunoita",
+      "Yhteensopiva Tribe-kamiinan kanssa",
+      "Vesipilari 3000 mm, teipatut saumat",
+      "PFOA-vapaa valmistajan mukaan"
+    ]
+  },
+  "tribe-4-hot-tent": {
+    "name": "Tribe 4 -kuumateltta",
+    "summary": "Tribe 4 on neljän hengen tiipii, jonka kangas on palosuojattua polyesteriä. Se on kangastelttaa kevyempi ja nailontelttaa vähemmän venyvä. Vuoden 2022 version voi avata laavuksi. Kamiinalle on hormiaukko, ja lumiliepeen korkeutta voi säätää kiilapaikoilla. Pystytys onnistuu valmistajan pikaohjaimella noin 10 minuutissa. Vesipilari on 5000 mm. Euromääräistä hintaa ei juuri nyt näy, joten se vahvistetaan kaupassa.",
+    "bullets": [
+      "Enintään 4 henkeä",
+      "Palosuojattu polyesteri",
+      "Hormiaukko Tribe-kamiinalle",
+      "Voidaan avata laavuksi",
+      "Hinta tarkistetaan virallisesta kaupasta"
+    ]
+  },
+  "tribe-wood-stove-1-0": {
+    "name": "Tribe-puukamiina 1.0",
+    "summary": "Tribe 1.0 on ruostumattomasta teräksestä tehty puukamiina kuumatelttaan. Kamiinan runko painaa noin 1855 g ja pakkaus pussin kanssa noin 2460 g. Pakkausmitta on noin 45 × 26 × 6 cm. Valmistaja kieltää käytön ilman käsineitä, lasten käsissä ja syövyttävillä pesuaineilla. Ensimmäisen polton jälkeinen pieni elämä ja nokijäljet ovat valmistajan mukaan normaaleja. Lasinen varaosa myydään erikseen.",
+    "bullets": [
+      "304-teräs",
+      "Runko noin 1855 g, paketti noin 2460 g",
+      "Säilytysmitta noin 45 × 26 × 6 cm",
+      "Käytä käsineitä ja pidä paloeturva"
+    ]
+  },
+  "tribe-wood-stove-titanium-ver": {
+    "name": "Tribe-puukamiina, titaani",
+    "summary": "Titaaninen Tribe-kamiina on teräsversiota kevyempi. Runko painaa noin 1180 g ja paketti pussin kanssa noin 1710 g. Pakkausmitta on sama noin 45 × 26 × 6 cm. Pinnassa voi olla kuljetusnaarmuja, jotka eivät valmistajan mukaan haittaa käyttöä. Tuote on tällä hetkellä alennuksessa virallisessa kaupassa. Paloturvallisuusohje on sama kuin teräsmallissa.",
+    "bullets": [
+      "Titaanirunko noin 1180 g",
+      "Paketti noin 1710 g",
+      "Pieni elämä ja nokijäljet ensimmäisen käytön jälkeen ovat odotettuja",
+      "Ei syövyttäviä pesuaineita"
+    ]
+  },
+  "west-wind-stove": {
+    "name": "West Wind -kamiina",
+    "summary": "West Wind on teltan tulisija, jossa voi polttaa puuta tai pellettia. Iso lasi tuo valoa ja lämpöä telttaan. Runko on 304-terästä, seinässä on mikrokristalilasia. Pieni runko painaa noin 18 kg ja suuri noin 24 kg, joten kyseessä on autoleirin kamiina, ei rinkkakamiina. Hormin täysi korkeus on noin 195 cm. Valmistaja veloittaa tästä painosta erillisen rahdin, koska se ylittää tuetun postituksen rajan.",
+    "bullets": [
+      "Puu tai pelletti",
+      "Pieni runko noin 18 kg, suuri noin 24 kg",
+      "Lasiluukku",
+      "Rahti laskutetaan erikseen"
+    ]
+  },
+  "wood-stove-folding-chimney": {
+    "name": "Rullattava hormi",
+    "summary": "Ruostumattomasta teräksestä tehty hormi, joka rullataan kasaan. Pituudet ovat 2,5 m ja 3 m. Se on tarkoitettu kannettaviin puukamiinoihin.",
+    "bullets": [
+      "Ruostumaton teräs",
+      "Pituudet 2,5 m ja 3 m",
+      "Rullautuu pieneksi"
+    ]
+  },
+  "lightweight-tarp": {
+    "name": "Kevyt laavukangas",
+    "summary": "Laavukangasta on polyesterinä ja 15D nailonina. Molemmissa on hopeinen UV-pinnoite, UPF yli 50. Polyesterikangas painaa 3 × 3 metrissä noin 750 g, nailon noin 600 g. Isommat koot 4 × 3 m ja 5 × 3 m ovat painavampia. Narupaikkoja on kahdeksan. Pakettiin kuuluu kangas ja kuusi narua. Kaaret ja kiilat myydään erikseen.",
+    "bullets": [
+      "Polyesteri tai 15D nailon",
+      "Koot 3 × 3, 4 × 3 ja 5 × 3 m",
+      "Nailon 3 × 3 m noin 600 g",
+      "UPF yli 50",
+      "Kaarisarja erikseen"
+    ]
+  },
+  "tarp-pole-stake-set": {
+    "name": "Laavun kaaret ja kiilat",
+    "summary": "Sarja 3F UL GEAR -laavukankaalle. Mukana on kaksi kaarta. Kaaret ovat valmistajan laavusivun mukaan 16 mm paksua ja 2 metrin pituista 7075-alumiinia, noin 672 g kappaleelta, kun koko settä verrataan laavun lisävarustelistaan.",
+    "bullets": [
+      "Kaksi laavukaarta",
+      "Tarkoitettu Lightweight Tarp -kankaalle",
+      "Alumiini 7075 valmistajan laavusivun listauksessa"
+    ]
+  },
+  "hiking-umbrella": {
+    "name": "Vaellussateenvarjo",
+    "summary": "3F UL GEAR on käyttänyt vaellussateenvarjoa vuodesta 2015 sadetakin rinnalla. Varjo hengittää, pitää kasvot kuivina ja käy myös leirissä, jotta märkää takkia ei tarvitse viedä telttaan. Auringossa se vähentää valmistajan mukaan haihtumista ja siten juomaveden tarvetta. Malleja on useampi paino- ja kokoluokka.",
+    "bullets": [
+      "Sade- ja aurinkosuoja",
+      "Käyttö myös leirissä",
+      "Useita kokoja valmistajan kaupassa"
+    ]
+  },
+  "aqualite-water-filter": {
+    "name": "Aqualite-vedensuodatin",
+    "summary": "Aqualite on noin 23 gramman pullosuodatin. Valmistajan mukaan se vähentää bakteereja, alkueläinkystia kuten Cryptosporidiumia, mikromuoveja ja muita makean veden epäpuhtauksia, kun sitä käytetään ohjeen mukaan. Se sopii useimpiin 28 mm pulloihin ja sovittimella osaan 30 mm pulloista. Mukana on sovitin.",
+    "bullets": [
+      "Noin 23 g",
+      "28 mm pullonkierre, sovitin 30 mm pulloille",
+      "Kalvo on PSU-muovia",
+      "Ei korvaa kaiken veden keittämistä, jos ohje niin vaatii"
+    ]
+  },
+  "c1-trekking-pole": {
+    "name": "C1-vaellussauva",
+    "summary": "C1 on hiilikuituvarrellinen vaellussauva. Ylin putki on 7075-alumiinia. Suurin pituus on 135 cm, kasaan painettuna 65 cm ja paino noin 182 g kappaleelta. Kahva on vaahtoa, rannehihna kangasta ja lukot ulkoiset. Valmistaja myöntää vuoden rajoitetun takuun materiaali- ja valmistusvirheille ja myy varaosia.",
+    "bullets": [
+      "Noin 182 g / kpl",
+      "135 cm auki, 65 cm kasassa",
+      "Hiilikuituvarsi, alumiininen yläputki",
+      "Myydään yksittäin tai parina"
+    ]
+  },
+  "carbon-tent-pole": {
+    "name": "Hiilikuituinen telttakaari",
+    "summary": "Telttakaari heille, jotka eivät käytä vaellussauvoja. Pituus on 125 cm, joten se sopii Lanshan-telttoihin. Kasaan taitettuna pituus on 35 cm. Paino on noin 82 g, halkaisija 12 mm ja seinämä 1 mm. Lanshan 1 tarvitsee yhden kaaren, Lanshan 2 kaksi.",
+    "bullets": [
+      "125 cm, noin 82 g",
+      "Pakattuna 35 cm",
+      "Lanshan 1: yksi kappale, Lanshan 2: kaksi"
+    ]
+  },
+  "lanshan-footprint-ground-sheet": {
+    "name": "Lanshan-aluskangas",
+    "summary": "Aluskangas Lanshan-sarjan telttoihin. Se ei ole pakollinen. Lanshan 1- ja 1 Pro -kangas painaa noin 100 g, Lanshan 2- ja 2 Pro -kangas noin 156 g.",
+    "bullets": [
+      "Lanshan 1 / 1 Pro noin 100 g",
+      "Lanshan 2 / 2 Pro noin 156 g",
+      "Ei pakollinen varuste"
+    ]
+  },
+  "bathtub-footprint": {
+    "name": "Ammealuskangas",
+    "summary": "15D nailonista tehty ammemallinen aluskangas. Lanshan 1 -koko on noin 80 × 230 cm ja painaa noin 187 g. Lanshan 2 -koko on noin 110 × 216 cm ja painaa noin 211 g. Reunan korkeus on noin 18 cm.",
+    "bullets": [
+      "Reunakorkeus noin 18 cm",
+      "Lanshan 1 noin 187 g",
+      "Lanshan 2 noin 211 g"
+    ]
+  },
+  "seam-sealing": {
+    "name": "Saumojen tiivistyspalvelu",
+    "summary": "Palvelu on tarkoitettu Lanshan Pro -telttoihin. Tavallista Lanshan 1- ja 2-mallia ei tarvitse silikonitiivistää, koska niiden saumat teipataan. Pro-mallien silnylon-saumat tiivistetään jälkikäteen. Palvelu voi viivästyttää tilausta 3–4 viikkoa. Valmistaja suosittelee ensisijaisesti itse tekemistä ja tarjoaa ohjeen sivuillaan.",
+    "bullets": [
+      "Vain Lanshan Pro",
+      "Viive noin 3–4 viikkoa",
+      "Tavallinen Lanshan ei tarvitse tätä palvelua"
+    ]
+  },
+  "fastsil-silicone-sealant": {
+    "name": "FastSil-silikonitiiviste",
+    "summary": "Nopeasti kuivuva silikoni saumojen tiivistykseen. Valmistajan mukaan pinta kuivuu noin 6 tunnissa. Se käy sil/sil-kankaisiin, myös Lanshan Prohon ja muiden merkkien vastaaviin telttoihin. Paketissa on tuubi ja levitysväline. Nesteenä se lähetetään usein erillisessä paketissa, eikä sitä voi lähettää kaikkiin maihin. Hinta sisältää postituksen.",
+    "bullets": [
+      "Kuivuu noin 6 tunnissa",
+      "Yksi tuubi ja levitysväline",
+      "Toimitus usein erillisenä pakettina",
+      "Ei kaikkiin maihin"
+    ]
+  },
+  "hollow-stakes": {
+    "name": "Ontot kiilat",
+    "summary": "7075-alumiiniset ontot kiilat. Halkaisija on 8,5 mm ja kärki on umpinainen. 15 cm kiila painaa noin 10 g ja sopii kovemmalle maalle. 20 cm kiila painaa noin 12 g ja sopii pehmeämpään. Myydään 6 tai 10 kappaleen pusseissa, ei yksittäin.",
+    "bullets": [
+      "15 cm noin 10 g, 20 cm noin 12 g",
+      "7075-alumiini",
+      "6 tai 10 kappaleen pakkaus"
+    ]
+  },
+  "ultralight-carbon-stakes": {
+    "name": "Hiilikuitukiilat",
+    "summary": "Hiilikuitukiilat pehmeään maahan. 15 cm kiila painaa noin 5,2 g ja 20 cm noin 7,6 g. Kärki ja hattu ovat alumiinia, hattu punainen jotta kiila löytyy. Paketissa on kuusi kiilaa ja pussi. Niitä ei saa lyödä vasaralla. Valmistajan kokemuksen mukaan nämä ovat ainoat kiilat, jotka ovat menneet lentokentän röntgenistä.",
+    "bullets": [
+      "6 kiilaa pussissa",
+      "15 cm noin 5,2 g",
+      "Ei vasarointia",
+      "Pehmeälle maalle"
+    ]
+  },
+  "x-aluminium-stakes": {
+    "name": "Y-alumiinikiila",
+    "summary": "Telttojen vakiokiila, myydään yksittäin. Materiaali on 7-sarjan alumiinia ja paino noin 9 g. Määrä valitaan kaupassa.",
+    "bullets": [
+      "Noin 9 g kappale",
+      "Myydään yksittäin",
+      "7-sarjan alumiini"
+    ]
+  },
+  "uhmwpe-cord": {
+    "name": "Heijastava UHMWPE-naru",
+    "summary": "1,5 mm naru laavun tai teltan harukseen ja esimerkiksi ruokasäkin nostoon. Pituus on 20 m. Ydin on UHMWPE-kuitua, ja vetolujuus on valmistajan mukaan noin 100 kg. Mukana on kymmenen kiristintä. Naru heijastaa pimeässä.",
+    "bullets": [
+      "20 m, paksuus 1,5 mm",
+      "Vetolujuus noin 100 kg",
+      "10 kiristintä",
+      "Heijastava"
+    ]
+  },
+  "vestibule-hooks": {
+    "name": "Absidin koukut",
+    "summary": "Koukut Lanshan Pro gen 2 -telttaan, titaanina tai alumiinina. Molemmat painavat noin 4 g. Vuoden 2026 Lanshan 1 ja 2 käyttävät alumiinikoukkua, Pro gen 2 titaania. Lanshan 1 tarvitsee yhden ja Lanshan 2 kaksi.",
+    "bullets": [
+      "Alumiini tai titaani, noin 4 g",
+      "Lanshan 1: yksi, Lanshan 2: kaksi",
+      "Myös vanhemman teltan päivitykseen"
+    ]
+  },
+  "dual-pole-clips": {
+    "name": "Kaksoiskaaren kiinnikkeet",
+    "summary": "Kiinnike lisää kaksi lisäkaarta kaaritunnelilla varustettuun telttaan tuulen varalle. Kaaren halkaisija saa olla enintään 10 mm. Sopivuus vaihtelee malleittain. Tällä tuotesivulla myydään yksittäinen kiinnike. Taihang 2-, Taihang 2 Max- ja Shell 2 -telttoihin valmistajalla on edullisempi paketti teltan omalla sivulla.",
+    "bullets": [
+      "Kaaren halkaisija enintään 10 mm",
+      "Yksittäinen kiinnike",
+      "Sopivuutta ei taata kaikkiin telttoihin"
+    ]
+  },
+  "clips-for-taiji": {
+    "name": "Taiji-narukiinnikkeet",
+    "summary": "Neljän kiinnikkeen sarja Taiji-teltan narupaikkojen lisäämiseen. Tilaus on rajoitettu kahteen sarjaan.",
+    "bullets": [
+      "4 kiinnikettä",
+      "Taiji-telttoihin",
+      "Enintään 2 sarjaa per tilaus"
+    ]
+  },
+  "luminous-sticker": {
+    "name": "Pimeässä hohtava tarra",
+    "summary": "Vedenpitävä tarra, joka hohtaa pimeässä. Koko on noin 13 × 2,5 cm. Sen voi kiinnittää sileään pintaan, esimerkiksi teltan vetoketjuun tai kaareen.",
+    "bullets": [
+      "13 × 2,5 cm",
+      "Vedenpitävä",
+      "Hohtaa pimeässä"
+    ]
+  },
+  "tent-pole-repair-sleeve": {
+    "name": "Kaaren korjausholkki",
+    "summary": "Noin 10 gramman holkki katkenneen telttakaaren päälle. Sopii enintään 10 mm kaariin. Valmistaja suosittelee sitä pitkille retkille varaholkkina.",
+    "bullets": [
+      "Noin 10 g",
+      "Kaaret enintään 10 mm",
+      "Pitää katkenneen kaaren käytössä"
+    ]
+  },
+  "tent-pole-for-aftersales": {
+    "name": "Telttakaaret uusina",
+    "summary": "Täysi kaarisarja vain 3F UL GEAR -telttoihin. Jos katkeaa enintään kaksi kaariosuutta, valmistaja pyytää kirjoittamaan ensin: takuun piirissä olevat osat voivat olla postikulun hinnalla. Tämä tuote on koko uusi sarja.",
+    "bullets": [
+      "Vain valmistajan telttoihin",
+      "Koko sarja, ei yksittäinen pätkä",
+      "Yksittäiset pätkät kannattaa kysyä ensin takuuna"
+    ]
+  },
+  "beetle-2-0-poles-aftersale": {
+    "name": "Beetle 2.0 -kaaren varaosat",
+    "summary": "Varaosakaaria Beetle 2.0 -telttaan. Pituus ja pääty pitää mitata ennen tilausta, koska kaarityyppejä on useita. Virallisen kaupan asiakasta valmistaja pyytää ottamaan yhteyttä lomakkeella, jos kyse on takuuhuollosta.",
+    "bullets": [
+      "Useita kaarityyppejä",
+      "Mittaa pituus ja pääty ennen ostoa",
+      "Takuuasia hoidetaan ensin valmistajan kanssa"
+    ]
+  },
+  "tent-components": {
+    "name": "Erillinen ulko- tai sisäteltta",
+    "summary": "Ulkoteltta tai sisäteltta olemassa olevaan 3F UL GEAR -malliin. Sisäteltassa valitaan 3 tai 4 vuodenaikaa, ulkoteltassa väri. Kiilat ja narut eivät sisälly. Osat tehdään usein tilauksesta, joten Lanshan-toimitus vie noin 2–3 viikkoa, Floating Cloud noin 3–4 viikkoa ja muut teltat noin 1–3 kuukautta.",
+    "bullets": [
+      "Ei kiiloja eikä naruja",
+      "Lanshan noin 2–3 viikkoa",
+      "Muut mallit jopa 1–3 kuukautta",
+      "Valitse teltan malli kaupassa"
+    ]
+  },
+  "lanshan-tent-sack": {
+    "name": "Teltan pakkauspussi",
+    "summary": "Rullattava pussi silnylonista. Koko S on Lanshan-telttoihin: noin 42 g, 9 l ja 55 × 23 cm. Koko L sopii Taiji- ja Floating Cloud -teltoille tai vaatteille: noin 52 g, 13 l ja 68 × 28 cm. Saumoja ei ole tiivistetty, joten pussi ei ole valmiiksi vedenpitävä. Silikonitiivistys muuttaa sen kuivapussiksi.",
+    "bullets": [
+      "S noin 42 g / 9 l",
+      "L noin 52 g / 13 l",
+      "Rullasulku puristaa jonkin verran",
+      "Ei valmiiksi vedenpitävä"
+    ]
+  },
+  "lightweight-dry-sack": {
+    "name": "Kevyt kuivapussi",
+    "summary": "15D nailoninen kuivapussi rullasululla. Kolme taitosta ja solki sulkevat sen. Se on tarkoitettu rinkkaan makuupussille, vaatteille ja elektroniikalle. Kangas on läpikuultava. Tässä mallissa ei ole ilmanpoistoventtiiliä. Puristettava malli on erillinen tuote.",
+    "bullets": [
+      "15D nailon",
+      "Rullasulku",
+      "Ei ilmanpoistoventtiiliä",
+      "Useita kokoja"
+    ]
+  },
+  "waterproof-bag": {
+    "name": "Puristettava kuivapussi",
+    "summary": "Kuivapussi, josta ilman voi painaa ulos, jotta paksu makuupussi mahtuu hetkeksi pienempään tilaan. Puristus kestää valmistajan mukaan noin puoli tuntia, minkä jälkeen rinkka pitää pussin kasassa. Pussi on vedenpitävä. Väri on satunnainen. Kokoja on 12, 24 ja 36 l, ja kangas on 15D nailon tai 30D Cordura. 12 litran nailonpussi painaa noin 48 g.",
+    "bullets": [
+      "12, 24 ja 36 l",
+      "15D nailon tai 30D Cordura",
+      "Puristus auttaa pakkaamista noin puolen tunnin ajan",
+      "Väri vaihtelee"
+    ]
+  },
+  "pack-cover": {
+    "name": "Rinkkasuoja",
+    "summary": "UHMWPE-verkkonaulonista tehty sadesuoja rinkkaan. Koot: S 20–35 l, M 35–50 l, L 50–70 l ja XL 65–85 l.",
+    "bullets": [
+      "S 20–35 l",
+      "M 35–50 l",
+      "L 50–70 l",
+      "XL 65–85 l"
+    ]
+  },
+  "water-bottle-sleeve": {
+    "name": "Pullotasku olkahihnaan",
+    "summary": "UHMWPE-verkosta ja joustavasta verkosta tehty tasku, joka sopii useimpien rinkkojen olkahihnaan. Yläkoukku estää valumisen. Päätilaan mahtuu noin 500 ml pullo, ja venyvä tasku puhelimelle tai kompassille. Koko on noin 15 × 9 cm ja paino noin 31 g. Suu kiristyy, jotta pullo ei putoa kumartuessa.",
+    "bullets": [
+      "Noin 31 g",
+      "15 × 9 cm",
+      "Noin 500 ml pullo",
+      "Koukku pitää taskun hihnassa"
+    ]
+  },
+  "ultralight-gaiters": {
+    "name": "Ultrakevyet nilkkurit",
+    "summary": "Nilkkurit, joita ei tarvitse kiinnittää kenkään ruuveilla. Ne sopivat useimpiin polkujuoksukenkiin ja ovat vedenpitävät, joten ne käyvät myös lumelle. Kuivaan helteeseen valmistaja ei niitä suosittele, koska vesi ei pääse haihtumaan. Kangas on 20D UHMWPE-verkkonaulonia ja paino noin 44 g. Säädön ansiosta ne sopivat jalkaterän pituudelle noin 23–28 cm.",
+    "bullets": [
+      "Noin 44 g",
+      "Ei kenkämuutoksia",
+      "Vedenpitävät",
+      "Jalkaterä noin 23–28 cm"
+    ]
+  },
+  "footbox-bivy": {
+    "name": "Jalkopään bivy",
+    "summary": "Jalkopään suojus makuupussille. UHMWPE-versio painaa noin 60 g, on sisältä teipattu ja vedenpitävä mutta ei hengitä. Tyvek-versio painaa noin 43 g, hengittää ja hillitsee kondenssia jonkin verran.",
+    "bullets": [
+      "UHMWPE noin 60 g, vedenpitävä",
+      "Tyvek noin 43 g, hengittävä",
+      "Suojaa makuupussin jalkopäätä"
+    ]
+  },
+  "tyvek-bivy": {
+    "name": "Tyvek-bivy",
+    "summary": "Tyvek-pussi, joka peittää makuupussin jalkopään kokonaan ja laskeutuu ylhäältä pussin päälle. Tyvek on kevyttä, vedenpitävää ja hengittävää. Valmistaja ei suosittele sitä ainoaksi suojaksi ilman telttaa tai laavua, koska vedenpitävyys on rajallinen. Talvella sitä on käytetty niin, että verkkosisäteltta jätetään pois.",
+    "bullets": [
+      "Suojaa makuupussia teltan kondenssilta",
+      "Ei ainoa suoja sateessa",
+      "Kevyt Tyvek-kangas"
+    ]
+  },
+  "insulated-bag": {
+    "name": "Eristävä ruokapussi",
+    "summary": "Kierrätysmuovista ja Tyvekistä tehty pussi, joka pitää retkiruoan lämpimänä. Paino on noin 18 g. Mitat ovat ylhäältä noin 24 cm, alhaalta 21 cm ja korkeus 23 cm.",
+    "bullets": [
+      "Noin 18 g",
+      "Noin 24 / 21 × 23 cm",
+      "Retkiruoan lämpöpussi"
+    ]
+  },
+  "bumfresh": {
+    "name": "BumFresh-huuhtelukorkki",
+    "summary": "Pulloon kiinnitettävä huuhtelusuutin, jolla vesipullosta tulee kannettava suihku. Se sopii 28–30 mm pullonkierteeseen. Valmistaja esittelee sen vaihtoehtona vessapaperille maastossa.",
+    "bullets": [
+      "28–30 mm kierre",
+      "Kiinnitetään tavalliseen pulloon",
+      "Pieni ja kevyt"
+    ]
+  },
+  "spare-part-for-after-sale-service": {
+    "name": "Takuuvaraosat ja postitus",
+    "summary": "Pienet osat, kuten vetoketjun vedin, solki, kuminauha tai paikka, voivat kuulua valmistajan ilmaiseen varaosapalveluun. Osat toimivat vain 3F UL GEAR -tuotteissa. Itse osa on ilmainen virallisen kaupan asiakkaille, mutta postitus maksetaan. Posti on ollut noin 8 USD. Tämä tuotesivu on tapa maksaa se postitus. Jos ostat jälleenmyyjältä, valmistaja pyytää kääntymään ensin myyjän puoleen.",
+    "bullets": [
+      "Osa ilmainen, posti maksullinen",
+      "Vain valmistajan omiin tuotteisiin",
+      "Virallisen kaupan ostotosite tarvitaan",
+      "Posti noin 8 USD valmistajan ohjeessa"
+    ]
+  },
+  "customised-products": {
+    "name": "Mittatilaus",
+    "summary": "Tämä on maksulinkki erikois- ja mittatilaustuotteille. Valmistaja pyytää olemaan yhteydessä ennen maksamista. Älä osta tuotetta kysymättä, mitä riviä olet maksamassa.",
+    "bullets": [
+      "Ota ensin yhteys valmistajaan",
+      "Ei valmis tuote hyllystä",
+      "Hinta riippuu sovitusta työstä"
+    ]
+  },
+  "3fulgear-buckle-01-2np": {
+    "name": "3F UL GEAR -solki 01-2NP",
+    "summary": "Rinkan korjaussolki 1–1,5 cm hihnalle. Jos osa kuuluu takuuseen, valmistaja hyvittää osan hinnan ja pyytää maksamaan vain nimellisen postikulun.",
+    "bullets": [
+      "Hihna 1–1,5 cm",
+      "Rinkan korjaukseen",
+      "Kysy takuu ensin"
+    ]
+  },
+  "duraflex-0110np": {
+    "name": "Duraflex 0110NP",
+    "summary": "Duraflex-solki rinkan korjaukseen. Sopii noin 1,2–1,5 cm hihnalle. Takuun piirissä valmistaja hyvittää osan ja veloittaa postikulun.",
+    "bullets": [
+      "Hihna 1,2–1,5 cm",
+      "Rinkan solki",
+      "Kysy takuu ensin"
+    ]
+  },
+  "duraflex-04-1np": {
+    "name": "Duraflex 04-1NP",
+    "summary": "Duraflex-solki rinkan lantiovyöhön. Sopii noin 3–4 cm hihnalle. Takuukäytännössä osa voidaan hyvittää ja jäljelle jää postikulu.",
+    "bullets": [
+      "Hihna 3–4 cm",
+      "Lantiovyön solki",
+      "Kysy takuu ensin"
+    ]
+  },
+  "itw-cord-buckle": {
+    "name": "ITW-narulukko",
+    "summary": "ITW-lukko rinkkaan tai telttaan. Sopii 1–1,2 cm hihnalle ja 1,5–2 mm narulle. Takuuosa voidaan hyvittää, jolloin maksat postikulun.",
+    "bullets": [
+      "Hihna 1–1,2 cm",
+      "Naru 1,5–2 mm",
+      "Kysy takuu ensin"
+    ]
+  }
+}
