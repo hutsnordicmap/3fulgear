@@ -27,6 +27,11 @@ export default function PrivacyPage() {
           voi yhdistää ostoksen tähän sivustoon. Alennuskoodi HUTSNORDIC10
           syötetään valmistajan kassalla.
         </p>
+        <p>
+          Kävijämäärät lasketaan ilman evästeitä. Sivusto ei tallenna
+          IP-osoitetta eikä tunnista kävijää, vaan näkee vain koottuja lukuja,
+          kuten sivujen katselut, maan ja laitetyypin.
+        </p>
       </div>
     </article>
   );
