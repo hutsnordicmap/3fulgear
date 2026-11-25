@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { PromoBar } from "@/components/promo-bar";
+import { Stats } from "@/components/stats";
 import { siteGraph } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
@@ -48,6 +49,7 @@ export default function RootLayout({
         </div>
         <main className="flex-1">{children}</main>
         <Footer />
+        <Stats />
       </body>
     </html>
   );
