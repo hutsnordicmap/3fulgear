@@ -1,3 +1,4 @@
+import type { Lang } from "@/lib/i18n";
 import type { Product, Variation } from "@/lib/types";
 
 const ACCESSORY_LABEL =
@@ -63,7 +64,7 @@ export function formatRange(min: number, max: number, format: (value: number) =>
   return `${format(min)}–${format(max)}`;
 }
 
-const LABEL_RULES: Array<[RegExp, string]> = [
+const LABEL_RULES_FI: Array<[RegExp, string]> = [
   [/Forest\s*Green/gi, "metsänvihreä"],
   [/Dark\s*Gr[ae]y/gi, "tummanharmaa"],
   [/Metal\s*Gr[ae]y/gi, "metallinharmaa"],
@@ -102,9 +103,48 @@ const LABEL_RULES: Array<[RegExp, string]> = [
   [/Small/g, "pieni"],
 ];
 
-export function translateLabel(label: string) {
+const LABEL_RULES_SV: Array<[RegExp, string]> = [
+  [/Forest\s*Green/gi, "skogsgrön"],
+  [/Dark\s*Gr[ae]y/gi, "mörkgrå"],
+  [/Metal\s*Gr[ae]y/gi, "metallgrå"],
+  [/Gr[ae]y\s*white/gi, "gråvit"],
+  [/Khaki\\?\/Brown/gi, "khaki/brun"],
+  [/Khaki/gi, "khaki"],
+  [/Black/gi, "svart"],
+  [/Yellow/gi, "gul"],
+  [/Orange/gi, "orange"],
+  [/Purple/gi, "lila"],
+  [/White/gi, "vit"],
+  [/Brown/gi, "brun"],
+  [/Green/gi, "grön"],
+  [/Gr[ae]y/gi, "grå"],
+  [/Footprint(?:\([^)]*\))?/gi, "underlag"],
+  [/Full season/gi, "året runt"],
+  [/4[\s-]*season/gi, "fyrsäsongs"],
+  [/3[\s-]*season/gi, "tresäsongs"],
+  [/mesh inner/gi, "innertält i nät"],
+  [/Solid Nylon/gi, "tät nylon"],
+  [/Inner tent/gi, "innertält"],
+  [/Mesh/gi, "nät"],
+  [/MAIN TENT KIT/gi, "tältets grundpaket"],
+  [/EXTEND PART/gi, "förlängningsdel"],
+  [/TPU TRANSPARENT DOOR/gi, "genomskinlig TPU-dörr"],
+  [/STOVE KIT/gi, "kaminpaket"],
+  [/GLASS\(Spare parts\)/gi, "glas (reservdel)"],
+  [/Dual-Pole Clips & Extra Pole/gi, "dubbelstångsklämmor och extra stång"],
+  [/Single Wind Screen/gi, "enkelt vindskydd"],
+  [/Twin Wind Screen/gi, "tvådelat vindskydd"],
+  [/T3 frame/gi, "T3-ram"],
+  [/T4 frame/gi, "T4-ram"],
+  [/\(2026 ver\)/gi, "(2026)"],
+  [/2026 ver/gi, "2026"],
+  [/Large/g, "stor"],
+  [/Small/g, "liten"],
+];
+
+export function translateLabel(label: string, lang: Lang = "fi") {
   let text = label.replace(/\\\//g, "/").replace(/\s+/g, " ").trim();
-  for (const [pattern, replacement] of LABEL_RULES) {
+  for (const [pattern, replacement] of lang === "sv" ? LABEL_RULES_SV : LABEL_RULES_FI) {
     text = text.replace(pattern, replacement);
   }
   return text.replace(/\s+\/\s+/g, " / ").replace(/\s+–\s+/g, " – ");

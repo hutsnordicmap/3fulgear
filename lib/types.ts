@@ -9,7 +9,8 @@ export type Product = {
   id: number;
   slug: string;
   name: string;
-  nameFi: string;
+  /** Name, summary and bullets in the page's language (Finnish or Swedish). */
+  title: string;
   category: string;
   permalink: string;
   images: string[];
@@ -17,8 +18,8 @@ export type Product = {
   onSale: boolean;
   variations: Variation[];
   eurSummary: number[];
-  summaryFi: string;
-  bulletsFi: string[];
+  summary: string;
+  bullets: string[];
 };
 
 export type ProductCopy = {

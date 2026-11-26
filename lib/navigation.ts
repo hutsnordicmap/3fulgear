@@ -1,5 +1,6 @@
-import { articles } from "@/lib/guides";
-import { categories } from "@/lib/site";
+import { guidesFor } from "@/lib/guides";
+import { href, ui, type Lang } from "@/lib/i18n";
+import { localCategories } from "@/lib/site";
 import type { Product } from "@/lib/types";
 
 export type NavItem = {
@@ -58,20 +59,20 @@ const categoryThumb: Record<string, string> = {
   "repair-parts": "3fulgear-buckle-01-2np",
 };
 
-const topCategories = [
-  { id: "ultralight-tent", label: "Ultrakevyet teltat" },
-  { id: "freestanding-tent", label: "Itsekantavat" },
-  { id: "packs", label: "Rinkat" },
-  { id: "rain-gear", label: "Sadevaatteet" },
-  { id: "accessories", label: "Tarvikkeet" },
-  { id: "stoves", label: "Kamiinat" },
+const topCategories: { id: string; label: Record<Lang, string> }[] = [
+  { id: "ultralight-tent", label: { fi: "Ultrakevyet teltat", sv: "Ultralätta tält" } },
+  { id: "freestanding-tent", label: { fi: "Itsekantavat", sv: "Fristående" } },
+  { id: "packs", label: { fi: "Rinkat", sv: "Ryggsäckar" } },
+  { id: "rain-gear", label: { fi: "Sadevaatteet", sv: "Regnkläder" } },
+  { id: "accessories", label: { fi: "Tarvikkeet", sv: "Tillbehör" } },
+  { id: "stoves", label: { fi: "Kamiinat", sv: "Kaminer" } },
 ];
 
 function imageFor(products: Product[], slug: string) {
   return products.find((product) => product.slug === slug)?.images[0] ?? "";
 }
 
-function productsIn(products: Product[], categoryId: string) {
+function productsIn(products: Product[], categoryId: string, lang: Lang) {
   const lead = leadSlugs[categoryId] ?? [];
   const rank = new Map(lead.map((slug, index) => [slug, index]));
   return products
@@ -80,63 +81,66 @@ function productsIn(products: Product[], categoryId: string) {
       const left = rank.get(a.slug) ?? 1000;
       const right = rank.get(b.slug) ?? 1000;
       if (left !== right) return left - right;
-      return a.nameFi.localeCompare(b.nameFi, "fi");
+      return a.title.localeCompare(b.title, lang);
     });
 }
 
-function productLinks(products: Product[], categoryId: string): NavItem[] {
-  return productsIn(products, categoryId).map((product) => ({
+function productLinks(products: Product[], categoryId: string, lang: Lang): NavItem[] {
+  return productsIn(products, categoryId, lang).map((product) => ({
     id: product.slug,
-    label: product.nameFi,
-    href: `/tuote/${product.slug}`,
+    label: product.title,
+    href: href(lang, `/tuote/${product.slug}`),
     image: product.images[0],
   }));
 }
 
-export function buildNav(products: Product[]): NavItem[] {
+export function buildNav(products: Product[], lang: Lang): NavItem[] {
+  const t = ui[lang];
+  const categories = localCategories(lang);
+  const { articles } = guidesFor(lang);
   const categoryLinks: NavItem[] = categories.map((category) => ({
     id: `shop-${category.id}`,
     label: category.title,
-    href: `/kategoria/${category.path}`,
+    href: href(lang, `/kategoria/${category.path}`),
     image: imageFor(products, categoryThumb[category.id] ?? "") || category.image,
   }));
 
   const categoryItems: NavItem[] = topCategories.map((item) => {
     const category = categories.find((entry) => entry.id === item.id);
-    const children = productLinks(products, item.id);
+    const children = productLinks(products, item.id, lang);
     return {
       id: item.id,
-      label: item.label,
-      href: category ? `/kategoria/${category.path}` : "/tuotteet",
+      label: item.label[lang],
+      href: href(lang, category ? `/kategoria/${category.path}` : "/tuotteet"),
       children: children.length > 0 ? children : undefined,
     };
   });
 
   return [
-    { id: "home", label: "Etusivu", href: "/" },
-    { id: "shop", label: "Kauppa", href: "/tuotteet", children: categoryLinks },
+    { id: "home", label: t.home, href: href(lang, "/") },
+    { id: "shop", label: t.shop, href: href(lang, "/tuotteet"), children: categoryLinks },
     ...categoryItems,
     {
       id: "guides",
-      label: "Artikkelit",
-      href: "/oppaat",
+      label: t.articles,
+      href: href(lang, "/oppaat"),
       children: [
         {
           id: "guides-all",
-          label: "Kaikki artikkelit",
-          href: "/oppaat",
+          label: t.allArticles,
+          href: href(lang, "/oppaat"),
           image: "https://3fulgear.com/wp-content/uploads/2025/11/IMG_0075.jpg",
         },
         ...articles.map((article) => ({
           id: article.slug,
           label: article.title,
-          href: `/oppaat/${article.slug}`,
+          href: href(lang, `/oppaat/${article.slug}`),
           image: article.image,
         })),
         {
           id: "guides-pitch",
-          label: "Lanshan 2:n pystytys",
-          href: "/oppaat/lanshan-pystytys",
+          label: t.pitchGuide,
+          href: href(lang, "/oppaat/lanshan-pystytys"),
           image: imageFor(products, "lanshan2-classic"),
         },
       ],

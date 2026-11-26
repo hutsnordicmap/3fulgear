@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
+import { usePagePath } from "@/lib/use-page-path";
 
 // Cookieless visitor stats through the huts.fi analytics worker: no cookies, no personal data.
 // Works like huts.fi's own counter: a page counts once the visitor scrolls, taps, clicks or types
@@ -28,7 +28,7 @@ function liveHost() {
 }
 
 export function Stats({ enabled = true }: { enabled?: boolean }) {
-  const pathname = usePathname();
+  const pathname = usePagePath();
   const engaged = useRef(false);
   const firedPath = useRef<string | null>(null);
   const previousPath = useRef<string | null>(null);

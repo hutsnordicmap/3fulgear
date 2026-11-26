@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { ui, type Lang } from "@/lib/i18n";
 import { DISCOUNT_CODE } from "@/lib/site";
 
-export function CodeButton({ light = false }: { light?: boolean }) {
+export function CodeButton({ light = false, lang }: { light?: boolean; lang: Lang }) {
   const [copied, setCopied] = useState(false);
 
   async function copy() {
@@ -26,7 +27,7 @@ export function CodeButton({ light = false }: { light?: boolean }) {
           : "rounded-full bg-ink px-3 py-1 font-semibold tracking-wide text-paper hover:bg-moss"
       }
     >
-      {copied ? "Kopioitu" : DISCOUNT_CODE}
+      {copied ? ui[lang].copied : DISCOUNT_CODE}
     </button>
   );
 }

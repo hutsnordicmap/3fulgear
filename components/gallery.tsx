@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function Gallery({ images, alt }: { images: string[]; alt: string }) {
+export function Gallery({ images, alt, imageLabel }: { images: string[]; alt: string; imageLabel: string }) {
   const [index, setIndex] = useState(0);
   const current = images[index] ?? images[0];
 
@@ -33,7 +33,7 @@ export function Gallery({ images, alt }: { images: string[]; alt: string }) {
               className={`h-16 w-16 shrink-0 overflow-hidden rounded-xl border ${
                 imageIndex === index ? "border-ink" : "border-transparent"
               }`}
-              aria-label={`Kuva ${imageIndex + 1}`}
+              aria-label={`${imageLabel} ${imageIndex + 1}`}
             >
               <img src={image} alt="" className="h-full w-full object-cover" />
             </button>
