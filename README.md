@@ -20,4 +20,10 @@ python3 scripts/emit-seed-sql.py   # rewrite supabase/seed.sql after a catalog r
 node scripts/seed-supabase.mjs     # optional: load the catalog with the service role in the shell
 ```
 
+## Finnish and Swedish
+
+Finnish pages have no prefix (`/tuote/lanshan-1`), Swedish pages are the same address under `/sv` (`/sv/tuote/lanshan-1`). Both come from `app/[lang]`; `next.config.ts` rewrites Finnish addresses to `lang = fi`, so there is no middleware. The FI | SV switcher sits in the header.
+
+Where the words live: product copy in `data/copy.json` (fi) and `data/copy.sv.json` (sv); guides in `lib/guides.ts` and `lib/guides.sv.ts`; category text in `lib/site.ts`; shared words in `lib/i18n.ts`; page text at the top of each page in a `text = { fi, sv }` object. When Finnish text changes, change the Swedish next to it. A product missing from `copy.sv.json` shows a short Swedish fallback.
+
 Copy for the Finnish text lives in `data/copy.json`. Prices and image URLs live in `data/products.json`.

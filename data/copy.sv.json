@@ -1,0 +1,760 @@
+{
+  "lanshan-1": {
+    "name": "Lanshan 1",
+    "summary": "Lanshan 1 är ett dubbelväggigt stavtält för en person från tillverkaren 3F UL GEAR. Versionen från 2026 har en dörr, en absid och ett triangelformat utrymme för utrustning på sidan. Tältet reses med en vandringsstav, vars längd enligt tillverkaren är 120–125 cm. Sömmarna är tejpade. Enligt produktsidan väger tältets stomme cirka 775 g och packat för leden cirka 920 g. Tillverkarens startsida presenterar modellen som ett tält på cirka 780 gram, så den exakta vikten på paketet bör kontrolleras utifrån vilket innertält du väljer.",
+    "bullets": [
+      "1 person, dubbelväggigt stavtält",
+      "Yttertält i 15D nylon, PU-beläggning",
+      "Golv i 20D PU-nylon, vattenpelare 6000 mm, höjd på badkarsgolvet 11 cm",
+      "Innertält i nät för 3 säsonger eller helt tätt innertält för 4 säsonger",
+      "Färger: skogsgrön, mörkgrå och khaki",
+      "Underlag (footprint) är ett separat tillval och ingår inte i grundpriset"
+    ]
+  },
+  "lanshan2-classic": {
+    "name": "Lanshan 2",
+    "summary": "Lanshan 2 är ett dubbelväggigt stavtält för två personer och tillverkarens volymmodell. I versionen från 2026 har dragkedjan bytts mot en vattentät dragkedja, och sömmarna i innertältets golv är tejpade. Enligt tillverkarens mått väger yttertältet cirka 546 g, tältets stomme cirka 1020 g och vikten på leden med tältpinnar cirka 1152 g. Enbart yttertältet fungerar enligt tillverkaren också som ett lätt skydd, cirka 545 g.",
+    "bullets": [
+      "2 personer, dubbelväggigt",
+      "Yttertält cirka 546 g, stomme cirka 1020 g",
+      "Vikt på leden cirka 1152 g med tältpinnar",
+      "Innertält för 3 eller 4 säsonger",
+      "Vattentät dragkedja i 2026 års modell",
+      "Vandringsstavar ingår inte i priset"
+    ]
+  },
+  "lanshan-1-pro": {
+    "name": "Lanshan 1 Pro",
+    "summary": "Lanshan 1 Pro är ett enkelväggigt stavtält för en person. Tillverkaren anger stommens vikt till cirka 690 g och hela vikten på leden till cirka 820–840 g beroende på säsongsvariant. Tyget är silnylon eller silpoly. Sömmarna i enkelväggiga silnylon-tält tejpas inte på fabriken, så de måste tätas med silikon före användning. Tätningsmedlet ingår inte i leveransen på grund av reglerna för flygfrakt. Tätningen kan du göra själv eller beställa som en tjänst av tillverkaren.",
+    "bullets": [
+      "1 person, enkelväggigt",
+      "Stomme cirka 681–688 g, vikt på leden cirka 819–826 g",
+      "Silnylon- eller silpolytyg, modell för 3 eller 4 säsonger",
+      "Sömmarna måste tätas före första användningen",
+      "Stavar, underlag och silikonlim ingår inte",
+      "Underlag (footprint) finns som ett separat, billigare alternativ i butiken"
+    ]
+  },
+  "lanshan-2-pro": {
+    "name": "Lanshan 2 Pro",
+    "summary": "Lanshan 2 Pro är ett enkelväggigt stavtält för två personer. Enligt tillverkaren väger stommen i silnylon cirka 900 g och stommen i silpoly cirka 877 g. Minimivikten på leden är cirka 1034 g. Dörrarna, även myggnätsdörrarna, kan öppnas helt. Liksom i de andra Pro-modellerna tätar man sömmarna i silnylon själv, och det följer inte med stavar, underlag eller silikonlim. Vissa färg- och tygkombinationer har rabatt i tillverkarens butik.",
+    "bullets": [
+      "2 personer, enkelväggigt",
+      "Stomme cirka 877–900 g beroende på tyg",
+      "Minimivikt på leden cirka 1034 g",
+      "Silnylon eller silpoly, 3 eller 4 säsonger",
+      "Sömmarna tätas med silikon före användning",
+      "Vikten som anges på startsidan är cirka 960 g"
+    ]
+  },
+  "taiji-1": {
+    "name": "Taiji 1",
+    "summary": "Taiji 1 är ett fristående kupoltält för en person med tre korsande bågar. Tillverkaren beskriver det som ett tält för året runt, med tanke på snö- och vindlast, och innertältet kan bytas mot ett helt tätt. Inner- och yttertältet kan resas tillsammans. Konstruktionen står utan tältpinnar, men linorna ger bättre fäste i blåsigt väder. Yttertältets vattenpelare är 5000 mm, sömmarna är tejpade och tyget är 15D silnylon/PU.",
+    "bullets": [
+      "1 person, fristående med dubbla väggar",
+      "Tre korsande bågar",
+      "Yttertält i 15D silnylon/PU, tejpade sömmar",
+      "Nätinnertält för 3 säsonger eller tätt innertält för 4 säsonger",
+      "Tältpinnar behövs inte för att resa tältet, det finns fästpunkter för linor"
+    ]
+  },
+  "taiji-2": {
+    "name": "Taiji 2",
+    "summary": "Taiji 2 är ett fristående kupoltält för två personer med samma konstruktion med tre bågar som Taiji 1. Det har två dörrar. Enligt tillverkarens mått väger yttertältet cirka 740 g och minimivikten på leden med bågar, tältpinnar och linor cirka 1950 g. Det finns åtta standardfästen, så åtta linor kan fördelas på fyra tältpinnar. Extra fästen säljs separat.",
+    "bullets": [
+      "2 personer, två dörrar",
+      "Yttertält cirka 740 g",
+      "Minimivikt på leden cirka 1950 g",
+      "Tejpade sömmar, vattenpelare 5000 mm",
+      "Underlag ingår i paketet enligt tillverkarens beskrivning"
+    ]
+  },
+  "taiji3": {
+    "name": "Taiji 3",
+    "summary": "Taiji 3 är ett fristående kupoltält för tre personer, avsett för krävande väder. Konstruktionen har tre korsande bågar, två ingångar och ett utbytbart innertält. Yttertältet är 15D silnylon/PU, sömmarna är tejpade och vattenpelaren är 5000 mm. Tillverkarens butik visar för tillfället inget grundpris i euro, så priset bekräftas på produktsidan.",
+    "bullets": [
+      "3 personer, fristående med dubbla väggar",
+      "Två ingångar",
+      "12 fästpunkter för tältpinnar och 8 för linor",
+      "Priset kontrolleras i den officiella butiken"
+    ]
+  },
+  "floating-cloud-1": {
+    "name": "Floating Cloud 1",
+    "summary": "Floating Cloud 1 är ett fristående vandringstält för en person med en dörr och en absid. Baktill finns ett förvaringsutrymme. Tillverkaren beskriver ventilationen som en nedre öppning i absiden och en ventil upptill. Yttertältets vattenpelare är 5000 mm, sömmarna är tejpade och underlag ingår i paketet. Innertältet kan bytas mot ett för året runt.",
+    "bullets": [
+      "1 person, fristående kupol",
+      "En dörr, en absid och ett bakfack",
+      "Reflekterande linor och hörnremmar",
+      "15D silnylon/PU, tejpade sömmar"
+    ]
+  },
+  "floating-cloud-2": {
+    "name": "Floating Cloud 2",
+    "summary": "Floating Cloud 2 är ett fristående tält för två personer med två dörrar och två absider. Absidernas dragkedjor har stormlappar. Tillverkarens vikter: yttertält cirka 620 g, bågar cirka 530 g och vikt på leden cirka 1780 g. Underlag ingår och väger cirka 232 g. För ventilationen finns nedre öppningar och två dragkedjor på sidorna.",
+    "bullets": [
+      "2 personer, två dörrar och två absider",
+      "Vikt på leden cirka 1780 g",
+      "Bågar cirka 530 g",
+      "Underlag medföljer, cirka 232 g",
+      "Innertält för 3 eller 4 säsonger"
+    ]
+  },
+  "qingkong-3": {
+    "name": "Qingkong 3",
+    "summary": "Qingkong 3 är ett fristående tält för tre personer som enligt tillverkaren står med två tältpinnar. Det har två ingångar. Yttertältet väger cirka 676 g och hela tältet utan reparationssats och tältpinnar cirka 1920 g. Golvytan är cirka 210 × 170 cm och invändig höjd cirka 125 cm. Innertältet kan bytas mot ett helt tätt.",
+    "bullets": [
+      "3 personer",
+      "Yttertält cirka 676 g, totalvikt cirka 1920 g",
+      "Mått cirka 210 × 170 × 125 cm",
+      "Tejpade sömmar, vattenpelare 5000 mm"
+    ]
+  },
+  "shell-2": {
+    "name": "Shell 2",
+    "summary": "Shell 2 är ett hybridtält som kombinerar ett stavtält och ett tunneltält. Det har två dörrar och två absider. I mitten finns en enda böjd båge, och för att resa tältet behövs också vandringsstavar. Tillverkaren anger yttertältets vikt till cirka 765 g. Underlag ingår. Det billigaste alternativet i butiken är en extra bågsats, inte själva tältet.",
+    "bullets": [
+      "2 dörrar och 2 absider",
+      "Kräver vandringsstavar",
+      "Yttertält cirka 765 g",
+      "15D silnylon/PU, tejpade sömmar",
+      "Underlag ingår i tältpaketet"
+    ]
+  },
+  "taihang2": {
+    "name": "Taihang 2",
+    "summary": "Taihang 2 är ett kompakt tunneltält. Enligt tillverkaren väger tältet cirka 1790 g med tältpinnar och stommen cirka 1680 g. Enligt tillverkarens beskrivning är det mycket vindtåligt när det reses i vindriktningen. Underlag ingår. Innertältet kan bytas mot ett för året runt. Yttertältet är 15D silnylon/PU och sömmarna är tejpade.",
+    "bullets": [
+      "Vikt på leden cirka 1790 g",
+      "Stomme cirka 1680 g, innertält cirka 488 g",
+      "Underlag medföljer, cirka 170 g",
+      "12 fästpunkter för tältpinnar och 4 för linor",
+      "Extra bågsats är ett separat, billigare alternativ"
+    ]
+  },
+  "taihang-max": {
+    "name": "Taihang 2 Max",
+    "summary": "Taihang 2 Max är ett tunneltält med tre bågar och en större absid. Tillverkaren anger vikten på leden till cirka 2120 g och tältets vikt till cirka 1990 g. Underlag ingår. Vattenpelaren är 5000 mm och sömmarna är tejpade. Prisraden som för tillfället syns i den officiella butiken gäller en extra bågsats, så tältets fulla pris bekräftas på produktsidan.",
+    "bullets": [
+      "Rymligare absid än på Taihang 2",
+      "Vikt på leden cirka 2120 g",
+      "Yttertält i 15D silnylon/PU",
+      "Golv i 20D, vattenpelare 6000 mm",
+      "16 fästpunkter för tältpinnar och 12 för linor"
+    ]
+  },
+  "tianshan-pack": {
+    "name": "Tianshan-ryggsäck",
+    "summary": "Tianshan är en ryggsäck på cirka 45 liter som tillverkaren utformade för Tianshan-vandringen 2024. Den väger cirka 990 g med det stora höftbältet. Bekväm last är cirka 15 kg och maxlasten cirka 18 kg. På ryggen finns ett bärsystem i aluminium och en formad, ventilerad ryggplatta. Ryggsäcken levereras platt och sätts ihop själv, så att postningen hålls lätt.",
+    "bullets": [
+      "Volym 45 l",
+      "Vikt cirka 990 g med stort höftbälte",
+      "Bekväm last 15 kg, maxlast 18 kg",
+      "Aluminiumram och justerbar rygglängd",
+      "Tyg i UHMWPE-blandnylon eller Ultra200x"
+    ]
+  },
+  "tianshan-ultra": {
+    "name": "Tianshan Ultra",
+    "summary": "Tianshan Ultra är samma ryggsäck i en version av Ultra200x. Tyget består av UHMWPE-fiber och PE-film, och tillverkaren tejpar cirka 90 % av sömmarna. Ultra200x använder ingen DWR-behandling och därmed inga PFAS-ämnen. Vikten med stort höftbälte är cirka 980 g. Bekväm last är cirka 15 kg och maxlasten cirka 18 kg. Vid långvarigt regn rekommenderar tillverkaren ändå en innerpåse för sovsäcken. Om ryggsäcken doppas i vatten kan fukt tränga in även genom de tejpade sömmarna.",
+    "bullets": [
+      "Ultra200x, ingen PFAS-behandling",
+      "Vikt cirka 980 g",
+      "45 l, bekväm last 15 kg",
+      "Höftbälte i storlekarna S och L",
+      "Cirka 90 % av sömmarna tejpade"
+    ]
+  },
+  "yue-45-ultra": {
+    "name": "Yue 55 Ultra",
+    "summary": "Yue 55 Ultra är ryggsäcken Yue 55 i Challenge Sailcloths Ultra200x-tyg. Enligt tillverkaren väger ryggsäcken cirka 1130 g och är bekväm att bära med över 20 kg last. På ryggen finns ett justerbart RAS-bärsystem i aluminium. Volymen ligger på cirka 55 liter. Storlekarna är S och L.",
+    "bullets": [
+      "Ultra200x, cirka 50 % UHMWPE",
+      "Vikt cirka 1130 g",
+      "Bekväm last över 20 kg",
+      "Justerbar aluminiumrygg",
+      "Storlekar S och L"
+    ]
+  },
+  "yue-4510-ul-backpack": {
+    "name": "Yue 55",
+    "summary": "Yue 55 är en ryggsäck med aluminiumram som tillverkaren beskriver som en balans mellan komfort, bärförmåga och vikt. Den angivna vikten är cirka 1100 g och bekväm last över 20 kg. Tyget är polymerfiber och rygglängden är justerbar. Den officiella butiken visar just nu inget pris i euro, så det bekräftas på produktsidan. Versionen i Ultra200x är en separat produkt.",
+    "bullets": [
+      "Cirka 1100 g",
+      "Bekväm last över 20 kg",
+      "Justerbart bärsystem i aluminium",
+      "Priset kontrolleras i den officiella butiken"
+    ]
+  },
+  "tutor": {
+    "name": "Tutor 35",
+    "summary": "Tutor är en avskalad ryggsäck på 35 liter som 3F UL GEAR först släppte 2017, drog tillbaka 2019 och tog tillbaka 2025. Den nya modellen har rullstängning, bågar i kolfiber samt förnyade axelremmar och höftbälte. Grundtyget är nätnylon med 7 % UHMWPE. Storlek M väger cirka 650 g. Maxlasten är cirka 12 kg.",
+    "bullets": [
+      "35 l, vikt cirka 650 g i storlek M",
+      "Kolfiberbågar och avtagbar ryggplatta",
+      "Maxlast cirka 12 kg",
+      "Färger khaki, gul, svart och grå",
+      "Storlekar M och L"
+    ]
+  },
+  "tutor-ultra": {
+    "name": "Tutor Ultra 35",
+    "summary": "Tutor Ultra 35 är samma Tutor-ryggsäck från 2025 i en version av Ultra100x-tyg. Konstruktionen är i övrigt likadan: rullstängning, ram i kolfiber, 35 liter och cirka 650 g i storlek M. Maxlasten är cirka 12 kg. Ryggsäcken är avsedd för lätt och snabb vandring.",
+    "bullets": [
+      "Ultra100x-tyg",
+      "35 l och cirka 650 g (M)",
+      "Bärsystem i kolfiber",
+      "Maxlast cirka 12 kg"
+    ]
+  },
+  "qidian-pro-backpack": {
+    "name": "Qidian Pro",
+    "summary": "Qidian Pro är en ryggsäck utan ram där ett liggunderlag används som ryggplatta. Underlaget ingår inte i priset. Enligt tillverkaren är vikten cirka 880 g, den inre volymen 56 l och lasten högst cirka 14 kg. Tyget är UHMWPE-blandnylon. Stängningen är av rulltyp, och ryggsäcken har sidofickor samt fickor på höftbältet.",
+    "bullets": [
+      "Cirka 880 g och 56 l",
+      "Last högst cirka 14 kg",
+      "Utan ram, liggunderlaget fungerar som ryggplatta",
+      "Passar enligt tillverkaren för längd 170–190 cm",
+      "Liggunderlag ingår inte"
+    ]
+  },
+  "qidian": {
+    "name": "QiDian 40+16",
+    "summary": "QiDian 40+16 är en lätt ryggsäck utan ram. Tillverkaren anger vikten till cirka 850 g, maxlasten till cirka 12 kg och volymen till 40 l plus 16 l, högst cirka 55 l. Stommen är av nylon.",
+    "bullets": [
+      "Vikt cirka 850 g",
+      "40 + 16 l, högst cirka 55 l",
+      "Maxlast cirka 12 kg",
+      "Utan ram"
+    ]
+  },
+  "freedom-20l-daypack": {
+    "name": "Freedom 20 l dagsryggsäck",
+    "summary": "Freedom är en dagsryggsäck utan höftbälte, vars huvudfack är en vattentät torrsäck. Standardvolymen är 20 l, och säcken kan bytas mot en större. Utan höftbälte rekommenderar tillverkaren att volymen hålls under 25 liter och lasten under 5 kilo. Hela ryggsäcken väger cirka 460 g, enbart ramen cirka 400 g. Enbart ramen motsvarar cirka 10 liter. Ryggängden är cirka 45 cm.",
+    "bullets": [
+      "20 l, cirka 460 g",
+      "Vattentätt huvudfack, rullbar torrsäck",
+      "Lastrekommendation under 5 kg",
+      "Fyra små fickor på axelremmarna",
+      "Färger svart, gul, khaki och grå"
+    ]
+  },
+  "koala-daypack": {
+    "name": "Koala-dagsryggsäck",
+    "summary": "Koala är en ryggsäck gjord för dagsturer som väger cirka 524 g och rymmer cirka 20 liter. Tyget är 70D UHMWPE-nätnylon. På ryggen finns en vågformad skumplatta och ett avtagbart höftbälte. På axelremmarna finns fyra nätfickor.",
+    "bullets": [
+      "20 l och cirka 524 g",
+      "70D UHMWPE-nätnylon",
+      "Avtagbart höftbälte",
+      "Fyra fickor på axelremmarna"
+    ]
+  },
+  "ultralight-rain-jacket": {
+    "name": "Ultralätt regnjacka",
+    "summary": "Detta är en ultralätt regnjacka från tillverkaren 3F UL GEAR utan dragkedja framtill. Storlek L väger cirka 178 g. Andningsförmågan anges till 14 000 g/m²/24 h enligt den kinesiska standarden GB/T, vilket enligt tillverkarens uppskattning motsvarar cirka 8 000–10 000 g/m²/24 h i ett ASTM E96-test. Under armarna finns ventilationsdragkedjor. Passformen är vid. Tyget är C6-vattentätt och innehåller PFAS-ämnen. Tillverkaren rekommenderar att jackan kombineras med regnbyxor eller regnkjol.",
+    "bullets": [
+      "Cirka 178 g i storlek L",
+      "Ventilationsdragkedjor under armarna",
+      "Vid passform som rymmer lager under",
+      "C6-behandling, innehåller PFAS-ämnen",
+      "Tejpade sömmar"
+    ]
+  },
+  "ultralight-rain-jacket-zip": {
+    "name": "Ultralätt regnjacka med dragkedja",
+    "summary": "Samma regnjacka med dragkedja framtill, så att jackan går att ta av snabbare. Den är något tyngre: storlek L cirka 200 g. Andningsförmåga, ventilation under armarna, vid passform och C6-behandling motsvarar modellen utan dragkedja. Tyget innehåller PFAS-ämnen.",
+    "bullets": [
+      "Dragkedja framtill",
+      "Cirka 200 g i storlek L",
+      "Ventilationsdragkedjor under armarna",
+      "Innehåller PFAS-ämnen"
+    ]
+  },
+  "ultralight-rain-pants": {
+    "name": "Ultralätta regnbyxor",
+    "summary": "Regnbyxorna är gjorda av 20D polyester med 7 % UHMWPE. Storlek M väger cirka 176 g utan påse, S cirka 168 g och L cirka 182 g. Passformen är vid, så att byxorna går att dra på över skorna. Andningsförmågan är densamma 14 000 g/m²/24 h som för regnjackan. C6-behandlingen innehåller PFAS-ämnen.",
+    "bullets": [
+      "Cirka 168–182 g beroende på storlek",
+      "Går att ta på utan att ta av skorna",
+      "20D polyester och UHMWPE",
+      "Innehåller PFAS-ämnen"
+    ]
+  },
+  "minimalist-rain-pants": {
+    "name": "Minimala regnbyxor",
+    "summary": "De minimala regnbyxorna täcker benen men lämnar grenen öppen, så de är avsedda att användas tillsammans med en lång regnjacka eller en regnponcho. Vikten är cirka 90 g. Beläggningen är silikon och PU, och den här produkten innehåller inga fluor- eller PFOA-föreningar. Om längden är över 170 cm ber tillverkaren dig välja storlek L, annars M. Byxorna går att ta på utan att ta av skorna.",
+    "bullets": [
+      "Cirka 90 g",
+      "Inga PFAS- eller PFOA-föreningar",
+      "Kombineras med regnjacka, regnponcho eller regnkjol",
+      "Storlekar M och L, gräns vid 170 cm"
+    ]
+  },
+  "41836": {
+    "name": "Regnkjol",
+    "summary": "Regnkjolen skyddar höfter och lår utan att man behöver ta av skorna. Tillverkaren anger vikten till cirka 115 g och måtten till cirka 72 × 177 cm. Midjan kan justeras till cirka 70–100 cm. Tyget är 20D UHMWPE-blandnylon, vattenpelare 3000 mm. I slutet av 2023 byttes tyget mot ett mer hållbart. Färgerna är khaki och grön.",
+    "bullets": [
+      "Cirka 115 g",
+      "Midja 70–100 cm",
+      "Vattenpelare 3000 mm",
+      "På på cirka fem sekunder enligt tillverkaren"
+    ]
+  },
+  "ultralight-tarp-poncho": {
+    "name": "Regnponcho",
+    "summary": "I sortimentet finns en regnponcho, en regnponcho med dragkedja och en poncho som går att förvandla till tarp. Tyget är silnylon med PU-beläggning, vattenpelare 5000 mm, och sömmarna är tejpade. Huva, bälte och hörnfästen håller ponchon på plats i blåsten. Ärmarna är formade så att ryggsäcken ryms under ponchon.",
+    "bullets": [
+      "Regnponcho, poncho med dragkedja eller tarp-poncho",
+      "Silnylon, vattenpelare 5000 mm",
+      "Tejpade sömmar",
+      "Hörnfästen mot vinden"
+    ]
+  },
+  "burningfeather-ul-alcohol-stove": {
+    "name": "BurningFeather-spritkök",
+    "summary": "BurningFeather är en serie spritkök från tillverkaren 3F UL GEAR. BF-S01 och BF-S03 är avsedda för att koka vatten, BF-S02 och BF-S04 för att låta maten dra. BF-S01 väger cirka 12 g, brinner en full dos på 30 ml i cirka 11 minuter och kokar i tillverkarens test 500 ml vatten på cirka 6 minuter. Vindskyddet tillverkas på beställning efter kastrullens mått, och leveransen tar cirka 1–2 veckor. Spritkök är förbjudna på en del leder och i nationalparker, så de lokala reglerna måste kontrolleras.",
+    "bullets": [
+      "Flera effekter: kokning eller sjudning",
+      "Vindskydd efter mått",
+      "Tillverkningstid cirka 1–2 veckor",
+      "Kontrollera spritförbuden före turen"
+    ]
+  },
+  "alcohol-stove": {
+    "name": "Spritkök",
+    "summary": "Ett separat spritkök utan kastrullset. BF-S03 har högre effekt för att koka vatten och väger cirka 12 g. BF-S02 är mildare för matlagning och väger cirka 16 g. Bådas behållare rymmer cirka 30 ml.",
+    "bullets": [
+      "BF-S03 cirka 12 g, BF-S02 cirka 16 g",
+      "Diameter och höjd cirka 42–54 mm beroende på modell",
+      "Bränslet är denaturerad sprit"
+    ]
+  },
+  "conical-alcohol-burner-cooking-kit": {
+    "name": "Kokset med konformat vindskydd",
+    "summary": "I setet ingår ett spritkök i aluminium, en titankastrull på 750 ml och ett tvådelat konformat vindskydd i titan. Tillverkaren uppger att hela systemet väger mindre än en gasolflaska och tar mindre plats. Köket BF-S01 väger cirka 8 g, BF-S02 cirka 16 g, kastrullen cirka 128 g och vindskyddet cirka 49 g. Det koniska vindskyddet är enligt tillverkaren effektivare i blåst än ett platt skydd. Användningen av sprit är begränsad i en del terräng.",
+    "bullets": [
+      "Kök, titankastrull på 750 ml och vindskydd",
+      "Kastrull cirka 128 g, vindskydd cirka 49 g",
+      "Avsett för turer på cirka 2–3 dagar",
+      "Kontrollera spritförbuden"
+    ]
+  },
+  "beetle16": {
+    "name": "Beetle 16 2.0",
+    "summary": "Beetle 16 2.0 är ett stort tunneltält för bilcamping och som varmtält. I uppdateringen från 2024 är tyget 70D nylon och taket har fått takfönster. Enligt tillverkaren ryms upp till sex personer för att vistas där. Tältet kan användas med Tribe-vedkaminen. TPU-dörren gör det till ett rum med utsikt. Vattenpelaren är 3000 mm och sömmarna är tejpade. Butikens grundpaket är tältet, och förlängningsdel, innertält och tarp är separata tillval.",
+    "bullets": [
+      "Bas- och varmtält, högst cirka 6 personer",
+      "70D nylon, flera takfönster",
+      "Kompatibelt med Tribe-kaminen",
+      "Vattenpelare 3000 mm, tejpade sömmar",
+      "PFOA-fritt enligt tillverkaren"
+    ]
+  },
+  "tribe-4-hot-tent": {
+    "name": "Tribe 4 varmtält",
+    "summary": "Tribe 4 är en tipi för fyra personer, med tyg i brandskyddad polyester. Den är lättare än ett duktält och töjer sig mindre än ett nylontält. Versionen från 2022 kan öppnas till en tarp. Det finns en rökrörsöppning för kaminen, och snökjolens höjd kan justeras med fästpunkterna för tältpinnar. Tältet reses enligt tillverkarens snabbguide på cirka 10 minuter. Vattenpelaren är 5000 mm. Något pris i euro syns inte just nu, så det bekräftas i butiken.",
+    "bullets": [
+      "Högst 4 personer",
+      "Brandskyddad polyester",
+      "Rökrörsöppning för Tribe-kaminen",
+      "Kan öppnas till tarp",
+      "Priset kontrolleras i den officiella butiken"
+    ]
+  },
+  "tribe-wood-stove-1-0": {
+    "name": "Tribe-vedkamin 1.0",
+    "summary": "Tribe 1.0 är en vedkamin i rostfritt stål för varmtält. Kaminens stomme väger cirka 1855 g och paketet med påse cirka 2460 g. Packmåttet är cirka 45 × 26 × 6 cm. Tillverkaren förbjuder användning utan handskar, i barns händer och med frätande rengöringsmedel. Lite rörelse i metallen och sotspår efter den första eldningen är enligt tillverkaren normalt. Glas som reservdel säljs separat.",
+    "bullets": [
+      "304-stål",
+      "Stomme cirka 1855 g, paket cirka 2460 g",
+      "Förvaringsmått cirka 45 × 26 × 6 cm",
+      "Använd handskar och tänk på brandsäkerheten"
+    ]
+  },
+  "tribe-wood-stove-titanium-ver": {
+    "name": "Tribe-vedkamin, titan",
+    "summary": "Tribe-kaminen i titan är lättare än stålversionen. Stommen väger cirka 1180 g och paketet med påse cirka 1710 g. Packmåttet är detsamma, cirka 45 × 26 × 6 cm. På ytan kan det finnas transportrepor, som enligt tillverkaren inte påverkar användningen. Produkten har för tillfället rabatt i den officiella butiken. Brandsäkerhetsanvisningen är densamma som för stålmodellen.",
+    "bullets": [
+      "Titanstomme cirka 1180 g",
+      "Paket cirka 1710 g",
+      "Lite rörelse i metallen och sotspår efter första användningen är väntat",
+      "Inga frätande rengöringsmedel"
+    ]
+  },
+  "west-wind-stove": {
+    "name": "West Wind-kamin",
+    "summary": "West Wind är en eldstad för tält där man kan elda med ved eller pellets. Det stora glaset ger ljus och värme i tältet. Stommen är i 304-stål, och i väggen sitter mikrokristallglas. Den lilla stommen väger cirka 18 kg och den stora cirka 24 kg, så det är en kamin för bilcamping, inte en ryggsäckskamin. Rökrörets fulla höjd är cirka 195 cm. Tillverkaren tar ut en separat fraktavgift för den här vikten, eftersom den överskrider gränsen för subventionerad postning.",
+    "bullets": [
+      "Ved eller pellets",
+      "Liten stomme cirka 18 kg, stor cirka 24 kg",
+      "Glaslucka",
+      "Frakt debiteras separat"
+    ]
+  },
+  "wood-stove-folding-chimney": {
+    "name": "Rullbart rökrör",
+    "summary": "Ett rökrör i rostfritt stål som rullas ihop. Längderna är 2,5 m och 3 m. Det är avsett för bärbara vedkaminer.",
+    "bullets": [
+      "Rostfritt stål",
+      "Längder 2,5 m och 3 m",
+      "Rullas ihop litet"
+    ]
+  },
+  "lightweight-tarp": {
+    "name": "Lätt tarp",
+    "summary": "Tarpen finns i polyester och i 15D nylon. Båda har en silverfärgad UV-beläggning, UPF över 50. Polyestertarpen väger cirka 750 g i storleken 3 × 3 meter och nylontarpen cirka 600 g. De större storlekarna 4 × 3 m och 5 × 3 m är tyngre. Det finns åtta fästpunkter för lina. I paketet ingår tarpen och sex linor. Stänger och tältpinnar säljs separat.",
+    "bullets": [
+      "Polyester eller 15D nylon",
+      "Storlekarna 3 × 3, 4 × 3 och 5 × 3 m",
+      "Nylon 3 × 3 m cirka 600 g",
+      "UPF över 50",
+      "Stångsats säljs separat"
+    ]
+  },
+  "tarp-pole-stake-set": {
+    "name": "Stänger och tältpinnar till tarp",
+    "summary": "En sats till 3F UL GEAR-tarpen. Två stänger ingår. Enligt tillverkarens tarpsida är stängerna 16 mm tjocka och 2 meter långa av 7075-aluminium, cirka 672 g per styck, när hela satsen jämförs med tarpens tillbehörslista.",
+    "bullets": [
+      "Två tarpstänger",
+      "Avsedd för tarpen Lightweight Tarp",
+      "Aluminium 7075 enligt tillverkarens tarpsida"
+    ]
+  },
+  "hiking-umbrella": {
+    "name": "Vandringsparaply",
+    "summary": "3F UL GEAR har använt vandringsparaply sedan 2015 vid sidan av regnjackan. Paraplyet andas, håller ansiktet torrt och fungerar också i lägret, så att man slipper ta med den blöta jackan in i tältet. I solen minskar det enligt tillverkaren avdunstningen och därmed behovet av dricksvatten. Det finns flera modeller i olika vikt- och storleksklasser.",
+    "bullets": [
+      "Regn- och solskydd",
+      "Kan användas även i lägret",
+      "Flera storlekar i tillverkarens butik"
+    ]
+  },
+  "aqualite-water-filter": {
+    "name": "Aqualite vattenfilter",
+    "summary": "Aqualite är ett flaskfilter på cirka 23 gram. Enligt tillverkaren minskar det bakterier, protozocystor som Cryptosporidium, mikroplast och andra föroreningar i sötvatten när det används enligt anvisningarna. Det passar de flesta 28 mm-flaskor och, med adapter, en del 30 mm-flaskor. Adapter ingår.",
+    "bullets": [
+      "Cirka 23 g",
+      "28 mm flaskgänga, adapter för 30 mm-flaskor",
+      "Membranet är av PSU-plast",
+      "Ersätter inte kokning av allt vatten om anvisningen kräver det"
+    ]
+  },
+  "c1-trekking-pole": {
+    "name": "C1 vandringsstav",
+    "summary": "C1 är en vandringsstav med skaft av kolfiber. Det översta röret är av 7075-aluminium. Största längd är 135 cm, ihopskjuten 65 cm och vikten cirka 182 g per styck. Handtaget är av skum, handledsremmen av tyg och låsen sitter utanpå. Tillverkaren ger ett års begränsad garanti mot material- och tillverkningsfel och säljer reservdelar.",
+    "bullets": [
+      "Cirka 182 g / st",
+      "135 cm utdragen, 65 cm ihopskjuten",
+      "Kolfiberskaft, övre rör av aluminium",
+      "Säljs styckvis eller som par"
+    ]
+  },
+  "carbon-tent-pole": {
+    "name": "Tältstång av kolfiber",
+    "summary": "En tältstång för dem som inte använder vandringsstavar. Längden är 125 cm, så den passar Lanshan-tälten. Ihopvikt är längden 35 cm. Vikten är cirka 82 g, diametern 12 mm och godstjockleken 1 mm. Lanshan 1 behöver en stång och Lanshan 2 två.",
+    "bullets": [
+      "125 cm, cirka 82 g",
+      "35 cm ihopvikt",
+      "Lanshan 1: en stång, Lanshan 2: två"
+    ]
+  },
+  "lanshan-footprint-ground-sheet": {
+    "name": "Lanshan-underlag",
+    "summary": "Ett underlag till tälten i Lanshan-serien. Det är inte obligatoriskt. Underlaget till Lanshan 1 och 1 Pro väger cirka 100 g och underlaget till Lanshan 2 och 2 Pro cirka 156 g.",
+    "bullets": [
+      "Lanshan 1 / 1 Pro cirka 100 g",
+      "Lanshan 2 / 2 Pro cirka 156 g",
+      "Inte obligatorisk utrustning"
+    ]
+  },
+  "bathtub-footprint": {
+    "name": "Underlag med badkarsgolv",
+    "summary": "Ett underlag i badkarsmodell av 15D nylon. Storleken för Lanshan 1 är cirka 80 × 230 cm och vikten cirka 187 g. Storleken för Lanshan 2 är cirka 110 × 216 cm och vikten cirka 211 g. Kanten är cirka 18 cm hög.",
+    "bullets": [
+      "Kanthöjd cirka 18 cm",
+      "Lanshan 1 cirka 187 g",
+      "Lanshan 2 cirka 211 g"
+    ]
+  },
+  "seam-sealing": {
+    "name": "Sömtätningstjänst",
+    "summary": "Tjänsten är avsedd för Lanshan Pro-tälten. De vanliga modellerna Lanshan 1 och 2 behöver inte silikontätas, eftersom deras sömmar är tejpade. Silnylon-sömmarna på Pro-modellerna tätas i efterhand. Tjänsten kan försena beställningen med 3–4 veckor. Tillverkaren rekommenderar i första hand att man gör det själv och har en anvisning på sin webbplats.",
+    "bullets": [
+      "Endast Lanshan Pro",
+      "Försening cirka 3–4 veckor",
+      "Vanliga Lanshan behöver inte den här tjänsten"
+    ]
+  },
+  "fastsil-silicone-sealant": {
+    "name": "FastSil silikontätning",
+    "summary": "Snabbtorkande silikon för tätning av sömmar. Enligt tillverkaren är ytan torr efter cirka 6 timmar. Den passar sil/sil-tyger, även Lanshan Pro och motsvarande tält från andra märken. I paketet ingår en tub och ett appliceringsverktyg. Som vätska skickas den ofta i ett separat paket och kan inte skickas till alla länder. Priset inkluderar frakt.",
+    "bullets": [
+      "Torkar på cirka 6 timmar",
+      "En tub och ett appliceringsverktyg",
+      "Levereras ofta som ett separat paket",
+      "Skickas inte till alla länder"
+    ]
+  },
+  "hollow-stakes": {
+    "name": "Ihåliga tältpinnar",
+    "summary": "Ihåliga tältpinnar av 7075-aluminium. Diametern är 8,5 mm och spetsen är sluten. Pinnen på 15 cm väger cirka 10 g och passar hårdare mark. Pinnen på 20 cm väger cirka 12 g och passar mjukare mark. Säljs i påsar med 6 eller 10 stycken, inte styckvis.",
+    "bullets": [
+      "15 cm cirka 10 g, 20 cm cirka 12 g",
+      "7075-aluminium",
+      "Förpackning med 6 eller 10 stycken"
+    ]
+  },
+  "ultralight-carbon-stakes": {
+    "name": "Tältpinnar av kolfiber",
+    "summary": "Tältpinnar av kolfiber för mjuk mark. Pinnen på 15 cm väger cirka 5,2 g och pinnen på 20 cm cirka 7,6 g. Spetsen och hatten är av aluminium, och hatten är röd så att pinnen är lätt att hitta. I paketet finns sex pinnar och en påse. De får inte slås in med hammare. Enligt tillverkarens erfarenhet är det här de enda tältpinnar som har klarat sig genom röntgen på flygplatser.",
+    "bullets": [
+      "6 pinnar i en påse",
+      "15 cm cirka 5,2 g",
+      "Ingen hammare",
+      "För mjuk mark"
+    ]
+  },
+  "x-aluminium-stakes": {
+    "name": "Y-tältpinne av aluminium",
+    "summary": "En standardtältpinne för tält, säljs styckvis. Materialet är aluminium i 7-serien och vikten cirka 9 g. Antalet väljer man i butiken.",
+    "bullets": [
+      "Cirka 9 g per styck",
+      "Säljs styckvis",
+      "Aluminium i 7-serien"
+    ]
+  },
+  "uhmwpe-cord": {
+    "name": "Reflekterande UHMWPE-lina",
+    "summary": "1,5 mm lina till stormlinor för tarp eller tält och till exempel för att hissa upp matsäcken. Längden är 20 m. Kärnan är av UHMWPE-fiber och brottstyrkan är enligt tillverkaren cirka 100 kg. Tio linspännare ingår. Linan reflekterar i mörker.",
+    "bullets": [
+      "20 m, tjocklek 1,5 mm",
+      "Brottstyrka cirka 100 kg",
+      "10 linspännare",
+      "Reflekterande"
+    ]
+  },
+  "vestibule-hooks": {
+    "name": "Krokar till absiden",
+    "summary": "Krokar till tältet Lanshan Pro gen 2, av titan eller aluminium. Båda väger cirka 4 g. Lanshan 1 och 2 från 2026 använder aluminiumkrok och Pro gen 2 titan. Lanshan 1 behöver en och Lanshan 2 två.",
+    "bullets": [
+      "Aluminium eller titan, cirka 4 g",
+      "Lanshan 1: en, Lanshan 2: två",
+      "Också för uppdatering av ett äldre tält"
+    ]
+  },
+  "dual-pole-clips": {
+    "name": "Klämmor för dubbla stänger",
+    "summary": "Klämman lägger till två extra stänger i ett tält med stångkanaler, som skydd mot vind. Stångens diameter får vara högst 10 mm. Passformen varierar mellan modellerna. På den här produktsidan säljs en enskild klämma. För tälten Taihang 2, Taihang 2 Max och Shell 2 har tillverkaren ett förmånligare paket på tältets egen sida.",
+    "bullets": [
+      "Stångens diameter högst 10 mm",
+      "En enskild klämma",
+      "Passformen garanteras inte för alla tält"
+    ]
+  },
+  "clips-for-taiji": {
+    "name": "Linklämmor till Taiji",
+    "summary": "En sats med fyra klämmor för att lägga till fästpunkter för lina på Taiji-tältet. Beställningen är begränsad till två satser.",
+    "bullets": [
+      "4 klämmor",
+      "För Taiji-tält",
+      "Högst 2 satser per beställning"
+    ]
+  },
+  "luminous-sticker": {
+    "name": "Självlysande klistermärke",
+    "summary": "Ett vattentätt klistermärke som lyser i mörkret. Storleken är cirka 13 × 2,5 cm. Det kan fästas på en slät yta, till exempel på tältets blixtlås eller stång.",
+    "bullets": [
+      "13 × 2,5 cm",
+      "Vattentätt",
+      "Lyser i mörkret"
+    ]
+  },
+  "tent-pole-repair-sleeve": {
+    "name": "Reparationshylsa för stång",
+    "summary": "En hylsa på cirka 10 gram som träs över en trasig tältstång. Passar stänger upp till 10 mm. Tillverkaren rekommenderar den som reservhylsa på långa turer.",
+    "bullets": [
+      "Cirka 10 g",
+      "Stänger upp till 10 mm",
+      "Håller en trasig stång användbar"
+    ]
+  },
+  "tent-pole-for-aftersales": {
+    "name": "Nya tältstänger",
+    "summary": "En komplett stångsats endast till 3F UL GEAR-tält. Om högst två stångsegment går av ber tillverkaren att man skriver till dem först: delar som omfattas av garantin kan fås mot portokostnaden. Den här produkten är en helt ny sats.",
+    "bullets": [
+      "Endast för tillverkarens tält",
+      "Hela satsen, inte ett enskilt segment",
+      "Fråga först om garanti för enskilda segment"
+    ]
+  },
+  "beetle-2-0-poles-aftersale": {
+    "name": "Reservstänger till Beetle 2.0",
+    "summary": "Reservstänger till tältet Beetle 2.0. Längden och änden måste mätas före beställning, eftersom det finns flera stångtyper. Om du är kund i den officiella butiken ber tillverkaren dig kontakta dem via formuläret när det gäller garantiservice.",
+    "bullets": [
+      "Flera stångtyper",
+      "Mät längd och ände före köp",
+      "Garantiärenden sköts först med tillverkaren"
+    ]
+  },
+  "tent-components": {
+    "name": "Separat yttertält eller innertält",
+    "summary": "Yttertält eller innertält till en befintlig 3F UL GEAR-modell. För innertältet väljer man tre eller fyra säsonger och för yttertältet färg. Tältpinnar och linor ingår inte. Delarna tillverkas ofta på beställning, så leveransen av Lanshan tar cirka 2–3 veckor, Floating Cloud cirka 3–4 veckor och övriga tält cirka 1–3 månader.",
+    "bullets": [
+      "Inga tältpinnar eller linor",
+      "Lanshan cirka 2–3 veckor",
+      "Övriga modeller upp till 1–3 månader",
+      "Välj tältmodell i butiken"
+    ]
+  },
+  "lanshan-tent-sack": {
+    "name": "Packpåse till tält",
+    "summary": "En rullbar påse av silnylon. Storlek S är för Lanshan-tälten: cirka 42 g, 9 l och 55 × 23 cm. Storlek L passar tälten Taiji och Floating Cloud eller kläder: cirka 52 g, 13 l och 68 × 28 cm. Sömmarna är inte tätade, så påsen är inte vattentät från början. Silikontätning gör den till en torrsäck.",
+    "bullets": [
+      "S cirka 42 g / 9 l",
+      "L cirka 52 g / 13 l",
+      "Rullförslutningen trycker ihop innehållet något",
+      "Inte vattentät från början"
+    ]
+  },
+  "lightweight-dry-sack": {
+    "name": "Lätt torrsäck",
+    "summary": "En torrsäck av 15D nylon med rullförslutning. Tre vikningar och ett spänne håller den stängd. Den är avsedd för ryggsäcken, för sovsäck, kläder och elektronik. Tyget är genomskinligt. Den här modellen har ingen luftventil. Modellen som kan pressas ihop är en separat produkt.",
+    "bullets": [
+      "15D nylon",
+      "Rullförslutning",
+      "Ingen luftventil",
+      "Flera storlekar"
+    ]
+  },
+  "waterproof-bag": {
+    "name": "Hoptryckbar torrsäck",
+    "summary": "En torrsäck där luften kan pressas ut, så att en tjock sovsäck tillfälligt får plats på mindre utrymme. Enligt tillverkaren varar hoptryckningen i cirka en halvtimme, varefter ryggsäcken håller ihop påsen. Påsen är vattentät. Färgen är slumpmässig. Storlekarna är 12, 24 och 36 l, och tyget är 15D nylon eller 30D Cordura. Nylonpåsen på 12 liter väger cirka 48 g.",
+    "bullets": [
+      "12, 24 och 36 l",
+      "15D nylon eller 30D Cordura",
+      "Hoptryckningen underlättar packningen i cirka en halvtimme",
+      "Färgen varierar"
+    ]
+  },
+  "pack-cover": {
+    "name": "Regnskydd till ryggsäck",
+    "summary": "Ett regnskydd till ryggsäcken av UHMWPE-nätnylon. Storlekar: S 20–35 l, M 35–50 l, L 50–70 l och XL 65–85 l.",
+    "bullets": [
+      "S 20–35 l",
+      "M 35–50 l",
+      "L 50–70 l",
+      "XL 65–85 l"
+    ]
+  },
+  "water-bottle-sleeve": {
+    "name": "Flasklomma till axelremmen",
+    "summary": "En ficka av UHMWPE-nät och elastiskt nät som passar axelremmen på de flesta ryggsäckar. En krok upptill hindrar den från att glida. I huvudfacket ryms en flaska på cirka 500 ml, och i det töjbara facket en telefon eller kompass. Storleken är cirka 15 × 9 cm och vikten cirka 31 g. Öppningen dras åt så att flaskan inte ramlar ut när man böjer sig.",
+    "bullets": [
+      "Cirka 31 g",
+      "15 × 9 cm",
+      "Flaska på cirka 500 ml",
+      "Kroken håller fickan på remmen"
+    ]
+  },
+  "ultralight-gaiters": {
+    "name": "Ultralätta damasker",
+    "summary": "Damasker som inte behöver skruvas fast i skon. De passar de flesta traillöparskor och är vattentäta, så de fungerar också i snö. Tillverkaren rekommenderar dem inte i torr hetta, eftersom vattnet då inte kan avdunsta. Tyget är 20D UHMWPE-nätnylon och vikten cirka 44 g. Tack vare justeringen passar de en fotlängd på cirka 23–28 cm.",
+    "bullets": [
+      "Cirka 44 g",
+      "Inga ändringar på skorna",
+      "Vattentäta",
+      "Fotlängd cirka 23–28 cm"
+    ]
+  },
+  "footbox-bivy": {
+    "name": "Bivy för fotänden",
+    "summary": "Ett skydd för sovsäckens fotände. UHMWPE-versionen väger cirka 60 g, är tejpad på insidan och vattentät men andas inte. Tyvek-versionen väger cirka 43 g, andas och dämpar kondens något.",
+    "bullets": [
+      "UHMWPE cirka 60 g, vattentät",
+      "Tyvek cirka 43 g, andas",
+      "Skyddar sovsäckens fotände"
+    ]
+  },
+  "tyvek-bivy": {
+    "name": "Tyvek-bivy",
+    "summary": "En Tyvek-påse som täcker sovsäckens fotände helt och viks ner över sovsäcken uppifrån. Tyvek är lätt, vattentätt och andas. Tillverkaren rekommenderar inte att den används som enda skydd utan tält eller tarp, eftersom vattentätheten är begränsad. På vintern har den använts så att nät-innertältet lämnas bort.",
+    "bullets": [
+      "Skyddar sovsäcken mot tältets kondens",
+      "Inte ett enda skydd i regn",
+      "Lätt Tyvek-tyg"
+    ]
+  },
+  "insulated-bag": {
+    "name": "Isolerande matpåse",
+    "summary": "En påse av återvunnen plast och Tyvek som håller turmaten varm. Vikten är cirka 18 g. Måtten är cirka 24 cm upptill, 21 cm nedtill och 23 cm i höjd.",
+    "bullets": [
+      "Cirka 18 g",
+      "Cirka 24 / 21 × 23 cm",
+      "Värmepåse för turmat"
+    ]
+  },
+  "bumfresh": {
+    "name": "BumFresh sköljkork",
+    "summary": "Ett sköljmunstycke som fästs på flaskan och gör vattenflaskan till en bärbar dusch. Det passar flaskgängor på 28–30 mm. Tillverkaren presenterar det som ett alternativ till toalettpapper i naturen.",
+    "bullets": [
+      "28–30 mm gänga",
+      "Fästs på en vanlig flaska",
+      "Litet och lätt"
+    ]
+  },
+  "spare-part-for-after-sale-service": {
+    "name": "Garantireservdelar och frakt",
+    "summary": "Små delar, som blixtlåsdragare, spänne, resår eller lagning, kan omfattas av tillverkarens kostnadsfria reservdelsservice. Delarna fungerar bara i 3F UL GEAR-produkter. Själva delen är gratis för kunder i den officiella butiken, men portot betalas. Portot har varit cirka 8 USD. Den här produktsidan är ett sätt att betala portot. Om du köper av en återförsäljare ber tillverkaren dig först vända dig till säljaren.",
+    "bullets": [
+      "Delen gratis, porto mot avgift",
+      "Endast för tillverkarens egna produkter",
+      "Inköpsbevis från den officiella butiken behövs",
+      "Porto cirka 8 USD enligt tillverkarens anvisning"
+    ]
+  },
+  "customised-products": {
+    "name": "Måttbeställning",
+    "summary": "Det här är en betalningslänk för specialprodukter och måttbeställningar. Tillverkaren ber dig ta kontakt före betalning. Köp inte produkten utan att fråga vilken rad du betalar för.",
+    "bullets": [
+      "Kontakta först tillverkaren",
+      "Ingen färdig hyllvara",
+      "Priset beror på det överenskomna arbetet"
+    ]
+  },
+  "3fulgear-buckle-01-2np": {
+    "name": "3F UL GEAR-spänne 01-2NP",
+    "summary": "Ett reparationsspänne för ryggsäcken till rem på 1–1,5 cm. Om delen omfattas av garantin återbetalar tillverkaren delens pris och ber dig betala endast en nominell portokostnad.",
+    "bullets": [
+      "Rem 1–1,5 cm",
+      "För reparation av ryggsäck",
+      "Fråga först om garanti"
+    ]
+  },
+  "duraflex-0110np": {
+    "name": "Duraflex 0110NP",
+    "summary": "Ett Duraflex-spänne för reparation av ryggsäck. Passar rem på cirka 1,2–1,5 cm. Inom garantin återbetalar tillverkaren delen och tar ut portot.",
+    "bullets": [
+      "Rem 1,2–1,5 cm",
+      "Spänne till ryggsäck",
+      "Fråga först om garanti"
+    ]
+  },
+  "duraflex-04-1np": {
+    "name": "Duraflex 04-1NP",
+    "summary": "Ett Duraflex-spänne till ryggsäckens höftbälte. Passar rem på cirka 3–4 cm. Enligt garantipraxisen kan delen återbetalas och portot återstår att betala.",
+    "bullets": [
+      "Rem 3–4 cm",
+      "Spänne till höftbältet",
+      "Fråga först om garanti"
+    ]
+  },
+  "itw-cord-buckle": {
+    "name": "ITW-snörlås",
+    "summary": "Ett ITW-lås för ryggsäck eller tält. Passar rem på 1–1,2 cm och snöre på 1,5–2 mm. En garantidel kan återbetalas, och då betalar du portot.",
+    "bullets": [
+      "Rem 1–1,2 cm",
+      "Snöre 1,5–2 mm",
+      "Fråga först om garanti"
+    ]
+  }
+}

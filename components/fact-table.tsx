@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { GuideTable } from "@/lib/guides";
+import { href, type Lang } from "@/lib/i18n";
 
-export function FactTable({ table }: { table: GuideTable }) {
+export function FactTable({ table, lang }: { table: GuideTable; lang: Lang }) {
   return (
     <div className="mt-8 overflow-x-auto border border-[#e7e7e7] bg-white">
       <table className="w-full min-w-[40rem] text-left text-sm">
@@ -20,7 +21,7 @@ export function FactTable({ table }: { table: GuideTable }) {
               {row.cells.map((cell, index) => (
                 <td key={`${cell}-${index}`} className="px-4 py-3 text-[#222]">
                   {index === 0 && row.href ? (
-                    <Link href={row.href} className="font-semibold hover:text-[#e36159]">
+                    <Link href={href(lang, row.href)} className="font-semibold hover:text-[#e36159]">
                       {cell}
                     </Link>
                   ) : (

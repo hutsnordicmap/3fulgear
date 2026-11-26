@@ -1,3 +1,6 @@
+import * as sv from "@/lib/guides.sv";
+import type { Lang } from "@/lib/i18n";
+
 export type GuideTable = {
   headers: string[];
   rows: { href?: string; cells: string[] }[];
@@ -349,6 +352,11 @@ export const categoryGuides: Record<string, CategoryGuide> = {
   },
 };
 
-export function articleBySlug(slug: string) {
-  return articles.find((article) => article.slug === slug);
+/** Articles and category guides in the page's language. Swedish text lives in guides.sv.ts. */
+export function guidesFor(lang: Lang) {
+  return lang === "sv" ? { articles: sv.articles, categoryGuides: sv.categoryGuides } : { articles, categoryGuides };
+}
+
+export function articleBySlug(slug: string, lang: Lang = "fi") {
+  return guidesFor(lang).articles.find((article) => article.slug === slug);
 }

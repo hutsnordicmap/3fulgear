@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { LangSwitch } from "@/components/lang-switch";
+import { href, ui, type Lang } from "@/lib/i18n";
 import type { NavItem } from "@/lib/navigation";
+import { usePagePath } from "@/lib/use-page-path";
 import { LOGO_URL } from "@/lib/site";
 
 function Chevron({ className = "" }: { className?: string }) {
@@ -66,13 +68,16 @@ function Thumb({ src }: { src?: string }) {
   return <img src={src} alt="" className="h-10 w-10 shrink-0 object-contain" />;
 }
 
-function current(pathname: string, href: string) {
-  if (href === "/") return pathname === "/";
-  return pathname === href || pathname.startsWith(`${href}/`);
+function current(pathname: string, link: string) {
+  if (link === "/" || link === "/sv") return pathname === link;
+  return pathname === link || pathname.startsWith(`${link}/`);
 }
 
-export function SiteNav({ items }: { items: NavItem[] }) {
-  const pathname = usePathname();
+export function SiteNav({ items, lang }: { items: NavItem[]; lang: Lang }) {
+  const t = ui[lang];
+  const home = href(lang, "/");
+  const searchHref = href(lang, "/haku");
+  const pathname = usePagePath();
   const [openId, setOpenId] = useState<string | null>(null);
   const [alignRight, setAlignRight] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -146,28 +151,31 @@ export function SiteNav({ items }: { items: NavItem[] }) {
   return (
     <header ref={headerRef} className="relative border-b border-[#eee] bg-white text-[#222529]">
       <div className="mx-auto max-w-[1400px] px-4">
-        <div className="flex items-center justify-between gap-4 py-3">
-          <Link href="/" className="shrink-0">
-            <img src={LOGO_URL} alt="3F UL GEAR" className="h-9 w-auto" />
+        <div className="flex items-center justify-between gap-2 py-3 sm:gap-4">
+          <Link href={home} className="min-w-0 shrink">
+            <img src={LOGO_URL} alt="3F UL GEAR" className="h-9 w-auto max-w-full object-contain object-left" />
           </Link>
-          <form action="/haku" className="ml-auto hidden xl:block">
+          <form action={searchHref} className="ml-auto hidden xl:block">
             <label className="sr-only" htmlFor="q">
-              Hae tuotteita
+              {t.searchProducts}
             </label>
             <input
               id="q"
               name="q"
-              placeholder="Haku"
+              placeholder={t.search}
               className="w-40 border border-[#e7e7e7] px-3 py-2 text-xs outline-none focus:border-[#222]"
             />
           </form>
-          <div className="ml-auto flex items-center gap-1 xl:ml-0 xl:hidden">
-            <Link href="/haku" aria-label="Haku" className="flex h-11 w-11 items-center justify-center">
+          <div className="ml-auto xl:ml-0">
+            <LangSwitch lang={lang} />
+          </div>
+          <div className="flex items-center gap-1 xl:hidden">
+            <Link href={searchHref} aria-label={t.search} className="flex h-11 w-11 items-center justify-center">
               <SearchIcon />
             </Link>
             <button
               type="button"
-              aria-label={mobileOpen ? "Sulje valikko" : "Avaa valikko"}
+              aria-label={mobileOpen ? t.closeMenu : t.openMenu}
               aria-expanded={mobileOpen}
               className="flex h-11 w-11 items-center justify-center"
               onClick={() => (mobileOpen ? closeMobile() : setMobileOpen(true))}
@@ -177,7 +185,7 @@ export function SiteNav({ items }: { items: NavItem[] }) {
           </div>
         </div>
 
-        <nav aria-label="Päävalikko" className="hidden items-center justify-center gap-4 border-t border-[#eee] xl:flex">
+        <nav aria-label={t.mainMenu} className="hidden items-center justify-center gap-4 border-t border-[#eee] xl:flex">
           {items.map((item) => {
             const open = openId === item.id;
             const active = openId === null && current(pathname, item.href);
@@ -235,7 +243,7 @@ export function SiteNav({ items }: { items: NavItem[] }) {
       {openId ? (
         <button
           type="button"
-          aria-label="Sulje valikko"
+          aria-label={t.closeMenu}
           className="fixed inset-x-0 bottom-0 z-40 hidden bg-black/45 xl:block"
           style={{ top: overlayTop }}
           onClick={() => setOpenId(null)}
@@ -245,12 +253,12 @@ export function SiteNav({ items }: { items: NavItem[] }) {
       {mobileOpen ? (
         <div className="fixed inset-0 z-[70] flex flex-col bg-white xl:hidden">
           <div className="flex items-center justify-between border-b border-[#eee] px-4 py-3">
-            <Link href="/" onClick={closeMobile}>
+            <Link href={home} onClick={closeMobile}>
               <img src={LOGO_URL} alt="3F UL GEAR" className="h-9 w-auto" />
             </Link>
             <button
               type="button"
-              aria-label="Sulje valikko"
+              aria-label={t.closeMenu}
               className="flex h-11 w-11 items-center justify-center"
               onClick={closeMobile}
             >
@@ -266,12 +274,12 @@ export function SiteNav({ items }: { items: NavItem[] }) {
                   onClick={() => setPanelId(null)}
                 >
                   <ChevronLeft />
-                  Takaisin
+                  {t.back}
                 </button>
                 <div className="flex items-center justify-between border-b border-[#eee] px-5 py-4">
                   <p className="text-base font-semibold">{panel.label}</p>
                   <Link href={panel.href} onClick={closeMobile} className="text-sm text-[#e36159]">
-                    Näytä kaikki
+                    {t.showAll}
                   </Link>
                 </div>
                 {panel.children.map((child) => (
@@ -288,14 +296,14 @@ export function SiteNav({ items }: { items: NavItem[] }) {
               </div>
             ) : (
               <div>
-                <form action="/haku" className="border-b border-[#eee] px-5 py-4">
+                <form action={searchHref} className="border-b border-[#eee] px-5 py-4">
                   <label className="sr-only" htmlFor="mobile-q">
-                    Hae tuotteita
+                    {t.searchProducts}
                   </label>
                   <input
                     id="mobile-q"
                     name="q"
-                    placeholder="Hae tuotteita"
+                    placeholder={t.searchProducts}
                     className="w-full border border-[#e7e7e7] px-3 py-2.5 text-sm outline-none focus:border-[#222]"
                   />
                 </form>

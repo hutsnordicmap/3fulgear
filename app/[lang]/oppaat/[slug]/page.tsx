@@ -3,30 +3,27 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FactTable } from "@/components/fact-table";
 import { articleBySlug, articles } from "@/lib/guides";
+import { href, langOf, ui } from "@/lib/i18n";
 import { pageMeta } from "@/lib/seo";
+
+type Props = { params: Promise<{ lang: string; slug: string }> };
 
 export function generateStaticParams() {
   return articles.map((article) => ({ slug: article.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const lang = await langOf(params);
   const { slug } = await params;
-  const article = articleBySlug(slug);
-  if (!article) return { title: "Opas" };
-  return pageMeta(`/oppaat/${article.slug}`, article.title, article.description, article.image);
+  const article = articleBySlug(slug, lang);
+  if (!article) return { title: ui[lang].guide };
+  return pageMeta(lang, `/oppaat/${article.slug}`, article.title, article.description, article.image);
 }
 
-export default async function ArticlePage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function ArticlePage({ params }: Props) {
+  const lang = await langOf(params);
   const { slug } = await params;
-  const article = articleBySlug(slug);
+  const article = articleBySlug(slug, lang);
   if (!article) notFound();
 
   return (
@@ -34,7 +31,7 @@ export default async function ArticlePage({
       <header className="border-b border-[#eee]">
         <div className="mx-auto grid max-w-[1100px] items-center gap-8 px-4 py-12 md:grid-cols-2">
           <div>
-            <p className="text-[11px] font-semibold tracking-[0.16em] text-[#777] uppercase">Opas</p>
+            <p className="text-[11px] font-semibold tracking-[0.16em] text-[#777] uppercase">{ui[lang].guide}</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight">{article.title}</h1>
             <p className="mt-4 text-sm leading-7 text-[#555]">{article.lead}</p>
           </div>
@@ -52,10 +49,10 @@ export default async function ArticlePage({
             </div>
           </section>
         ))}
-        {article.table ? <FactTable table={article.table} /> : null}
+        {article.table ? <FactTable table={article.table} lang={lang} /> : null}
         <div className="mt-10 flex flex-wrap gap-3">
           {article.products.map((product) => (
-            <Link key={product.href} href={product.href} className="store-btn">
+            <Link key={product.href} href={href(lang, product.href)} className="store-btn">
               {product.label}
             </Link>
           ))}
